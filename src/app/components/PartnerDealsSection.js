@@ -25,7 +25,7 @@ const PARTNERS = [
     logo: "/images/logoPANDECK.png",
     image: "/images/logoPANDECK.png",
     description: "Todo complemento que puedas necesitar para tu viaje fitness. Desde scoops de proteína hasta soportes para el movil.",
-    url: "https://pandeck.com/product/or21mwI0gXKXWbDwj9zL"
+    url: "https://pandeck.com/"
   }
 ];
 

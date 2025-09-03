@@ -7,20 +7,6 @@ const PARTNERS = [
     url: "https://www.hsnstore.com/nutricion-deportiva?utm_source=hsnaffiliate&utm_medium=DGUERRERO&utm_campaign=category_3"
   },
   {
-    name: "Nike",
-    logo: "/images/logoNIKE.svg",
-    image: "/images/logoNIKE.svg",
-    description: "Ropa y calzado deportivo líder mundial. Equípate con la última tecnología y estilo para tu entrenamiento.",
-    url: "https://www.nike.com/"
-  },
-  {
-    name: "Gymshark",
-    logo: "/images/logoGYMSHARK.svg",
-    image: "/images/logoGYMSHARK.svg",
-    description: "Moda fitness y accesorios para atletas. Descubre prendas cómodas y funcionales para tu día a día.",
-    url: "https://www.gymshark.com/es-US"
-  },
-  {
     name: "Pandeck",
     logo: "/images/logoPANDECK.png",
     image: "/images/logoPANDECK.png",

@@ -9,7 +9,7 @@ export const COMPANY_SOCIALS = [
 
 export const CONTACT_URL = "/images/CONTACT.jpg";
 
-export const SITE_URL = "https://gueros.com";
+export const SITE_URL = "https://gueros.fit";
 export const SITE_ICON = "/favicon.ico";
 export const SITE_APPLE_ICON = "/apple-touch-icon.png";
 export const SITE_THEME_COLOR = "#005bc9";

@@ -23,7 +23,7 @@ export const TEAM = [
     }
   },
   {
-    name: "Carles Moya",
+    name: "Carles Moyano",
     role: "Chief technical officer",
     img: "/images/carles.jpg",
     socials: {

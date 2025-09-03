@@ -25,7 +25,7 @@ export const TEAM = [
   {
     name: "Carles Moya",
     role: "Chief technical officer",
-    img: "/images/carles.jpg",
+    img: "/images/carles.png",
     socials: {
       email: "carlesmg.cmg@gmail.com",
       github: "https://github.com/CarlesMG6",

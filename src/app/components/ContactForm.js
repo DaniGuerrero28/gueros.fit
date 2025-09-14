@@ -38,7 +38,7 @@ export default function ContactForm() {
             <img
               src={CONTACT_URL}
                alt="Consulta GUEROS"
-                className="object-cover w-full h-52 rounded-xl object-[50%_28%] md:object-[50%_35%]"
+                className="object-cover w-full h-52 rounded-xl object-[50%_40%] md:object-[50%_35%]"
                   style={{ position: 'relative', zIndex: 1 }}
          />
           </div>

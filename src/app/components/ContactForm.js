@@ -37,10 +37,10 @@ export default function ContactForm() {
           <div className="relative w-full flex items-center mb-8">
             <img
               src={CONTACT_URL}
-              alt="Contacto Gueros"
-              className="object-cover w-full h-52 rounded-xl object-[30%_80%]"
-              style={{ position: 'relative', zIndex: 1 }}
-            />
+               alt="Consulta GUEROS"
+                className="object-cover w-full h-52 rounded-xl object-[50%_28%] md:object-[50%_35%]"
+                  style={{ position: 'relative', zIndex: 1 }}
+         />
           </div>
         </div>
         {/* Columna izquierda: formulario (desktop) o contenido (mobile) */}

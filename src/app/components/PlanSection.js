@@ -382,9 +382,9 @@ function SuccessPopup({ show, message }) {
 function EmailContactForm() {
   const [email, setEmail] = useState("");
   const [touched, setTouched] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
   const [showPopup, setShowPopup] = useState(false);
+  const [loading, setLoading] = useState(false);
   const inputRef = useRef();
 
   function validateEmail(value) {
@@ -406,6 +406,7 @@ function EmailContactForm() {
       return;
     }
     setError("");
+    setLoading(true);
     try {
       const res = await fetch("/api/sendEmail", {
         method: "POST",
@@ -428,6 +429,7 @@ function EmailContactForm() {
     } catch (err) {
       setError("Error de red");
     }
+    setLoading(false);
   }
 
   return (
@@ -447,9 +449,14 @@ function EmailContactForm() {
         />
         <button
           type="submit"
-          className="px-6 py-2 rounded-full bg-accent text-white font-semibold hover:bg-accent/80 hover:scale-110 hover:shadow-xl transition-all whitespace-nowrap"
+          className="px-6 py-2 rounded-full bg-accent text-white font-semibold hover:bg-accent/80 hover:scale-110 hover:shadow-xl transition-all whitespace-nowrap flex items-center justify-center"
+          disabled={loading}
         >
-          Enviar
+          {loading ? (
+            <span className="inline-block w-6 h-6 border-4 border-white border-t-transparent rounded-full animate-spin" />
+          ) : (
+            "Enviar"
+          )}
         </button>
       </div>
       {/*{error && (

@@ -14,6 +14,7 @@ export default function ContactForm() {
     const [form, setForm] = useState({ name: "", email: "", message: "" });
     const [errors, setErrors] = useState({});
     const [showPopup, setShowPopup] = useState(false);
+    const [loading, setLoading] = useState(false);
 
     const handleChange = e => {
         setForm({ ...form, [e.target.name]: e.target.value });
@@ -34,6 +35,7 @@ export default function ContactForm() {
             setErrors(newErrors);
             return;
         }
+        setLoading(true);
         try {
             const res = await fetch("/api/sendEmail", {
                 method: "POST",
@@ -56,6 +58,7 @@ export default function ContactForm() {
         } catch (err) {
             setErrors({ api: "Error de red" });
         }
+        setLoading(false);
     };
 
     return (
@@ -118,9 +121,14 @@ export default function ContactForm() {
               </div>
               <button
                 type="submit"
-                className="w-full px-8 py-3 rounded-full bg-accent text-white font-bold text-lg shadow hover:bg-accent/80 hover:scale-110 hover:shadow-xl transition-all"
+                className="w-full px-8 py-3 rounded-full bg-accent text-white font-bold text-lg shadow hover:bg-accent/80 hover:scale-110 hover:shadow-xl transition-all flex items-center justify-center"
+                disabled={loading}
               >
-                Te contactamos
+                {loading ? (
+                  <span className="inline-block w-6 h-6 border-4 border-white border-t-transparent rounded-full animate-spin" />
+                ) : (
+                  "Te contactamos"
+                )}
               </button>
             </form>
         </div>

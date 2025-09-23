@@ -387,7 +387,7 @@ function EmailContactForm() {
     setError("");
   }
 
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault();
     setTouched(true);
     if (!validateEmail(email)) {
@@ -396,8 +396,26 @@ function EmailContactForm() {
       return;
     }
     setError("");
-    setSubmitted(true);
-    // Aquí podrías enviar el email a tu backend o servicio
+    try {
+      const res = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          type: "simple",
+          name: null,
+          message: null,
+          email,
+        }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setSubmitted(true);
+      } else {
+        setError(data.error || "Error al enviar");
+      }
+    } catch (err) {
+      setError("Error de red");
+    }
   }
 
   return (

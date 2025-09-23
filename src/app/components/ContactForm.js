@@ -1,10 +1,19 @@
 import { useState } from "react";
 import { CONTACT_URL } from "../constants";
 
+function SuccessPopup({ show, message }) {
+  if (!show) return null;
+  return (
+    <div className="fixed bottom-6 right-6 z-50 bg-green-600 text-white px-6 py-3 rounded-xl shadow-lg animate-fade-in">
+      {message}
+    </div>
+  );
+}
+
 export default function ContactForm() {
     const [form, setForm] = useState({ name: "", email: "", message: "" });
     const [errors, setErrors] = useState({});
-    const [submitted, setSubmitted] = useState(false);
+    const [showPopup, setShowPopup] = useState(false);
 
     const handleChange = e => {
         setForm({ ...form, [e.target.name]: e.target.value });
@@ -18,15 +27,35 @@ export default function ContactForm() {
         return newErrors;
     };
 
-    const handleSubmit = e => {
+    const handleSubmit = async e => {
         e.preventDefault();
         const newErrors = validate();
         if (Object.keys(newErrors).length) {
             setErrors(newErrors);
             return;
         }
-        setSubmitted(true);
-        // Aquí iría la lógica de envío real
+        try {
+            const res = await fetch("/api/sendEmail", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    type: "complete",
+                    name: form.name,
+                    email: form.email,
+                    message: form.message,
+                }),
+            });
+            const data = await res.json();
+            if (data.success) {
+                setForm({ name: "", email: "", message: "" });
+                setShowPopup(true);
+                setTimeout(() => setShowPopup(false), 4000);
+            } else {
+                setErrors({ api: data.error || "Error al enviar" });
+            }
+        } catch (err) {
+            setErrors({ api: "Error de red" });
+        }
     };
 
     return (
@@ -49,10 +78,7 @@ export default function ContactForm() {
           <p className="text-lg mb-8 text-center text-primary">
             Da el primer paso y agenda tu consulta gratuita. Recibe asesoramiento personalizado para resolver tus dudas y definir tu objetivo. ¡Consigue un 25% de descuento en tu primer pago si solicitas tu consulta!
           </p>
-          {submitted ? (
-            <div className="text-green-600 font-semibold text-center">¡Gracias! Te contactaremos pronto.</div>
-          ) : (
-            <form className="w-full flex flex-col gap-4" onSubmit={handleSubmit} noValidate>
+          <form className="w-full flex flex-col gap-4" onSubmit={handleSubmit} noValidate>
               <div>
                 <label htmlFor="name" className="block font-medium mb-1">Nombre *</label>
                 <input
@@ -97,7 +123,6 @@ export default function ContactForm() {
                 Te contactamos
               </button>
             </form>
-          )}
         </div>
         {/* Columna derecha: imagen simpática solo en desktop */}
         <div className="flex-1 hidden md:flex justify-center items-center">
@@ -109,6 +134,7 @@ export default function ContactForm() {
           />
         </div>
       </section>
+      <SuccessPopup show={showPopup} message="¡Correo enviado correctamente!" />
     </div>
     );
 }

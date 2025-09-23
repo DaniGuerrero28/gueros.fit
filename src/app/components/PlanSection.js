@@ -370,11 +370,21 @@ export default function PlanSection() {
 }
 
 import { useRef } from "react";
+function SuccessPopup({ show, message }) {
+  if (!show) return null;
+  return (
+    <div className="fixed bottom-6 right-6 z-50 bg-green-600 text-white px-6 py-3 rounded-xl shadow-lg animate-fade-in">
+      {message}
+    </div>
+  );
+}
+
 function EmailContactForm() {
   const [email, setEmail] = useState("");
   const [touched, setTouched] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
+  const [showPopup, setShowPopup] = useState(false);
   const inputRef = useRef();
 
   function validateEmail(value) {
@@ -409,7 +419,9 @@ function EmailContactForm() {
       });
       const data = await res.json();
       if (data.success) {
-        setSubmitted(true);
+        setEmail("");
+        setShowPopup(true);
+        setTimeout(() => setShowPopup(false), 4000);
       } else {
         setError(data.error || "Error al enviar");
       }
@@ -446,6 +458,7 @@ function EmailContactForm() {
       {submitted && !error && (
         <span className="ml-2 text-sm text-green-600">¡Gracias! Te contactaremos pronto.</span>
       )}*/}
+      <SuccessPopup show={showPopup} message="¡Correo enviado correctamente!" />
     </form>
   );
 }

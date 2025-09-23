@@ -51,7 +51,7 @@ export default function HeroSection() {
           <div
             className="pointer-events-none absolute left-0 right-0 bottom-0"
             style={{
-              height: '20%',
+              height: '8%',
               background: 'linear-gradient(to top, var(--color-background) 90%, transparent 100%)',
               zIndex: 2,
             }}

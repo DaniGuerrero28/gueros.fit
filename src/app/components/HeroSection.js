@@ -35,8 +35,8 @@ export default function HeroSection() {
           </button>
         </div>
       </div>
-      <div className="w-full md:w-1/2 flex items-center justify-center relative order-1 md:order-2 mb-2 md:mb-0 pt-2 md:pt-0">
-        <div className="relative w-full flex items-center justify-center h-[40vh] md:h-[75vh]" style={{maxHeight: '90%'}}>
+      <div className="w-full md:w-1/2 flex items-center justify-center relative order-1 md:order-2 mb-2 md:mb-0">
+        <div className="relative w-full flex items-center justify-center" style={{maxHeight: '90%'}}>
           <img
             src="/images/fitMan-hero.png"
             alt="Fit man hero"
@@ -49,7 +49,7 @@ export default function HeroSection() {
             }}
           />
           <div
-            className="pointer-events-none absolute left-0 right-0 bottom-0"
+            className="pointer-events-none absolute left-0 right-0 -bottom-1"
             style={{
               height: '8%',
               background: 'linear-gradient(to top, var(--color-background) 90%, transparent 100%)',

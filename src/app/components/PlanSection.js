@@ -370,11 +370,21 @@ export default function PlanSection() {
 }
 
 import { useRef } from "react";
+function SuccessPopup({ show, message }) {
+  if (!show) return null;
+  return (
+    <div className="fixed bottom-6 right-6 z-50 bg-green-600 text-white px-6 py-3 rounded-xl shadow-lg animate-fade-in">
+      {message}
+    </div>
+  );
+}
+
 function EmailContactForm() {
   const [email, setEmail] = useState("");
   const [touched, setTouched] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
+  const [showPopup, setShowPopup] = useState(false);
+  const [loading, setLoading] = useState(false);
   const inputRef = useRef();
 
   function validateEmail(value) {
@@ -396,6 +406,7 @@ function EmailContactForm() {
       return;
     }
     setError("");
+    setLoading(true);
     try {
       const res = await fetch("/api/sendEmail", {
         method: "POST",
@@ -409,13 +420,16 @@ function EmailContactForm() {
       });
       const data = await res.json();
       if (data.success) {
-        setSubmitted(true);
+        setEmail("");
+        setShowPopup(true);
+        setTimeout(() => setShowPopup(false), 4000);
       } else {
         setError(data.error || "Error al enviar");
       }
     } catch (err) {
       setError("Error de red");
     }
+    setLoading(false);
   }
 
   return (
@@ -435,9 +449,14 @@ function EmailContactForm() {
         />
         <button
           type="submit"
-          className="px-6 py-2 rounded-full bg-accent text-white font-semibold hover:bg-accent/80 hover:scale-110 hover:shadow-xl transition-all whitespace-nowrap"
+          className="px-6 py-2 rounded-full bg-accent text-white font-semibold hover:bg-accent/80 hover:scale-110 hover:shadow-xl transition-all whitespace-nowrap flex items-center justify-center"
+          disabled={loading}
         >
-          Enviar
+          {loading ? (
+            <span className="inline-block w-6 h-6 border-4 border-white border-t-transparent rounded-full animate-spin" />
+          ) : (
+            "Enviar"
+          )}
         </button>
       </div>
       {/*{error && (
@@ -446,7 +465,7 @@ function EmailContactForm() {
       {submitted && !error && (
         <span className="ml-2 text-sm text-green-600">¡Gracias! Te contactaremos pronto.</span>
       )}*/}
+      <SuccessPopup show={showPopup} message="¡Correo enviado correctamente!" />
     </form>
   );
 }
-

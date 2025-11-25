@@ -70,7 +70,7 @@ export default function Plan({ title, price, originalPrice, description, feature
       {title === 'Esencial' && <BlackFridayPopup />}
       <div
         className={`relative rounded-3xl p-8 flex flex-col items-stretch w-full max-w-sm transition-all duration-200 gap-4
-          ${highlight ? 'bg-foreground text-primary-foreground shadow-2xl scale-105 z-10 max-w-md' : (title === 'VIP' ? 'bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-700 text-black shadow-2xl scale-105 z-10' : (title === 'Esencial' ? 'bg-gray-200 text-gray-900 shadow' : 'bg-primary-foreground text-primary shadow'))}
+          ${highlight ? 'bg-foreground text-primary-foreground shadow-2xl scale-105 z-10 max-w-md' : (title === 'VIP' ? 'bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-700 text-black shadow-2xl z-10' : (title === 'Esencial' ? 'bg-gray-200 text-gray-900 shadow' : 'bg-primary-foreground text-primary shadow'))}
           ${custom ? 'bg-white text-black' : ''}
         `}
         style={{ minHeight: 520, position: 'relative', overflow: 'hidden' }}

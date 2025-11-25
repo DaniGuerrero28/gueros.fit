@@ -3,15 +3,10 @@ import { useEffect, useState } from "react";
 function BlackFridayPopup() {
   const [show, setShow] = useState(true);
   const [copied, setCopied] = useState(false);
-  const [showClose, setShowClose] = useState(false);
+  const [showClose, setShowClose] = useState(true);
+  // Eliminar el temporizador de autocierre
   useEffect(() => {
-    if (!show) return;
-    const timer = setTimeout(() => setShow(false), 8000);
-    const closeTimer = setTimeout(() => setShowClose(true), 2000);
-    return () => {
-      clearTimeout(timer);
-      clearTimeout(closeTimer);
-    };
+    return () => {};
   }, [show]);
   useEffect(() => {
     if (!copied) return;
@@ -19,13 +14,16 @@ function BlackFridayPopup() {
     return () => clearTimeout(timer);
   }, [copied]);
   if (!show) return null;
+  // Handler para cerrar al pulsar fuera del modal
+  function handleOverlayClick(e) {
+    if (e.target === e.currentTarget) setShow(false);
+  }
   return (
     <>
-      <div className="fixed inset-0 z-[999] flex items-center justify-center bg-black/40">
-        <div className="relative bg-green-900 text-white px-10 py-10 rounded-3xl shadow-2xl flex flex-col items-center gap-6 animate-fade-in w-full max-w-lg mx-auto overflow-hidden text-center">
+      <div className="fixed inset-0 z-[999] flex items-center justify-center bg-black/40" onClick={handleOverlayClick}>
+        <div className="relative bg-green-900 text-white px-4 sm:px-10 py-10 rounded-3xl shadow-2xl flex flex-col items-center gap-6 animate-fade-in w-full max-w-lg mx-auto overflow-hidden text-center">
           {/* Toques navideños en las esquinas */}
           <span className="absolute top-2 left-4 text-3xl select-none">🎄</span>
-          <span className="absolute top-2 right-4 text-3xl select-none">🎁</span>
           <span className="absolute bottom-2 left-4 text-3xl select-none">❄️</span>
           <span className="absolute bottom-2 right-4 text-3xl select-none">🎅</span>
           <span className="absolute top-0 left-0 h-full w-full pointer-events-none z-10">

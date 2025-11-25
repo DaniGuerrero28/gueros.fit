@@ -20,7 +20,7 @@ function BlackFridayPopup() {
   }
   return (
     <>
-      <div className="fixed inset-0 z-[999] flex items-center justify-center bg-black/40" onClick={handleOverlayClick}>
+      <div className="fixed inset-0 z-[999] flex items-center justify-center bg-black/40 px-2 sm:px-0" onClick={handleOverlayClick}>
         <div className="relative bg-green-900 text-white px-4 sm:px-10 py-10 rounded-3xl shadow-2xl flex flex-col items-center gap-6 animate-fade-in w-full max-w-lg mx-auto overflow-hidden text-center">
           {/* Toques navideños en las esquinas */}
           <span className="absolute top-2 left-4 text-3xl select-none">🎄</span>

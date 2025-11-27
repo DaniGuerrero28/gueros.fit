@@ -70,7 +70,7 @@ export default function Plan({ title, price, originalPrice, description, feature
       {title === 'Esencial' && <BlackFridayPopup />}
       <div
         className={`relative rounded-3xl p-8 flex flex-col items-stretch w-full max-w-sm transition-all duration-200 gap-4
-          ${highlight ? 'bg-foreground text-primary-foreground shadow-2xl scale-105 z-10 max-w-md' : (title === 'VIP' ? 'bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-700 text-black shadow-2xl z-10' : (title === 'Esencial' ? 'bg-gray-200 text-gray-900 shadow' : 'bg-primary-foreground text-primary shadow'))}
+          ${highlight ? 'bg-foreground text-primary-foreground shadow-2xl scale-105 z-10 max-w-md' : (title === 'VIP' ? 'bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-700 shadow' : ' bg-primary-foreground text-primary  shadow' )}
           ${custom ? 'bg-white text-black' : ''}
         `}
         style={{ minHeight: 520, position: 'relative', overflow: 'hidden' }}
@@ -83,32 +83,16 @@ export default function Plan({ title, price, originalPrice, description, feature
       )}
       {/* Badge tipo punto de libro en la esquina superior derecha */}
       {badge && (
-        <div className="absolute top-0 right-0 z-20 flex justify-end w-full pointer-events-none">
-          <div className="relative" style={{marginTop: '0.5rem', marginRight: '0.5rem', pointerEvents: 'auto'}}>
-            <div className="bg-accent text-white shadow-lg font-bold text-base px-4 py-2 rounded-bl-2xl rounded-tr-3xl flex items-center justify-center" style={{borderTopRightRadius: '1.5rem', borderBottomLeftRadius: '1rem', minWidth: '120px', maxWidth: '180px', textAlign: 'center'}}>
-              {badge}
-            </div>
-            {/* Línea azul decorativa que rodea el recuadro y conecta con el badge */}
-            {title === 'PRO' && (
-              <svg className="absolute -top-2 left-1/2 transform -translate-x-1/2 w-[110%] h-[110%] pointer-events-none z-10" style={{overflow: 'visible'}}>
-                <path d="M 180 0 Q 200 0 200 20 V 500 Q 200 520 180 520 H 20 Q 0 520 0 500 V 20 Q 0 0 20 0 H 120 Q 140 0 140 20 V 40 Q 140 60 160 60 H 180 Q 200 60 200 40 V 20 Q 200 0 180 0 Z" fill="none" stroke="#3b82f6" strokeWidth="4" />
-              </svg>
-            )}
-          </div>
+        <div className={`absolute right-8 top-8 px-4 py-2 rounded-full text-xs font-semibold ${highlight ? 'text-white bg-accent' : 'text-foreground bg-accent/50'}`}>
+          {badge}
         </div>
       )}
-      {/* Borde azul SVG decorativo solo para el plan PRO */}
-      {title === 'PRO' && (
-        <svg className="absolute inset-0 w-full h-full rounded-3xl pointer-events-none z-10" style={{overflow: 'visible'}}>
-          <rect x="2" y="2" width="calc(100% - 4px)" height="calc(100% - 4px)" rx="24" fill="none" stroke="#3b82f6" strokeWidth="4" />
-        </svg>
-      )}
       {/* Título */}
-      <h2 className={`text-2xl font-bold font-montserrat ${title === 'VIP' ? 'text-primary' : (title === 'Esencial' ? 'text-gray-900' : 'text-black')}`}>{title}</h2>
+      <h2 className={`text-2xl font-bold font-montserrat ${title === 'VIP' ? 'text-primary' : highlight ? 'text-primary-foreground' : 'text-primary' }`}>{title}</h2>
       {/* Descripción */}
-      <p className={`text-base ${title === 'VIP' ? 'text-secondary' : (title === 'Esencial' ? 'text-gray-900' : 'text-black')}`}>{description}</p>
+      <p className={`text-base ${title === 'VIP' ? 'text-secondary' : highlight ?  'text-secondary' : 'text-secondary-foreground'}`}>{description}</p>
       {/* Features */}
-      <ul className={`text-sm space-y-2 w-full h-60 md:h-64 lg:h-52 xl:h-44 max-w-xs mx-auto ${title === 'VIP' ? 'text-primary' : (title === 'Esencial' ? 'text-gray-900' : 'text-black')}`}>
+      <ul className={`text-sm space-y-2 w-full h-60 md:h-64 lg:h-52 xl:h-44 max-w-xs mx-auto ${title === 'VIP' ? 'text-primary' : highlight ? 'text-primary-foreground' :  'text-primary'}`}>
         {features && features.map((f, i) => (
           <li key={i} className="flex items-start gap-2">
             <span className={`font-bold ${highlight ? 'text-accent' : 'text-accent'}`}>✔</span> <span>{f}</span>

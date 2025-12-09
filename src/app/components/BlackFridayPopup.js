@@ -19,7 +19,7 @@ export default function BlackFridayPopup() {
     <>
       {show && (
         <div className="fixed inset-0 z-[999] flex items-center justify-center bg-black/40 px-2 sm:px-0" onClick={handleOverlayClick}>
-          <div className="relative bg-green-900 text-white px-4 sm:px-10 py-10 rounded-3xl shadow-2xl flex flex-col items-center gap-6 animate-fade-in w-full max-w-lg mx-auto overflow-hidden text-center">
+          <div className="relative bg-background text-primary px-4 sm:px-10 py-10 rounded-3xl shadow-2xl flex flex-col items-center gap-6 animate-fade-in w-full max-w-lg mx-auto overflow-hidden text-center">
             {/* Toques navideños en las esquinas */}
             <span className="absolute top-2 left-4 text-3xl select-none">🎄</span>
             <span className="absolute bottom-2 left-4 text-3xl select-none">❄️</span>
@@ -28,12 +28,12 @@ export default function BlackFridayPopup() {
               <span className="block h-full w-2/3 bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-60 blur-sm animate-shine-bounce" />
             </span>
             <div className="flex flex-col items-center gap-2 z-20 w-full text-center">
-              <span className="text-base font-extrabold uppercase tracking-widest bg-green-700 text-white px-4 py-1 rounded-full mb-2 shadow font-sans mx-auto">OFERTA EXCLUSIVA</span>
+              <span className="text-base font-extrabold uppercase tracking-widest bg-green-800 text-white px-4 py-1 rounded-full mb-2 shadow font-sans mx-auto">OFERTA EXCLUSIVA</span>
               <span className="text-4xl font-extrabold mb-2 font-sans mx-auto">¡DESCUENTO 40%!</span>
-              <span className="text-lg font-sans mx-auto">Usa el código <span className="font-mono select-all text-2xl tracking-widest text-yellow-300 font-bold">BLACKFRIDAY</span> para obtener un descuento del 40% en cualquier plan</span>
+              <span className="text-lg font-sans mx-auto">Usa el código <span className="font-mono select-all text-2xl tracking-widest text-accent font-bold">NAVIDAD</span> para obtener un descuento del 40% en cualquier plan</span>
             </div>
             <button
-              className="mt-4 px-8 py-3 bg-green-600 text-white rounded-full font-bold text-lg hover:bg-green-700 transition shadow-lg z-20 font-sans mx-auto"
+              className="mt-4 px-8 py-3 bg-accent text-white rounded-full font-bold text-lg hover:bg-green-700 transition shadow-lg z-20 font-sans mx-auto"
               onClick={() => {
                 navigator.clipboard.writeText("BLACKFRIDAY");
                 setCopied(true);
@@ -55,7 +55,7 @@ export default function BlackFridayPopup() {
         </div>
       )}
       {copied && (
-        <div className="fixed bottom-8 right-8 z-[9999] bg-green-700 text-white px-6 py-3 rounded-xl shadow-lg animate-fade-in text-base font-semibold font-sans">
+        <div className="fixed bottom-8 right-8 z-[9999] bg-background text-white px-6 py-3 rounded-xl shadow-lg animate-fade-in text-base font-semibold font-sans">
           Código copiado al portapapeles
         </div>
       )}

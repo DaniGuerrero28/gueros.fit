@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import Image from "next/image";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,15 +46,27 @@ export default function Header() {
       </div>
 
       {/* Logo centrado */}
-      <div className={`absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 hover:scale-110 transition-all ${isOpen ? 'text-black' : 'text-foreground'}`}>
+      <div
+        className={`absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-50 hover:scale-110 transition-all ${
+          isOpen ? "opacity-80" : "opacity-100"
+        }`}
+      >
         <a
           href="/"
-          className={`font-extralight text-4xl uppercase tracking-widest transition-colors duration-300 `}
-          style={{ pointerEvents: 'auto', fontFamily: "'sans-serif" }}
+          style={{ pointerEvents: "auto" }}
+          className="transition-all duration-300"
         >
-          GUEROS  
+          <Image
+            src="/images/logo.png"
+            alt="Gueros Logo"
+            width={160}         // valores “base” para Next
+            height={40}
+            className="h-10 w-auto md:h-12 object-contain" // aquí mandas tú el tamaño real
+            priority
+          />
         </a>
       </div>
+
 
       {/* Mobile dropdown */}
       {isOpen && (

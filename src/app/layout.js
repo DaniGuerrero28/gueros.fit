@@ -1,6 +1,11 @@
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
-import { SITE_URL, SITE_ICON, SITE_APPLE_ICON, SITE_THEME_COLOR } from "./constants";
+import {
+  SITE_URL,
+  SITE_ICON,
+  SITE_APPLE_ICON,
+  SITE_THEME_COLOR,
+} from "./constants";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,50 +23,84 @@ const inter = Inter({
   weight: ["400", "700", "900"],
 });
 
+const TITLE_DEFAULT = "Entrenamiento Personal Online y Nutrición | GUEROS Fitness";
+const DESCRIPTION_DEFAULT =
+  "Entrenamiento personal online, nutrición personalizada y seguimiento mensual con app exclusiva. Transforma tu físico y tu estilo de vida con GUEROS Fitness.";
+
 export const metadata = {
-  title: "GUEROS Fitness | Entrenamiento Personal y Nutrición",
-  description: "Transforma tu vida con GUEROS: entrenamiento personalizado, nutrición, comunidad y app exclusiva. ¡Descubre nuestros planes y servicios!",
+  // Hace que todas las URLs relativas se resuelvan desde tu dominio
+  metadataBase: new URL(SITE_URL),
+
+  // Título base + plantilla para futuras páginas (SEO friendly)
+  title: {
+    default: TITLE_DEFAULT,
+    template: "%s | GUEROS Fitness",
+  },
+
+  description: DESCRIPTION_DEFAULT,
+
   keywords: [
-    "gueros", "fitness", "entrenamiento personal", "nutrición", "app fitness", "planes", "comunidad", "bienestar"
+    "gueros",
+    "gueros fitness",
+    "entrenamiento personal online",
+    "entrenador personal",
+    "nutrición personalizada",
+    "plan de entrenamiento",
+    "plan de nutrición",
+    "cambio físico",
+    "fitness online",
+    "coaching fitness",
   ],
+
   openGraph: {
-    title: "GUEROS Fitness | Entrenamiento Personal y Nutrición",
-    description: "Transforma tu vida con GUEROS: entrenamiento personalizado, nutrición, comunidad y app exclusiva.",
-    url: SITE_URL + "/",
+    title: TITLE_DEFAULT,
+    description: DESCRIPTION_DEFAULT,
+    url: "/",
+    siteName: "GUEROS Fitness",
+    locale: "es_ES",
+    type: "website",
     images: [
       {
-        url: SITE_URL + "/images/insta-logo.png",
+        url: "/images/insta-logo.png", // misma imagen que ya usas
         width: 1200,
         height: 630,
-        alt: "GUEROS Hero"
-      }
+        alt: "GUEROS Fitness – Entrenamiento personal y nutrición online",
+      },
     ],
-    type: "website"
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "GUEROS Fitness | Entrenamiento Personal y Nutrición",
-    description: "Transforma tu vida con GUEROS: entrenamiento personalizado, nutrición, comunidad y app exclusiva.",
-    images: [SITE_URL + "/images/insta-logo.png"]
+    title: TITLE_DEFAULT,
+    description: DESCRIPTION_DEFAULT,
+    images: ["/images/insta-logo.png"],
+    // Opcional si usas X/Twitter de verdad:
+    // site: "@gueros_official",
   },
+
   icons: {
     icon: SITE_ICON,
-    apple: SITE_APPLE_ICON
+    apple: SITE_APPLE_ICON,
   },
+
   alternates: {
-    canonical: SITE_URL + "/"
+    canonical: "/", // con metadataBase ya se convierte en https://gueros.fit/
   },
+
   robots: {
     index: true,
-    follow: true
+    follow: true,
   },
-  themeColor: SITE_THEME_COLOR
+
+  themeColor: SITE_THEME_COLOR,
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={`${geistSans.variable} ${geistMono.variable} ${inter.variable}`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable}`}
+      >
         {children}
       </body>
     </html>

@@ -24,6 +24,23 @@ export default function Home() {
 
   return (
     <div className="min-h-screen text-foreground items-center mx-auto flex flex-col">
+      {/* Hidden for SEO purposes */}
+      <h1 className="text-4xl md:text-5xl font-light hidden">
+        Entrenamiento personal online y nutrición a medida con GUEROS
+      </h1>
+      <section className="mt-12 max-w-3xl space-y-4 hidden">
+        <p>
+          En GUEROS Fitness te acompañamos con entrenamiento personal online y
+          nutrición personalizada para que consigas un cambio físico real y
+          sostenible. Diseñamos tu plan según tu nivel, tu tiempo y tu estilo de
+          vida.
+        </p>
+        <p>
+          No solo recibes una rutina de gimnasio: tienes seguimiento mensual,
+          ajustes de dieta, soporte directo y una app donde ves tu progreso,
+          tus entrenamientos y tu planificación completa.
+        </p>
+      </section>
       <Header/>
       <HeroSection />
       <PlanSection />

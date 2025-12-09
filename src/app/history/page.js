@@ -9,7 +9,7 @@ export default function HistoryPage() {
       <Header />
       <main className="flex flex-1 flex-col items-center justify-center">
         <section className="w-full max-w-3xl mx-auto py-12 px-4 flex flex-col gap-8 text-primary bg-background rounded-xl">
-          <h1 className="text-4xl font-bold mb-4">De dónde sale GUEROS?</h1>
+          <h2 className="text-4xl font-bold mb-4">De dónde sale GUEROS?</h2>
           <p>
             Esta conmovedora historia es la de nuestro fundador y CEO, quien, inspirado por su propia lucha para superar el bullying y mejorar su físico, decidió dedicar su vida a ayudar a otros a transformar su físico, salud y bienestar. A través de este relato, descubrirás cómo Gueros Fitness nació con la misión de cambiar vidas, no solo cuerpos, y cómo cada transformación es un paso hacia una vida más saludable, llena de energía y confianza.
           </p>

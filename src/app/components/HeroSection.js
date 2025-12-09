@@ -7,9 +7,9 @@ export default function HeroSection() {
       <section id="hero-section" className="w-full min-h-11/12 flex flex-col md:flex-row items-stretch bg-background text-foreground mb-36 md:mb-28">
         {/* Mobile: imagen arriba, luego contenido */}
         <div className="w-full md:w-1/2 flex flex-col md:justify-center md:items-center px-4 md:px-16 gap-8 mx-auto order-2 md:order-1">
-          <h1 className="text-4xl md:text-6xl font-semibold leading-tight font-montserrat max-w-xl text-center md:text-left" style={{fontFamily: 'Montserrat, var(--font-montserrat), sans-serif'}}>
+          <h2 className="text-4xl md:text-6xl font-semibold leading-tight font-montserrat max-w-xl text-center md:text-left" style={{fontFamily: 'Montserrat, var(--font-montserrat), sans-serif'}}>
             Cuida tu cuerpo, transforma tu vida
-          </h1>
+          </h2>
           <p className="text-base md:text-xl text-primary max-w-xl text-center md:text-left">
             Somos una empresa de asesoramiento fitness y entrenamiento personal. Te ayudamos a alcanzar tus objetivos físicos con un enfoque profesional y personalizado.
           </p>

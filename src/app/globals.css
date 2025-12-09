@@ -2,35 +2,36 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
---color-background: #ffffff;
---color-foreground: #171717;
---color-accent: oklch(48.8% 0.243 264.376);
+--color-background: #e7e4dd;
+--color-foreground: #2a2520;
+--color-accent: #3f986c;
 --color-accent-gradient: linear-gradient(135deg, #0096e7, #00e79e);
---color-primary: #222222;
---color-primary-foreground: #f3f3f3;
---color-primary-mute: #e5e5e5;
---color-primary-foreground-mute: #171717;
---color-secondary: #606060;
---color-secondary-foreground: #a0a0a0;
---color-secondary-mute: #ededed;
---color-secondary-foreground-mute: #171717;
+--color-primary: #2a2520;
+--color-primary-foreground: #f5f3f0;
+--color-primary-mute: #d4cfc5;
+--color-primary-foreground-mute: #2a2520;
+--color-secondary: #5a4f47;
+--color-secondary-foreground: #9a8f87;
+--color-secondary-mute: #d9d4cc;
+--color-secondary-foreground-mute: #2a2520;
 --font-inter: Inter, Arial, Helvetica, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background: #0a0a0a;
-    --color-foreground: #ffffff;
-    --color-accent: oklch(48.8% 0.243 264.376);
+    --color-background: #1a1612;
+    --color-foreground: #f5f3f0;
+    --color-accent: #3f986c;
     --color-accent-gradient: linear-gradient(135deg, #0096E7, #00E79E);
-    --color-primary: #ffffff;
-    --color-primary-foreground: #222222;
-    --color-primary-mute: #bdbdbd;
-    --color-primary-foreground-mute: #222222;
-    --color-secondary: #555555;
-    --color-secondary-foreground: #c0c0c0;
-    --color-secondary-mute: #171717;
-    --color-secondary-foreground-mute: #ededed;
-}}
+    --color-primary: #f5f3f0;
+    --color-primary-foreground: #2a2520;
+    --color-primary-mute: #5a4f47;
+    --color-primary-foreground-mute: #e7e4dd;
+    --color-secondary: #9a8f87;
+    --color-secondary-foreground: #d4cfc5;
+    --color-secondary-mute: #2a2520;
+    --color-secondary-foreground-mute: #e7e4dd;
+  }
+}
 
     @theme {
       --color-background: var(--color-background);

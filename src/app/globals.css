@@ -5,7 +5,7 @@
 --color-background: #e7e4dd;
 --color-foreground: #2a2520;
 --color-accent: #3f986c;
---color-accent-gradient: linear-gradient(135deg, #0096e7, #00e79e);
+--color-accent-gradient: linear-gradient(135deg, #3f986c, #00e79e);
 --color-primary: #2a2520;
 --color-primary-foreground: #f5f3f0;
 --color-primary-mute: #d4cfc5;
@@ -21,7 +21,7 @@
     --color-background: #1a1612;
     --color-foreground: #f5f3f0;
     --color-accent: #3f986c;
-    --color-accent-gradient: linear-gradient(135deg, #0096E7, #00E79E);
+    --color-accent-gradient: linear-gradient(135deg, #3f986c, #00E79E);
     --color-primary: #f5f3f0;
     --color-primary-foreground: #2a2520;
     --color-primary-mute: #5a4f47;

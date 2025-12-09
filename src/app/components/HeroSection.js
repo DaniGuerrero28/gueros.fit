@@ -1,9 +1,9 @@
-import BlackFridayPopup from "./BlackFridayPopup";
+import PromoPopup from "./PromoPopup";
 
 export default function HeroSection() {
   return (
     <>
-      <BlackFridayPopup />
+      <PromoPopup />
       <section id="hero-section" className="w-full min-h-11/12 flex flex-col md:flex-row items-stretch bg-background text-foreground mb-36 md:mb-28">
         {/* Mobile: imagen arriba, luego contenido */}
         <div className="w-full md:w-1/2 flex flex-col md:justify-center md:items-center px-4 md:px-16 gap-8 mx-auto order-2 md:order-1">
@@ -20,7 +20,7 @@ export default function HeroSection() {
                 const el = document.getElementById("planes-section");
                 if (el) el.scrollIntoView({ behavior: "smooth" });
               }}
-              className="mt-4 bg-gradient-to-br from-[#005bc9] from-40% to-90% to-[#00e79e] rounded-full text-lg font-semibold shadow-lg hover:scale-110 hover:shadow-xl hover:bg-[#005bc9]/80 transition-all inline-block text-white py-4 px-8 relative overflow-hidden focus:outline-none"
+              className="mt-4 bg-gradient-to-br from-[#81cba6] from-40% to-90% to-[#255a40] rounded-full text-lg font-semibold shadow-lg hover:scale-110 hover:shadow-xl hover:bg-[#005bc9]/80 transition-all inline-block text-white py-4 px-8 relative overflow-hidden focus:outline-none"
               style={{ position: "relative" }}
             >
               <span className="relative z-10">¡Empieza ahora!</span>

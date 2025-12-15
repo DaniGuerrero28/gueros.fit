@@ -35,7 +35,7 @@ export default function BlackFridayPopup() {
             <button
               className="mt-4 px-8 py-3 bg-accent text-white rounded-full font-bold text-lg hover:bg-green-700 transition shadow-lg z-20 font-sans mx-auto"
               onClick={() => {
-                navigator.clipboard.writeText("BLACKFRIDAY");
+                navigator.clipboard.writeText("NAVIDAD");
                 setCopied(true);
                 setShow(false);
               }}

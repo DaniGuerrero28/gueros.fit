@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function BlackFridayPopup() {
+export default function PromoPopup() {
   const [show, setShow] = useState(true);
   const [copied, setCopied] = useState(false);
   const [showClose, setShowClose] = useState(true);

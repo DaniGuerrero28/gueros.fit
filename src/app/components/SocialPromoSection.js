@@ -8,7 +8,7 @@ const instagramPosts = [
     url: "https://www.instagram.com/p/DKR6GQHshPk/",
     user: {
       name: "gueros_official",
-      avatar: "/images/insta-logo.png"
+      avatar: "/images/instagramlogo.png"
     }
   },
   {
@@ -16,7 +16,7 @@ const instagramPosts = [
     url: "https://www.instagram.com/p/DMDgoYsIRyV/",
     user: {
       name: "gueros_official",
-      avatar: "/images/insta-logo.png"
+      avatar: "/images/instagramlogo.png"
     }
   },
   {
@@ -24,7 +24,7 @@ const instagramPosts = [
     url: "https://www.instagram.com/gueros_official/reel/DMNU0YmMDNh/",
     user: {
       name: "gueros_official",
-      avatar: "/images/insta-logo.png"
+      avatar: "/images/instagramlogo.png"
     }
   }
 ];

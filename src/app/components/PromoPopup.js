@@ -30,12 +30,12 @@ export default function PromoPopup() {
             <div className="flex flex-col items-center gap-2 z-20 w-full text-center">
               <span className="text-base font-extrabold uppercase tracking-widest bg-green-800 text-white px-4 py-1 rounded-full mb-2 shadow font-sans mx-auto">OFERTA EXCLUSIVA</span>
               <span className="text-4xl font-extrabold mb-2 font-sans mx-auto">¡DESCUENTO 40%!</span>
-              <span className="text-lg font-sans mx-auto">Usa el código <span className="font-mono select-all text-2xl tracking-widest text-accent font-bold">NAVIDAD</span> para obtener un descuento del 40% en cualquier plan</span>
+              <span className="text-lg font-sans mx-auto">Usa el código <span className="font-mono select-all text-2xl tracking-widest text-accent font-bold">2026</span> para obtener un descuento del 40% en cualquier plan</span>
             </div>
             <button
               className="mt-4 px-8 py-3 bg-accent text-white rounded-full font-bold text-lg hover:bg-green-700 transition shadow-lg z-20 font-sans mx-auto"
               onClick={() => {
-                navigator.clipboard.writeText("NAVIDAD");
+                navigator.clipboard.writeText("2026");
                 setCopied(true);
                 setShow(false);
               }}

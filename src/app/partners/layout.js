@@ -12,8 +12,7 @@ export const metadata = {
     url: SITE_URL + "/partners",
     images: [
       {
-        url: SITE_URL + "/images/insta-logo.png",
-        width: 1200,
+        url: SITE_URL + "/images/insta-Gueros-logo-gold.png",
         height: 630,
         alt: "Partners GUEROS"
       }
@@ -24,7 +23,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Socios | GUEROS Fitness",
     description: "Descubre las marcas y partners que colaboran con GUEROS.",
-    images: [SITE_URL + "/images/insta-logo.png"]
+    images: [SITE_URL + "/images/insta-Gueros-logo-gold.png"]
   },
   icons: {
     icon: SITE_ICON,

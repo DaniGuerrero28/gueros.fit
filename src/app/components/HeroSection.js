@@ -4,16 +4,16 @@ export default function HeroSection() {
   return (
     <>
       <PromoPopup />
-      <section id="hero-section" className="w-full min-h-11/12 flex flex-col md:flex-row items-stretch bg-background text-foreground mb-36 md:mb-28">
+      <section id="hero-section" className="w-full min-h-11/12 flex flex-col lg:flex-row items-stretch bg-background text-foreground mb-36 md:mb-28">
         {/* Mobile: imagen arriba, luego contenido */}
-        <div className="w-full md:w-1/2 flex flex-col md:justify-center md:items-center px-4 md:px-16 gap-8 mx-auto order-2 md:order-1">
-          <h2 className="text-4xl md:text-6xl font-semibold leading-tight font-montserrat max-w-xl text-center md:text-left" style={{fontFamily: 'Montserrat, var(--font-montserrat), sans-serif'}}>
+        <div className="w-full lg:w-1/2 flex flex-col lg:justify-center items-center px-4 lg:px-16 gap-8 mx-auto order-2 lg:order-1">
+          <h2 className="text-4xl xl:text-6xl font-semibold leading-tight font-montserrat max-w-xl text-center lg:text-left" style={{fontFamily: 'Montserrat, var(--font-montserrat), sans-serif'}}>
             Cuida tu cuerpo, transforma tu vida
           </h2>
-          <p className="text-base md:text-xl text-primary max-w-xl text-center md:text-left">
+          <p className="text-base xl:text-xl text-primary max-w-xl text-center lg:text-left">
             Somos una empresa de asesoramiento fitness y entrenamiento personal. Te ayudamos a alcanzar tus objetivos físicos con un enfoque profesional y personalizado.
           </p>
-          <div className="w-full max-w-xl flex justify-center md:justify-start">
+          <div className="w-full max-w-xl flex justify-center lg:justify-start">
             <button
               type="button"
               onClick={() => {
@@ -39,8 +39,8 @@ export default function HeroSection() {
             </button>
           </div>
         </div>
-        <div className="w-full md:w-1/2 flex items-center justify-center relative order-1 md:order-2 mb-2 md:mb-0">
-          <div className="relative w-full flex items-center justify-center" style={{maxHeight: '90%'}}>
+        <div className="w-full lg:w-1/2 flex items-center justify-center relative order-1 lg:order-2 mb-2 lg:mb-0">
+          <div className="relative w-full flex items-center justify-center">
             <img
               src="/images/fitMan-hero.png"
               alt="Fit man hero"
@@ -53,9 +53,9 @@ export default function HeroSection() {
               }}
             />
             <div
-              className="pointer-events-none absolute left-0 right-0 -bottom-1"
+              className="pointer-events-none absolute left-0 right-0 bottom-0"
               style={{
-                height: '8%',
+                height: '4%',
                 background: 'linear-gradient(to top, var(--color-background) 90%, transparent 100%)',
                 zIndex: 2,
               }}

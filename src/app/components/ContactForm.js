@@ -121,7 +121,8 @@ export default function ContactForm() {
               </div>
               <button
                 type="submit"
-                className="w-full px-8 py-3 rounded-full bg-accent text-white font-bold text-lg shadow hover:bg-accent/80 hover:scale-110 hover:shadow-xl transition-all flex items-center justify-center"
+                className="w-full px-8 py-3 rounded-full text-accent-contrast font-bold text-lg shadow hover:scale-110 hover:shadow-xl transition-all flex items-center justify-center"
+                style={{ background: 'var(--color-accent-gradient)' }}
                 disabled={loading}
               >
                 {loading ? (

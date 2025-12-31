@@ -4,8 +4,8 @@
   :root {
     --color-background: #1a1612;
     --color-foreground: #f5f3f0;
-    --color-accent: #3f986c;
-    --color-accent-contrast: #000000;
+    --color-accent: #E8C056;
+    --color-accent-contrast: #1a1612;
     --color-accent-gradient: linear-gradient(75deg, #E8C056 0%, #fbe173 25%, #e9bf51 50%, #fee78a 75%, #ecc556 100%);
     --color-primary: #f5f3f0;
     --color-primary-foreground: #2a2520;
@@ -15,6 +15,7 @@
     --color-secondary-foreground: #d4cfc5;
     --color-secondary-mute: #2a2520;
     --color-secondary-foreground-mute: #e7e4dd;
+    --font-inter: Inter, Arial, Helvetica, sans-serif;
   }
 
     @theme {

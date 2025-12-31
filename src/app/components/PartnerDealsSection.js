@@ -45,13 +45,14 @@ export default function PartnerDealsSection() {
               alt={partner.name + ' foto'}
               className="h-32 w-32 object-contain rounded-lg md:mb-0"
             />
-            <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left text-white">
+            <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left text-accent-contrast">
               <p className="text-md text-primary-foreground mb-4">{partner.description}</p>
               <a
                 href={partner.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-2 rounded-full bg-accent text-white font-semibold shadow hover:bg-accent/80 hover:scale-110 hover:shadow-xl transition-all"
+                className="px-6 py-2 rounded-full text-accent-contrast font-semibold shadow hover:scale-110 hover:shadow-xl transition-all"
+                style={{ background: 'var(--color-accent-gradient)' }}
               >
                 {partner.text}
               </a>

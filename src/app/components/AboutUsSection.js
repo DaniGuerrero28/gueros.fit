@@ -94,7 +94,8 @@ export default function AboutUsSection() {
               window.location.href = "/#planes-section";
             }
           }}
-          className="px-8 py-3 rounded-full bg-accent text-white font-bold text-lg shadow hover:bg-accent/80 hover:scale-110 hover:shadow-xl transition-all"
+          className="px-8 py-3 rounded-full text-accent-contrast font-bold text-lg shadow hover:scale-110 hover:shadow-xl transition-all"
+          style={{ background: 'var(--color-accent-gradient)' }}
         >
           Empezar ahora
         </button>

@@ -53,7 +53,8 @@ export default function TeamSection({ team }) {
       {!showAll && team.length > 3 && (
         <button
           onClick={() => setShowAll(true)}
-          className="mt-4 px-6 py-2 rounded-full bg-accent text-white font-semibold shadow hover:bg-accent/80 hover:scale-110 hover:shadow-xl transition-all"
+          className="mt-4 px-6 py-2 rounded-full text-accent-contrast font-semibold shadow hover:scale-110 hover:shadow-xl transition-all"
+          style={{ background: 'var(--color-accent-gradient)' }}
         >
           Ver más
         </button>

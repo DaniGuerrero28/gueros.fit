@@ -30,7 +30,8 @@ export default function Footer() {
         <div className="w-full flex flex-row justify-center md:justify-end gap-4 order-1 md:order-2 mb-4 md:mb-0">
           <button
             onClick={handleJoinClick}
-            className="px-6 py-3 bg-accent text-white rounded-full font-bold text-md shadow hover:bg-accent/80 hover:scale-110 hover:shadow-xl transition-all"
+            className="px-6 py-3 text-accent-contrast rounded-full font-bold text-md shadow hover:scale-110 hover:shadow-xl transition-all"
+            style={{ background: 'var(--color-accent-gradient)' }}
           >
             ¡Únete ahora!
           </button>

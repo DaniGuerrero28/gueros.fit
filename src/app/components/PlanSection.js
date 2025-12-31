@@ -128,7 +128,7 @@ export default function PlanSection() {
               </span>
               <span className="flex items-center gap-2">
                 {PERIODS[selected].discount > 0 && (
-                  <span className="px-3 py-1 rounded-full text-xs font-bold bg-accent/80 text-white animate-fade-in">
+                  <span className="px-3 py-1 rounded-full text-xs font-bold text-accent-contrast animate-fade-in" style={{ background: 'var(--color-accent-gradient)' }}>
                     -{PERIODS[selected].discount}%
                   </span>
                 )}
@@ -149,7 +149,7 @@ export default function PlanSection() {
                       {p.label}
                     </span>
                     {p.discount > 0 && (
-                      <span className="px-3 py-1 rounded-full text-xs font-bold bg-accent/80 text-white animate-fade-in">
+                      <span className="px-3 py-1 rounded-full text-xs font-bold text-accent-contrast animate-fade-in" style={{ background: 'var(--color-accent-gradient)' }}>
                         -{p.discount}%
                       </span>
                     )}
@@ -172,7 +172,7 @@ export default function PlanSection() {
               >
                 {p.label}
                 {p.discount > 0 && (
-                  <span className="ml-1 px-2 py-0.5 rounded-full text-xs font-bold bg-accent/60 text-primary-foreground animate-fade-in">
+                  <span className="ml-1 px-2 py-0.5 rounded-full text-xs font-bold text-accent-contrast animate-fade-in" style={{ background: 'var(--color-accent-gradient)' }}>
                     -{p.discount}%
                   </span>
                 )}
@@ -449,7 +449,8 @@ function EmailContactForm() {
         />
         <button
           type="submit"
-          className="px-6 py-2 rounded-full bg-accent text-white font-semibold hover:bg-accent/80 hover:scale-110 hover:shadow-xl transition-all whitespace-nowrap flex items-center justify-center"
+          className="px-6 py-2 rounded-full text-accent-contrast font-semibold hover:scale-110 hover:shadow-xl transition-all whitespace-nowrap flex items-center justify-center"
+          style={{ background: 'var(--color-accent-gradient)' }}
           disabled={loading}
         >
           {loading ? (

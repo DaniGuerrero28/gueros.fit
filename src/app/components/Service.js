@@ -13,10 +13,11 @@ export default function Service({ title, description, image, imageSide = "left",
                 <div className="bg-primary rounded-b-lg px-4 pb-4 md:p-4 flex flex-col items-stretch">
                     <h3 className="text-2xl font-bold mb-2 text-primary-foreground text-center">{title}</h3>
                     <p className="text-sm text-primary-foreground mb-2 text-center">{description}</p>
-                    <div className="flex justify-center w-full mt-auto text-white ">
+                    <div className="flex justify-center w-full mt-auto text-accent-contrast ">
                         <a
                             href={buttonHref}
-                            className={`px-5 py-2 rounded-full bg-accent text-white text-center font-semibold transition-all duration-200 max-w-40 hover:bg-accent/80 hover:scale-110 hover:shadow-xl ${buttonClassName}`}
+                            className={`px-5 py-2 rounded-full text-accent-contrast text-center font-semibold transition-all duration-200 max-w-40 hover:scale-110 hover:shadow-xl ${buttonClassName}`}
+                            style={{ background: 'var(--color-accent-gradient)' }}
                         >
                             {buttonText}
                         </a>
@@ -34,10 +35,11 @@ export default function Service({ title, description, image, imageSide = "left",
                 <div className="bg-primary rounded-lg p-8 h-full flex flex-col items-stretch">
                     <h3 className="text-3xl font-bold mb-4 text-primary-foreground">{title}</h3>
                     <p className="text-md text-primary-foreground h-max">{description}</p>
-                    <div className="flex justify-end w-full mt-auto text-white ">
+                    <div className="flex justify-end w-full mt-auto text-accent-contrast ">
                         <a
                             href={buttonHref}
-                            className={`px-5 py-2 rounded-full bg-accent text-white text-center font-semibold transition-all duration-200 max-w-40 hover:bg-accent/80 hover:scale-110 hover:shadow-xl ${buttonClassName}`}
+                            className={`px-5 py-2 rounded-full text-accent-contrast text-center font-semibold transition-all duration-200 max-w-40 hover:scale-110 hover:shadow-xl ${buttonClassName}`}
+                            style={{ background: 'var(--color-accent-gradient)' }}
                         >
                             {buttonText}
                         </a>

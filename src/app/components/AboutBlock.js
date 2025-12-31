@@ -22,7 +22,8 @@ export default function AboutBlock({
                 window.location.href = buttonHref;
               }
             }}
-            className="mt-4 px-6 py-2 rounded-full bg-accent text-white font-bold shadow hover:bg-accent/80 transition-all"
+            className="mt-4 px-6 py-2 rounded-full text-accent-contrast font-bold shadow hover:scale-110 hover:shadow-xl transition-all"
+            style={{ background: 'var(--color-accent-gradient)' }}
           >
             {buttonText}
           </button>

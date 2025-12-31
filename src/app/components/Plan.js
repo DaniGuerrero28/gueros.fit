@@ -23,7 +23,10 @@ export default function Plan({ title, price, originalPrice, description, feature
       )}
       {/* Badge tipo punto de libro en la esquina superior derecha */}
       {badge && (
-        <div className={`absolute right-8 top-8 px-4 py-2 rounded-full text-xs font-semibold ${highlight ? 'text-white bg-accent' : 'text-foreground bg-accent/50'}`}>
+        <div 
+          className={`absolute right-8 top-8 px-4 py-2 rounded-full text-xs font-semibold ${highlight ? 'text-accent-contrast' : 'text-foreground'}`}
+          style={highlight ? { background: 'var(--color-accent-gradient)' } : { background: 'var(--color-accent-gradient)', opacity: 0.5 }}
+        >
           {badge}
         </div>
       )}

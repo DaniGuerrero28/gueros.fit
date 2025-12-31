@@ -25,7 +25,7 @@ const inter = Inter({
 
 const TITLE_DEFAULT = "Entrenamiento Personal Online y Nutrición | GUEROS Fitness";
 const DESCRIPTION_DEFAULT =
-  "Entrenamiento personal online, nutrición personalizada y seguimiento mensual con app exclusiva. Transforma tu físico y tu estilo de vida con GUEROS Fitness.";
+  "Entrenamiento personal online, nutrición personalizada y seguimiento mensual con app muy exclusiva. Transforma tu físico y tu estilo de vida con GUEROS Fitness.";
 
 export const metadata = {
   // Hace que todas las URLs relativas se resuelvan desde tu dominio

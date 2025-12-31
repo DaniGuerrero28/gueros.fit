@@ -20,10 +20,10 @@ export default function HeroSection() {
                 const el = document.getElementById("planes-section");
                 if (el) el.scrollIntoView({ behavior: "smooth" });
               }}
-              className="mt-4 bg-gradient-to-br from-[#81cba6] from-40% to-90% to-[#255a40] rounded-full text-lg font-semibold shadow-lg hover:scale-110 hover:shadow-xl hover:bg-[#005bc9]/80 transition-all inline-block text-white py-4 px-8 relative overflow-hidden focus:outline-none"
-              style={{ position: "relative" }}
+              className="mt-4 rounded-full text-lg font-semibold shadow-lg hover:scale-110 hover:shadow-xl transition-all inline-block text-white py-4 px-8 relative overflow-hidden focus:outline-none"
+              style={{ position: "relative", background: "var(--color-accent-gradient)" }}
             >
-              <span className="relative z-10">¡Empieza ahora!</span>
+              <span className="relative z-10 text-background">¡Empieza ahora!</span>
               {/* Brillo animado */}
               <span
                 className="absolute top-0 left-0 h-full w-full pointer-events-none"

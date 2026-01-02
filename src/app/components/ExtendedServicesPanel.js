@@ -4,7 +4,7 @@ import ExtendedService from "./ExtendedService";
 const EXTENDED_SERVICES = [
   {
     title: "Entrenamiento",
-    image: "/images/1.jpg",
+    image: "/images/hero_man_holding_plate.webp",
     description: `Proporcionamos rutinas personalizadas adaptadas a tus objetivos, necesidades, restricciones físicas, dolores o lesiones previas. Cada entrenamiento es único para ti.
 
 - Rutinas adaptadas a lesiones y dolencias
@@ -14,7 +14,7 @@ const EXTENDED_SERVICES = [
   },
   {
     title: "Dieta",
-    image: "/images/2.jpg",
+    image: "/images/service_nutrition_plate.webp",
     description: `Recibirás una dieta y guía nutricional personalizada, flexible y modificable según tus necesidades y evolución. Nos adaptamos a ti en todo momento.
 
 - Dieta flexible y personalizada
@@ -24,7 +24,7 @@ const EXTENDED_SERVICES = [
   },
   {
     title: "Motivación",
-    image: "/images/3.jpg",
+    image: "/images/service_motivation_training.webp",
     description: `Nuestros entrenadores personales y la comunidad te motivarán día a día para que no pierdas el foco y sigas adelante con tus objetivos.
 
 - Apoyo de entrenadores
@@ -34,7 +34,7 @@ const EXTENDED_SERVICES = [
   },
   {
     title: "App",
-    image: "/images/app_full.png",
+    image: "/images/app_phone_mockup.webp",
     description: `La app de GUEROS reúne todo: entrenamiento, dieta y comunidad. Es tu herramienta central para avanzar y mantenerte motivado/a.
 
 - Acceso a rutinas y dieta

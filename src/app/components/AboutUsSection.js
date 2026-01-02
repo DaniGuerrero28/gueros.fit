@@ -3,18 +3,18 @@ import AboutBlock from "./AboutBlock";
 import TeamSection from "./TeamSection";
 
 const aboutImages = [
-  "/images/1.jpg",
-  "/images/2.jpg",
-  "/images/3.jpg",
-  "/images/4.jpg",
-  "/images/5.jpg"
+  "/images/hero_man_holding_plate.webp",
+  "/images/service_nutrition_plate.webp",
+  "/images/service_motivation_training.webp",
+  "/images/about_gallery_training.webp",
+  "/images/about_gallery_workout.webp"
 ];
 
 export const TEAM = [
   {
     name: "Dani Guerrero",
     role: "Fundador & CEO",
-    img: "/images/dani_guerrero.jpg",
+    img: "/images/team_dani_guerrero.webp",
     socials: {
       instagram: "https://www.instagram.com/dani.guerreroo_?igsh=ZDdncmRpdXRxcmdp&utm_source=qr",
       tiktok: "https://www.tiktok.com/@daniiiii.gc",
@@ -25,7 +25,7 @@ export const TEAM = [
   {
     name: "Carles Moya",
     role: "Chief technical officer",
-    img: "/images/carles.png",
+    img: "/images/team_carles_moya.webp",
     socials: {
       email: "carlesmg.cmg@gmail.com",
       github: "https://github.com/CarlesMG6",
@@ -35,7 +35,7 @@ export const TEAM = [
   {
     name: "Mauricio Carletti",
     role: "Fotógrafo & Videógrafo",
-    img: "/images/mau.jpg",
+    img: "/images/team_mauricio_carletti.webp",
     socials: {
       instagram: "https://www.instagram.com/mauriciocarlettii/#",
       tiktok: "https://www.tiktok.com/@bycarletti"

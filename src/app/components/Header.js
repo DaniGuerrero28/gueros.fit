@@ -57,7 +57,7 @@ export default function Header() {
           className="transition-all duration-300"
         >
           <Image
-            src="/images/Gueros-logo-gold.png"
+            src="/images/logo_transparent.webp"
             alt="Gueros Logo"
             width={160}         // valores “base” para Next
             height={40}

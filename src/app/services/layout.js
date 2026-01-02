@@ -12,7 +12,7 @@ export const metadata = {
     url: SITE_URL + "/services",
     images: [
       {
-        url: SITE_URL + "/images/insta-Gueros-logo-gold.png",
+        url: SITE_URL + "/images/og_image_home.webp",
         width: 1200,
         height: 630,
         alt: "Servicios GUEROS"
@@ -24,7 +24,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "¿Que ofrecemos? | GUEROS Fitness",
     description: "Descubre nuestros servicios de entrenamiento personalizado, nutrición y motivación.",
-    images: [SITE_URL + "/images/insta-Gueros-logo-gold.png"]
+    images: [SITE_URL + "/images/og_image_home.webp"]
   },
   icons: {
     icon: SITE_ICON,

@@ -12,7 +12,7 @@ export const metadata = {
     url: SITE_URL + "/app",
     images: [
       {
-        url: SITE_URL + "/images/app_full.png",
+        url: SITE_URL + "/images/app_phone_mockup.webp",
         width: 1200,
         height: 630,
         alt: "App GUEROS"
@@ -24,7 +24,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "App GUEROS | Fitness en tu móvil",
     description: "Descarga la app de GUEROS y lleva tu entrenamiento, nutrición y comunidad siempre contigo.",
-    images: [SITE_URL + "/images/app_full.png"]
+    images: [SITE_URL + "/images/app_phone_mockup.webp"]
   },
   icons: {
     icon: SITE_ICON,

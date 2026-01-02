@@ -4,22 +4,22 @@ import AppPromo from "./AppPromo";
 const FEATURES = [
 	{
 		title: "Nutrición",
-		img: "/images/app-nutri.png",
+		img: "/images/app_screen_nutrition.webp",
 		desc: "Lleva el control de tus calorías, registra tus comidas, recibe consejos nutricionales y descubre recetas recomendadas para alcanzar tus objetivos de forma saludable.",
 	},
 	{
 		title: "Ejercicio",
-		img: "/images/app-ejercicio.png",
+		img: "/images/app_screen_exercise.webp",
 		desc: "Accede a planes de ejercicio personalizados de tu entrenador, anota tus ejercicios, busca rutinas, sigue tus progresos y aprende la forma correcta de cada movimiento.",
 	},
 	{
 		title: "Recetas",
-		img: "/images/app-recetas.png",
+		img: "/images/app_screen_recipes.webp",
 		desc: "Explora una amplia variedad de recetas saludables, filtra por tus objetivos y preferencias, guarda tus favoritas y comparte tus propias creaciones con la comunidad.",
 	},
 	{
 		title: "Comunidad",
-		img: "/images/app-nutri.png",
+		img: "/images/app_screen_nutrition.webp",
 		desc: "Participa en foros, comparte tus logros, resuelve dudas y motívate con otros usuarios. La comunidad Gueros te acompaña en cada paso de tu transformación.",
 	},
 ];
@@ -36,7 +36,7 @@ export default function AppPromoExtended() {
 			{/*<div className="w-full flex justify-center mb-12">
 				<video
 					src="/videos/app-promo.mp4"
-					poster="/images/app-promo-poster.jpg"
+					poster="/images/app-promo-poster.webp"
 					controls
 					className="rounded-2xl shadow-lg w-full max-w-2xl bg-black"
 				>

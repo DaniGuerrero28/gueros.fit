@@ -12,7 +12,7 @@ export const metadata = {
     url: SITE_URL + "/contact",
     images: [
       {
-        url: SITE_URL + "/images/insta-Gueros-logo-gold.png",
+        url: SITE_URL + "/images/og_image_home.webp",
         width: 1200,
         height: 630,
         alt: "Contacto GUEROS"
@@ -24,7 +24,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Contáctanos | GUEROS Fitness",
     description: "¿Tienes dudas o quieres empezar tu transformación? Contacta con el equipo GUEROS.",
-    images: [SITE_URL + "/images/insta-Gueros-logo-gold.png"]
+    images: [SITE_URL + "/images/og_image_home.webp"]
   },
   icons: {
     icon: SITE_ICON,

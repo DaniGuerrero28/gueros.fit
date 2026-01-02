@@ -42,7 +42,7 @@ export default function HeroSection() {
         <div className="w-full lg:w-1/2 flex items-center justify-center relative order-1 lg:order-2 mb-2 lg:mb-0">
           <div className="relative w-full flex items-center justify-center">
             <img
-              src="/images/fitMan-hero.png"
+              src="/images/hero_man_training_outside.webp"
               alt="Fit man hero"
               className="object-contain"
               style={{

@@ -61,20 +61,20 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: `${SITE_URL}/images/og-home.webp`,
+        url: `${SITE_URL}/images/og_image_home.webp`,
         width: 1200,
         height: 630,
         alt: "GUEROS Fitness – Entrenamiento personal y nutrición online",
       },
     ],
-    logo: `${SITE_URL}/images/logo256x256.png`,
+    logo: `${SITE_URL}/images/logo_square_256.webp`,
   },
 
   twitter: {
     card: "summary_large_image",
     title: TITLE_DEFAULT,
     description: DESCRIPTION_DEFAULT,
-    images: [`${SITE_URL}/images/og-home.webp`],
+    images: [`${SITE_URL}/images/og_image_home.webp`],
     site: "@gueros_official",
   },
 

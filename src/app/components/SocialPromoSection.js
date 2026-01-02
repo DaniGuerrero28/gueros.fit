@@ -4,27 +4,27 @@ import { COMPANY_SOCIALS } from "../constants";
 
 const instagramPosts = [
   {
-    img: "/images/insta-post.png",
+    img: "/images/social_instagram_post_1.webp",
     url: "https://www.instagram.com/p/DKR6GQHshPk/",
     user: {
       name: "gueros_official",
-      avatar: "/images/instagramlogo.png"
+      avatar: "/images/logo_square_256.webp"
     }
   },
   {
-    img: "/images/insta-post-2.gif",
+    img: "/images/social_instagram_post_2.gif",
     url: "https://www.instagram.com/p/DMDgoYsIRyV/",
     user: {
       name: "gueros_official",
-      avatar: "/images/instagramlogo.png"
+      avatar: "/images/logo_square_256.webp"
     }
   },
   {
-    img: "/images/insta-post-3.png",
+    img: "/images/social_instagram_post_3.webp",
     url: "https://www.instagram.com/gueros_official/reel/DMNU0YmMDNh/",
     user: {
       name: "gueros_official",
-      avatar: "/images/instagramlogo.png"
+      avatar: "/images/logo_square_256.webp"
     }
   }
 ];

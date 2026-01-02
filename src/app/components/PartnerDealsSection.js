@@ -1,16 +1,16 @@
 const PARTNERS = [
   {
     name: "HSN",
-    logo: "/images/logoHSN.svg",
-    image: "/images/logoHSN.svg",
+    logo: "/images/partner_hsn_logo.svg",
+    image: "/images/partner_hsn_logo.svg",
     text: "Ver mis descuentos",
     description: "Nutrición deportiva y suplementación de calidad. Descubre los mejores productos para tu entrenamiento y salud.",
     url: "https://www.hsnstore.com/nutricion-deportiva?utm_source=hsnaffiliate&utm_medium=DGUERRERO&utm_campaign=category_3"
   },
   {
     name: "Pandeck",
-    logo: "/images/logoPANDECK.png",
-    image: "/images/logoPANDECK.png",
+    logo: "/images/partner_pandeck_logo.webp",
+    image: "/images/partner_pandeck_logo.webp",
     text: "Descurbrir ofertas",
     description: "Todo complemento que puedas necesitar para tu viaje fitness. Desde scoops de proteína hasta soportes para el movil.",
     url: "https://pandeck.com/"

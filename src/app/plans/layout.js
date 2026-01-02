@@ -12,7 +12,7 @@ export const metadata = {
     url: SITE_URL + "/plans",
     images: [
       {
-        url: SITE_URL + "/images/insta-Gueros-logo-gold.png",
+        url: SITE_URL + "/images/og_image_home.webp",
         height: 630,
         alt: "Planes GUEROS"
       }
@@ -23,7 +23,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Planes | GUEROS Fitness",
     description: "Compara nuestros planes de entrenamiento y nutrición.",
-    images: [SITE_URL + "/images/insta-Gueros-logo-gold.png"]
+    images: [SITE_URL + "/images/og_image_home.webp"]
   },
   icons: {
     icon: SITE_ICON,

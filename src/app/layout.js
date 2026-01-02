@@ -73,9 +73,8 @@ export const metadata = {
     card: "summary_large_image",
     title: TITLE_DEFAULT,
     description: DESCRIPTION_DEFAULT,
-    images: ["/images/insta-logo.png"],
-    // Opcional si usas X/Twitter de verdad:
-    // site: "@gueros_official",
+    images: ["/images/intagramlogo.png"],
+    site: "@gueros_official",
   },
 
   icons: {

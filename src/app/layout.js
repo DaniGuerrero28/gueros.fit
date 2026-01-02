@@ -67,6 +67,7 @@ export const metadata = {
         alt: "GUEROS Fitness – Entrenamiento personal y nutrición online",
       },
     ],
+    logo: `${SITE_URL}/images/logo256x256.png`,
   },
 
   twitter: {

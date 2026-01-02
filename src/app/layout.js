@@ -61,7 +61,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "/images/og-home.png", // misma imagen que ya usas
+        url: `${SITE_URL}/images/og-home.png`,
         width: 1200,
         height: 630,
         alt: "GUEROS Fitness – Entrenamiento personal y nutrición online",
@@ -73,7 +73,7 @@ export const metadata = {
     card: "summary_large_image",
     title: TITLE_DEFAULT,
     description: DESCRIPTION_DEFAULT,
-    images: ["/images/intagramlogo.png"],
+    images: [`${SITE_URL}/images/og-home.png`],
     site: "@gueros_official",
   },
 

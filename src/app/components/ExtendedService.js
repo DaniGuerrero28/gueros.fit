@@ -7,7 +7,7 @@ export default function ExtendedService({ title, image, description, imgContain 
       <div className="w-full aspect-[21/9] rounded-xl overflow-hidden mb-6">
         <img
           src={image}
-          alt={title}
+          alt={`Imagen de ${title}`}
           className={`w-full h-full rounded-xl ${imgContain ? "object-contain" : "object-cover"}`}
           style={{ aspectRatio: "21/9" }}
         />

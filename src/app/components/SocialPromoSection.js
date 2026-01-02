@@ -9,7 +9,8 @@ const instagramPosts = [
     user: {
       name: "gueros_official",
       avatar: "/images/logo_square_256.webp"
-    }
+    },
+    alt: "Post de Instagram mostrando entrenamiento"
   },
   {
     img: "/images/social_instagram_post_2.gif",
@@ -17,7 +18,8 @@ const instagramPosts = [
     user: {
       name: "gueros_official",
       avatar: "/images/logo_square_256.webp"
-    }
+    },
+    alt: "Post de Instagram con ejercicio en movimiento"
   },
   {
     img: "/images/social_instagram_post_3.webp",
@@ -25,7 +27,8 @@ const instagramPosts = [
     user: {
       name: "gueros_official",
       avatar: "/images/logo_square_256.webp"
-    }
+    },
+    alt: "Reel de Instagram sobre fitness"
   }
 ];
 
@@ -51,11 +54,11 @@ export default function SocialPromoSection() {
             <div key={idx} className="bg-white rounded-2xl shadow-lg flex flex-col overflow-hidden border border-gray-100 hover:scale-105 hover:shadow-xl transition-all">
               {/* Header: avatar y nombre */}
               <div className="flex items-center gap-3 px-4 py-3 bg-gray-50 border-b border-gray-100">
-                <img src={post.user.avatar} alt={post.user.name + ' avatar'} className="w-8 h-8 rounded-full object-cover border border-gray-200" />
+                <img src={post.user.avatar} alt={`Avatar de ${post.user.name}`} className="w-8 h-8 rounded-full object-cover border border-gray-200" />
                 <span className="font-semibold text-gray-800 text-sm">{post.user.name}</span>
               </div>
               {/* Imagen principal */}
-              <img src={post.img} alt={`Instagram post ${idx + 1}`} className="w-full object-cover aspect-square bg-gray-100" />
+              <img src={post.img} alt={post.alt} className="w-full object-cover aspect-square bg-gray-100" />
               {/* Footer: avatar y botones */}
               <div className="flex items-center justify-between px-4 py-3 bg-gray-50 border-t border-gray-100">
                 <div className="flex items-center gap-4 text-xl text-gray-500">

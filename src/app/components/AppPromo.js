@@ -32,7 +32,7 @@ export default function AppPromo() {
         >
           <img
             src="/images/store_google_play.webp"
-            alt="Google Play Logo"
+            alt="Logo de Google Play"
             width={42}
             height={42}
           />
@@ -45,7 +45,7 @@ export default function AppPromo() {
 
       <img
         src="/images/app_phone_mockup.webp"
-        alt="App de GUEROS"
+        alt="Mockup de teléfono con la aplicación"
         className="w-full max-w-sm md:max-w-lg rounded-xl mt-8"
       />
     </div>

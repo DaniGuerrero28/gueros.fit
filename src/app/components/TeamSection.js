@@ -25,7 +25,7 @@ export default function TeamSection({ team }) {
         {(showAll ? team : team.slice(0, 3)).map((member) => (
           <div key={member.name} className="flex flex-col items-center rounded-2xl shadow-lg p-4 w-10/12 mx-auto md:m-0 md:w-auto">
             <div className="w-full overflow-hidden mb-4 aspect-[12/9] rounded-lg">
-              <Image src={member.img} alt={member.name} width={128} height={128} className="object-cover w-full h-full" />
+              <Image src={member.img} alt={`Foto de ${member.name}`} width={128} height={128} className="object-cover w-full h-full" />
             </div>
             <div className="font-bold text-lg text-primary mb-1">{member.name}</div>
             <div className="text-md text-primary/80 mb-2">{member.role}</div>

@@ -69,7 +69,7 @@ export default function ContactForm() {
           <div className="relative w-full flex items-center mb-8">
             <img
               src={CONTACT_URL}
-               alt="Consulta GUEROS"
+               alt="Hombre al teléfono"
                 className="object-cover w-full h-52 rounded-xl object-[50%_55%] md:object-[50%_35%]"
                   style={{ position: 'relative', zIndex: 1 }}
          />
@@ -137,7 +137,7 @@ export default function ContactForm() {
         <div className="flex-1 hidden md:flex justify-center items-center">
           <img
             src={CONTACT_URL}
-            alt="Contacto Gueros"
+            alt="Fondo de contacto con entrenamiento"
             className="w-96 h-full object-contain rounded-4xl"
             style={{ minWidth: 200 }}
           />

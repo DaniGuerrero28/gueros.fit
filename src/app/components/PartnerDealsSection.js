@@ -42,7 +42,7 @@ export default function PartnerDealsSection() {
           <div key={partner.name} className="flex flex-col md:flex-row items-center bg-primary rounded-xl shadow p-6 gap-6">
             <img
               src={partner.image}
-              alt={partner.name + ' foto'}
+              alt={`Logo de ${partner.name}`}
               className="h-32 w-32 object-contain rounded-lg md:mb-0"
             />
             <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left text-accent-contrast">

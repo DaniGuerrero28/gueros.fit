@@ -56,7 +56,7 @@ export default function AppPromoExtended() {
 							<div className="w-10/12 aspect-square md:w-96 rounded-2xl overflow-hidden">
 								<Image
 									src={f.img}
-									alt={f.title}
+								alt={`Pantalla de ${f.title} en la aplicación`}
 									width={320}
 									height={320}
 									className="object-contain w-full h-full"

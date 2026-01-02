@@ -58,7 +58,7 @@ export default function Header() {
         >
           <Image
             src="/images/logo_transparent.webp"
-            alt="Gueros Logo"
+            alt="Logo de Gueros Fitness"
             width={160}         // valores “base” para Next
             height={40}
             className="h-10 w-auto md:h-12 object-contain" // aquí mandas tú el tamaño real

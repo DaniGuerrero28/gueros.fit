@@ -13,7 +13,7 @@ export default function HistoryPage() {
           <p>
             Esta conmovedora historia es la de nuestro fundador y CEO, quien, inspirado por su propia lucha para superar el bullying y mejorar su físico, decidió dedicar su vida a ayudar a otros a transformar su físico, salud y bienestar. A través de este relato, descubrirás cómo Gueros Fitness nació con la misión de cambiar vidas, no solo cuerpos, y cómo cada transformación es un paso hacia una vida más saludable, llena de energía y confianza.
           </p>
-          <Image src="/images/team_dani_guerrero.webp" alt="Fundador Gueros" width={600} height={400} className="mx-auto rounded-2xl shadow mb-6 object-cover" />
+          <Image src="/images/team_dani_guerrero.webp" alt="Dani Guerrero, fundador de Gueros Fitness" width={600} height={400} className="mx-auto rounded-2xl shadow mb-6 object-cover" />
           <h2 className="text-2xl font-bold mt-8 mb-2">Sobre Nosotros</h2>
           <p>
             Todo comenzó con un niño que, debido a su físico, fue víctima de bullying. Esas experiencias marcaron su vida de una manera profunda, generando una sensación constante de querer ser mejor, de transformar lo que sentía como su debilidad en una fortaleza. Desde joven, la lucha fue clara: mejorar cada día, no solo físicamente, sino en todos los aspectos de su vida. Fue entonces cuando entendió que un cuerpo sano y fuerte no solo se refleja en un físico atractivo, sino en una confianza inquebrantable, en una energía imparable para afrontar los retos, y en la capacidad de relacionarse mejor, tanto en su vida personal como profesional.

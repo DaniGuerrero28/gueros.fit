@@ -246,7 +246,7 @@ export default function PlanSection() {
           return (
             <div
               key={plan.title}
-              className="w-[80vw] max-w-[80vw] flex-shrink-0 px-2"
+              className="max-w-[80vw] flex-shrink-0 px-2"
               style={{ scrollSnapAlign: 'center' }}
               ref={el => {
                 if (!window._planRefs) window._planRefs = [];

@@ -1,22 +1,49 @@
 import { useEffect, useState } from "react";
 
-export default function Plan({ title, price, originalPrice, description, features, image, ctaLabel, ctaHref, highlight = false, badge = null, custom = false, paymentText = '' }) {
+export default function Plan({ 
+  title, 
+  price, 
+  originalPrice, 
+  description, 
+  features, 
+  image, 
+  git,
+  ctaLabel, 
+  ctaHref, 
+  badge = null, 
+  custom = false, 
+  paymentText = '',
+  styles = {}
+}) {
+  const {
+    containerClasses = 'bg-primary-foreground text-primary shadow',
+    containerStyle = {},
+    showShineEffect = false,
+    badgeClasses = 'text-foreground',
+    badgeStyle = {},
+    titleClasses = 'text-primary',
+    descriptionClasses = 'text-secondary-foreground',
+    featuresClasses = 'text-primary',
+    priceClasses = 'text-primary',
+    originalPriceClasses = 'text-secondary',
+    paymentTextClasses = 'text-secondary',
+    ctaContainerClasses = 'text-background',
+    ctaClasses = 'bg-primary hover:bg-primary/80'
+  } = styles;
+
   return (
     <>
       <div
-        className={`relative rounded-3xl p-8 flex flex-col items-stretch w-full max-w-sm transition-all duration-200 gap-4
-          ${highlight ? 'bg-foreground text-primary-foreground shadow-2xl scale-105 z-10 max-w-md' : (title === 'VIP' ? 'shadow' : ' bg-primary-foreground text-primary  shadow' )}
-          ${custom ? 'bg-white text-black' : ''}
-        `}
+        className={`relative rounded-3xl p-8 flex flex-col items-stretch w-full max-w-sm transition-all duration-200 gap-4 ${containerClasses} ${custom ? 'bg-white text-black' : ''}`}
         style={{ 
           minHeight: 520, 
           position: 'relative', 
           overflow: 'hidden',
-          ...(title === 'VIP' && { background: 'var(--color-accent-gradient)' })
+          ...containerStyle
         }}
       >
-      {/* Efecto brillo dorado solo para VIP */}
-      {title === 'VIP' && (
+      {/* Efecto brillo */}
+      {showShineEffect && (
         <span className="absolute top-0 left-0 h-full w-full pointer-events-none z-10">
           <span className="block h-full w-2/3 bg-gradient-to-r from-transparent via-white/40 to-transparent opacity-60 blur-sm animate-shine-bounce" />
         </span>
@@ -24,21 +51,21 @@ export default function Plan({ title, price, originalPrice, description, feature
       {/* Badge tipo punto de libro en la esquina superior derecha */}
       {badge && (
         <div 
-          className={`absolute right-8 top-8 px-4 py-2 rounded-full text-xs font-semibold ${highlight ? 'text-accent-contrast' : 'text-foreground'}`}
-          style={highlight ? { background: 'var(--color-accent-gradient)' } : { background: 'var(--color-accent-gradient)', opacity: 0.5 }}
+          className={`absolute right-8 top-8 px-4 py-2 rounded-full text-xs font-semibold ${badgeClasses}`}
+          style={badgeStyle}
         >
           {badge}
         </div>
       )}
       {/* Título */}
-      <h2 className={`text-2xl font-bold font-montserrat ${title === 'VIP' ? 'text-primary' : highlight ? 'text-primary-foreground' : 'text-primary' }`}>{title}</h2>
+      <h2 className={`text-2xl font-bold font-montserrat ${titleClasses}`}>{title}</h2>
       {/* Descripción */}
-      <p className={`text-base ${title === 'VIP' ? 'text-secondary' : highlight ?  'text-secondary' : 'text-secondary-foreground'}`}>{description}</p>
+      <p className={`text-base ${descriptionClasses}`}>{description}</p>
       {/* Features */}
-      <ul className={`text-sm space-y-2 w-full h-60 md:h-64 lg:h-52 xl:h-44 max-w-xs mx-auto ${title === 'VIP' ? 'text-primary' : highlight ? 'text-primary-foreground' :  'text-primary'}`}>
+      <ul className={`text-sm space-y-2 w-full h-60 md:h-64 lg:h-52 xl:h-44 max-w-xs mx-auto ${featuresClasses}`}>
         {features && features.map((f, i) => (
           <li key={i} className="flex items-start gap-2">
-            <span className={`font-bold ${highlight ? 'text-accent' : 'text-accent'}`}>✔</span> <span>{f}</span>
+            <span className="font-bold text-accent">✔</span> <span>{f}</span>
           </li>
         ))}
       </ul>
@@ -46,28 +73,26 @@ export default function Plan({ title, price, originalPrice, description, feature
       <div className="flex flex-col items-start">
         <div className="flex flex-row items-start gap-2">
           {originalPrice && originalPrice !== price && (
-            <div className={`text-lg mb-2 line-through ${highlight ? 'text-secondary-foreground' : 'text-secondary' }`}>{originalPrice}</div>
+            <div className={`text-lg mb-2 line-through ${originalPriceClasses}`}>{originalPrice}</div>
           )}
-          <div className={`text-4xl mb-2 ${highlight ? 'text-primary-foreground' : 'text-primary'}`}>{price}</div>
-          <div className={`flex text-sm w-32 ${highlight ?  'text-secondary-foreground' : 'text-secondary'}`}> / al mes</div>
+          <div className={`text-4xl mb-2 ${priceClasses}`}>{price}</div>
+          <div className={`flex text-sm w-32 ${paymentTextClasses}`}> / al mes</div>
         </div>
         {paymentText && (
-            <div className={`flex text-sm flex-grow w-full text-right ${highlight ?  'text-secondary-foreground': 'text-secondary'}`}> {paymentText} </div>
+            <div className={`flex text-sm flex-grow w-full text-right ${paymentTextClasses}`}> {paymentText} </div>
         )}
       </div>
       {/* CTA */}
       {ctaLabel && ctaHref && (
-        <div className={`w-full flex ${highlight ? 'text-foreground' :  'text-background' }`}>
+        <div className={`w-full flex ${ctaContainerClasses}`}>
         <a
           href={ctaHref}
-          className={`mt-4 px-0 py-3 rounded-full font-semibold  w-full text-center text-lg
-            ${highlight ? 'bg-primary-foreground hover:bg-primary-foreground/80' : 'bg-primary hover:bg-primary/80'}
-            hover:scale-110 hover:shadow-xl transition-all`}
-            style={{ minHeight: 48 }}
-            >
+          className={`mt-4 px-0 py-3 rounded-full font-semibold w-full text-center text-lg ${ctaClasses} hover:scale-110 hover:shadow-xl transition-all`}
+          style={{ minHeight: 48 }}
+        >
           {ctaLabel}
         </a>
-            </div>
+        </div>
       )}
       {/* Nota inferior */}
       {custom && (

@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 // Configuración de la promoción
 const DISCOUNT_PERCENTAGE = 40;
 const PROMO_CODE = "2026";
-const PROMO_END_DATE = new Date("2026-01-03T23:59:59"); // Fecha de finalización
+const PROMO_END_DATE = new Date("2026-01-06T23:59:59"); // Fecha de finalización
 
 export default function PromoPopup() {
   const [show, setShow] = useState(true);

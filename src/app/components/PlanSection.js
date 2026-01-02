@@ -29,6 +29,21 @@ const PLANS = [
       trim: "https://buy.stripe.com/7sI9DvaHx0fM7xm9AA",
       seme: "https://buy.stripe.com/00gbLD8zpgeK7xm4gi",
       anu: "https://buy.stripe.com/7sI2b38zpfaGaJyfZ1"
+    },
+    styles: {
+      containerClasses: 'bg-primary-foreground text-primary shadow',
+      containerStyle: {},
+      showShineEffect: false,
+      badgeClasses: 'text-foreground',
+      badgeStyle: { background: 'var(--color-accent-gradient)', opacity: 0.5 },
+      titleClasses: 'text-primary',
+      descriptionClasses: 'text-secondary-foreground',
+      featuresClasses: 'text-primary',
+      priceClasses: 'text-primary',
+      originalPriceClasses: 'text-secondary',
+      paymentTextClasses: 'text-secondary',
+      ctaContainerClasses: 'text-background',
+      ctaClasses: 'bg-primary hover:bg-primary/80'
     }
   },
   {
@@ -52,6 +67,21 @@ const PLANS = [
       trim: "https://buy.stripe.com/fZe7vn2b1e6CaJybIM",
       seme: "https://buy.stripe.com/bIY6rj9Dt6EaeZOaER",
       anu: "https://buy.stripe.com/8wMaHzg1R9Qm2d25ky"
+    },
+    styles: {
+      containerClasses: 'bg-foreground text-primary-foreground shadow-2xl scale-105 z-10 max-w-md',
+      containerStyle: {},
+      showShineEffect: false,
+      badgeClasses: 'text-accent-contrast',
+      badgeStyle: { background: 'var(--color-accent-gradient)' },
+      titleClasses: 'text-primary-foreground',
+      descriptionClasses: 'text-secondary',
+      featuresClasses: 'text-primary-foreground',
+      priceClasses: 'text-primary-foreground',
+      originalPriceClasses: 'text-secondary-foreground',
+      paymentTextClasses: 'text-secondary-foreground',
+      ctaContainerClasses: 'text-foreground',
+      ctaClasses: 'bg-primary-foreground hover:bg-primary-foreground/80'
     }
   },
   {
@@ -75,6 +105,21 @@ const PLANS = [
       trim: "http://buy.stripe.com/aEUeXPbLB6Ea4la9AK",
       seme: "https://buy.stripe.com/6oE3f7aHx3rY18Y00b",
       anu: "https://buy.stripe.com/5kAg1TeXNe6CaJyfZa"
+    },
+    styles: {
+      containerClasses: 'shadow',
+      containerStyle: { background: 'var(--color-accent-gradient)' },
+      showShineEffect: true,
+      badgeClasses: 'text-foreground',
+      badgeStyle: { background: 'var(--color-accent-gradient)', opacity: 0.5 },
+      titleClasses: 'text-primary',
+      descriptionClasses: 'text-secondary',
+      featuresClasses: 'text-primary',
+      priceClasses: 'text-primary',
+      originalPriceClasses: 'text-secondary',
+      paymentTextClasses: 'text-secondary',
+      ctaContainerClasses: 'text-background',
+      ctaClasses: 'bg-primary hover:bg-primary/80'
     }
   },
 ];
@@ -227,9 +272,9 @@ export default function PlanSection() {
                 image={plan.image}
                 ctaLabel={plan.custom ? 'Contactar' : 'Elegir este plan'}
                 ctaHref={ctaHref}
-                highlight={plan.highlight}
                 badge={plan.badge}
                 custom={plan.custom}
+                styles={plan.styles}
                 paymentText={
                   plan.custom
                     ? ''
@@ -337,9 +382,9 @@ export default function PlanSection() {
               image={plan.image}
               ctaLabel={plan.custom ? 'Contactar' : 'Elegir este plan'}
               ctaHref={ctaHref}
-              highlight={plan.highlight}
               badge={plan.badge}
               custom={plan.custom}
+              styles={plan.styles}
               paymentText={
                 plan.custom
                   ? ''

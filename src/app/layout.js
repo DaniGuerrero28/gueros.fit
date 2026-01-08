@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono, Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 import {
   SITE_URL,
@@ -7,6 +8,7 @@ import {
   SITE_THEME_COLOR,
 } from "./constants";
 
+/* fonts */
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -23,15 +25,15 @@ const inter = Inter({
   weight: ["400", "700", "900"],
 });
 
-const TITLE_DEFAULT = "Entrenamiento Personal Online y Nutrición | GUEROS Fitness";
+const TITLE_DEFAULT =
+  "Entrenamiento Personal Online y Nutrición | GUEROS Fitness";
+
 const DESCRIPTION_DEFAULT =
-  "Entrenamiento personal online, nutrición personalizada y seguimiento mensual con app muy exclusiva. Transforma tu físico y tu estilo de vida con GUEROS Fitness.";
+  "Entrenamiento personal online, nutrición personalizada y seguimiento mensual con app exclusiva. Transforma tu físico y tu estilo de vida con GUEROS Fitness.";
 
 export const metadata = {
-  // Hace que todas las URLs relativas se resuelvan desde tu dominio
   metadataBase: new URL(SITE_URL),
 
-  // Título base + plantilla para futuras páginas (SEO friendly)
   title: {
     default: TITLE_DEFAULT,
     template: "%s | GUEROS Fitness",
@@ -61,21 +63,19 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: `${SITE_URL}/images/og_image_home.webp`,
+        url: "/images/og-home.png",
         width: 1200,
         height: 630,
         alt: "GUEROS Fitness – Entrenamiento personal y nutrición online",
       },
     ],
-    logo: `${SITE_URL}/images/logo_square_256.webp`,
   },
 
   twitter: {
     card: "summary_large_image",
     title: TITLE_DEFAULT,
     description: DESCRIPTION_DEFAULT,
-    images: [`${SITE_URL}/images/og_image_home.webp`],
-    site: "@gueros_official",
+    images: ["/images/insta-Gueros-logo-gold.png"],
   },
 
   icons: {
@@ -84,7 +84,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "/", // con metadataBase ya se convierte en https://gueros.fit/
+    canonical: "/",
   },
 
   robots: {
@@ -102,6 +102,9 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable}`}
       >
         {children}
+
+        {/* Vercel Analytics */}
+        <Analytics />
       </body>
     </html>
   );

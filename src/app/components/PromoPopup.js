@@ -6,7 +6,7 @@ const PROMO_CODE = "2026";
 const PROMO_END_DATE = new Date("2026-01-06T23:59:59"); // Fecha de finalización
 
 export default function PromoPopup() {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(new Date() < PROMO_END_DATEs);
   const [copied, setCopied] = useState(false);
   const [showClose, setShowClose] = useState(true);
   const [timeLeft, setTimeLeft] = useState(null);

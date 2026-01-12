@@ -48,8 +48,8 @@ export default function TestimonialsSection() {
 
   return (
     <section className="w-full py-16 md:py-24 bg-background text-foreground overflow-hidden mb-36 md:mb-28">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
-        <h2 className="text-4xl md:text-6xl font-semibold leading-tight text-center mb-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 items-center">
+        <h2 className="text-4xl xl:text-6xl font-semibold leading-tight font-montserrat max-w-3xl text-center mx-auto mb-4">
           Transformaciones Reales
         </h2>
         <p className="text-md text-center max-w-2xl mx-auto">
@@ -184,7 +184,7 @@ export default function TestimonialsSection() {
         }
 
         .animate-scroll-left {
-          animation: scroll-left 40s linear infinite;
+          animation: scroll-left 20s linear infinite;
         }
 
         .hover\\:pause-animation:hover {

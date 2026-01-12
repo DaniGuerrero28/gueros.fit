@@ -14,7 +14,7 @@ export default function TestimonialCard({ testimonial }) {
   }, []);
 
   return (
-    <div className="flex-shrink-0 w-full md:w-60 lg:w-80 mx-4 bg-primary-foreground rounded-2xl shadow-lg overflow-hidden">
+    <div className="flex-shrink-0 w-full md:w-[600px] lg:w-[700px] mx-4 bg-primary-foreground rounded-2xl shadow-lg overflow-hidden">
       <div className="grid md:grid-cols-2 gap-0">
         {/* Columna izquierda - Imagen */}
         <div className="relative h-full min-h-[300px] overflow-hidden bg-secondary-mute">
@@ -47,3 +47,5 @@ export default function TestimonialCard({ testimonial }) {
     </div>
   );
 }
+
+

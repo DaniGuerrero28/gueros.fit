@@ -3,7 +3,7 @@ import { FaApple } from "react-icons/fa";
 export default function AppPromo() {
   return (
     <div id="app-section" className="flex flex-1 flex-col items-center justify-center px-4 py-12">
-      <h2 className="text-4xl md:text-6xl font-semibold leading-tight font-montserrat max-w-2xl text-center">Descarga nuestra app</h2>
+      <h2 className="text-4xl xl:text-6xl font-semibold leading-tight font-montserrat max-w-2xl text-center">Descarga nuestra app</h2>
       <p className="w-10/12 md:w-full text-md text-center mb-8 max-w-xl">
         Lleva tu entrenamiento y nutrición al siguiente nivel con la app de GUEROS. Accede a rutinas personalizadas, seguimiento de progreso, comunidad exclusiva y mucho más, <span className="font-bold uppercase">TODO</span> desde tu móvil.
       </p>

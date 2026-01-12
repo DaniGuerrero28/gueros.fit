@@ -7,6 +7,7 @@ import HeroSection from "./components/HeroSection";
 import FAQs from "./components/FAQs";
 import PlanSection from "./components/PlanSection";
 import ServicesSection from "./components/ServicesSection";
+import TestimonialsSection from "./components/TestimonialsSection";
 import Footer from "./components/Footer";
 
 export default function Home() {
@@ -45,6 +46,7 @@ export default function Home() {
       <HeroSection />
       <PlanSection />
       <ServicesSection />
+      <TestimonialsSection />
       <FAQs />
       <AppPromo />
       <Footer />

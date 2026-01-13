@@ -53,7 +53,7 @@ export default function TestimonialsSection() {
           Transformaciones Reales
         </h2>
         <p className="text-md text-center max-w-2xl mx-auto">
-          Estos son algunos de los cambios físicos que han conseguido nuestros clientes con dedicación y nuestro acompañamiento personalizado.
+          Estos son algunos de los cambios físicos que han conseguido nuestros clientes con dedicación y acompañamiento personalizado.
         </p>
       </div>
 

@@ -1,4 +1,4 @@
-# GUEROS Web Project – Tecnologías y Funcionalidades
+# Web Base project – Tecnologías y Funcionalidades
 
 ## Frontend
 - **Framework**: Next.js (App Router)
@@ -14,13 +14,6 @@
 - **Routes**: API route `/api/contact` para formularios
   - Validación de datos
   - Envío de email con NodeMailer o SendGrid
-  - Almacenamiento en base de datos (MongoDB/Postgres)
-
-## Pasarela de Pago
-- **Stripe**
-  - Integración con `@stripe/stripe-js`
-  - Uso de links de precio pre-configurados en Dashboard
-  - Redirección: `/gracias` y `/planes?canceled=true`
 
 ## Infraestructura
 - **Hosting**: Vercel (SSG/SSR según conveniencia)

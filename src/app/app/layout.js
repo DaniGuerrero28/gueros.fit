@@ -1,30 +1,30 @@
-import { SITE_URL, SITE_ICON, SITE_APPLE_ICON, SITE_THEME_COLOR } from "../constants";
+import { SITE_URL, SITE_ICON, SITE_APPLE_ICON, SITE_THEME_COLOR, PAGES_CONFIG, SEO_CONFIG } from "../config";
+
+const pageConfig = PAGES_CONFIG.app;
 
 export const metadata = {
-  title: "App GUEROS | Fitness en tu móvil",
-  description: "Descarga la app de GUEROS y lleva tu entrenamiento, nutrición y comunidad siempre contigo. Disponible en iOS y Android.",
-  keywords: [
-    "app", "fitness", "descarga", "móvil", "gueros", "rutinas", "nutrición", "comunidad"
-  ],
+  title: pageConfig.title,
+  description: pageConfig.description,
+  keywords: pageConfig.keywords,
   openGraph: {
-    title: "App GUEROS | Fitness en tu móvil",
-    description: "Descarga la app de GUEROS y lleva tu entrenamiento, nutrición y comunidad siempre contigo.",
+    title: pageConfig.title,
+    description: pageConfig.description,
     url: SITE_URL + "/app",
     images: [
       {
-        url: SITE_URL + "/images/app_phone_mockup.webp",
-        width: 1200,
-        height: 630,
-        alt: "App GUEROS"
+        url: SITE_URL + pageConfig.ogImage,
+        width: SEO_CONFIG.ogImageWidth,
+        height: SEO_CONFIG.ogImageHeight,
+        alt: pageConfig.ogImageAlt
       }
     ],
     type: "website"
   },
   twitter: {
     card: "summary_large_image",
-    title: "App GUEROS | Fitness en tu móvil",
-    description: "Descarga la app de GUEROS y lleva tu entrenamiento, nutrición y comunidad siempre contigo.",
-    images: [SITE_URL + "/images/app_phone_mockup.webp"]
+    title: pageConfig.title,
+    description: pageConfig.description,
+    images: [SITE_URL + pageConfig.ogImage]
   },
   icons: {
     icon: SITE_ICON,

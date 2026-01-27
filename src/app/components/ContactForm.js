@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CONTACT_URL } from "../constants";
+import { CONTACT_URL } from "../config";
 
 function SuccessPopup({ show, message }) {
   if (!show) return null;

@@ -1,4 +1,4 @@
-import { COMPANY_SOCIALS } from "../constants";
+import { COMPANY_SOCIALS } from "../config";
 
 export default function Footer() {
   const handleJoinClick = (e) => {

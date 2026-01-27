@@ -1,29 +1,30 @@
-import { SITE_URL, SITE_ICON, SITE_APPLE_ICON, SITE_THEME_COLOR } from "../constants";
+import { SITE_URL, SITE_ICON, SITE_APPLE_ICON, SITE_THEME_COLOR, PAGES_CONFIG, SEO_CONFIG } from "../config";
+
+const pageConfig = PAGES_CONFIG.plans;
 
 export const metadata = {
-  title: "Planes | GUEROS Fitness",
-  description: "Compara nuestros planes de entrenamiento y nutrición. Elige el que mejor se adapte a ti y empieza tu transformación.",
-  keywords: [
-    "planes", "suscripción", "precios", "ofertas", "gueros", "entrenamiento", "nutrición"
-  ],
+  title: pageConfig.title,
+  description: pageConfig.description,
+  keywords: pageConfig.keywords,
   openGraph: {
-    title: "Planes | GUEROS Fitness",
-    description: "Compara nuestros planes de entrenamiento y nutrición.",
+    title: pageConfig.title,
+    description: pageConfig.description,
     url: SITE_URL + "/plans",
     images: [
       {
-        url: SITE_URL + "/images/og_image_home.webp",
-        height: 630,
-        alt: "Planes GUEROS"
+        url: SITE_URL + pageConfig.ogImage,
+        width: SEO_CONFIG.ogImageWidth,
+        height: SEO_CONFIG.ogImageHeight,
+        alt: pageConfig.ogImageAlt
       }
     ],
     type: "website"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Planes | GUEROS Fitness",
-    description: "Compara nuestros planes de entrenamiento y nutrición.",
-    images: [SITE_URL + "/images/og_image_home.webp"]
+    title: pageConfig.title,
+    description: pageConfig.description,
+    images: [SITE_URL + pageConfig.ogImage]
   },
   icons: {
     icon: SITE_ICON,

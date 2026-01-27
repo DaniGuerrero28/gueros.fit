@@ -1,9 +1,11 @@
+import { SITE_CONFIG } from "./config";
+
 export default function robots() {
   return {
     rules: {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://gueros.fit/sitemap.xml",
+    sitemap: `${SITE_CONFIG.siteUrl}/sitemap.xml`,
   };
 }

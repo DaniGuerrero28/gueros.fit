@@ -1,30 +1,30 @@
-import { SITE_URL, SITE_ICON, SITE_APPLE_ICON, SITE_THEME_COLOR } from "../constants";
+import { SITE_URL, SITE_ICON, SITE_APPLE_ICON, SITE_THEME_COLOR, PAGES_CONFIG, SEO_CONFIG } from "../config";
+
+const pageConfig = PAGES_CONFIG.contact;
 
 export const metadata = {
-  title: "Contáctanos | GUEROS Fitness",
-  description: "¿Tienes dudas o quieres empezar tu transformación? Contacta con el equipo GUEROS y recibe asesoramiento personalizado.",
-  keywords: [
-    "contacto", "consulta", "asesoramiento", "gueros", "formulario", "ayuda"
-  ],
+  title: pageConfig.title,
+  description: pageConfig.description,
+  keywords: pageConfig.keywords,
   openGraph: {
-    title: "Contáctanos | GUEROS Fitness",
-    description: "¿Tienes dudas o quieres empezar tu transformación? Contacta con el equipo GUEROS.",
+    title: pageConfig.title,
+    description: pageConfig.description,
     url: SITE_URL + "/contact",
     images: [
       {
-        url: SITE_URL + "/images/og_image_home.webp",
-        width: 1200,
-        height: 630,
-        alt: "Contacto GUEROS"
+        url: SITE_URL + pageConfig.ogImage,
+        width: SEO_CONFIG.ogImageWidth,
+        height: SEO_CONFIG.ogImageHeight,
+        alt: pageConfig.ogImageAlt
       }
     ],
     type: "website"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contáctanos | GUEROS Fitness",
-    description: "¿Tienes dudas o quieres empezar tu transformación? Contacta con el equipo GUEROS.",
-    images: [SITE_URL + "/images/og_image_home.webp"]
+    title: pageConfig.title,
+    description: pageConfig.description,
+    images: [SITE_URL + pageConfig.ogImage]
   },
   icons: {
     icon: SITE_ICON,

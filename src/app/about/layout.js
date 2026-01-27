@@ -1,30 +1,30 @@
-import { SITE_URL, SITE_ICON, SITE_APPLE_ICON, SITE_THEME_COLOR } from "../constants";
+import { SITE_URL, SITE_ICON, SITE_APPLE_ICON, SITE_THEME_COLOR, PAGES_CONFIG, SEO_CONFIG } from "../config";
+
+const pageConfig = PAGES_CONFIG.about;
 
 export const metadata = {
-  title: "Sobre Nosotros | GUEROS Fitness",
-  description: "Conoce al equipo de GUEROS, nuestra misión, visión y valores. Descubre cómo te ayudamos a transformar tu vida.",
-  keywords: [
-    "gueros", "equipo", "sobre nosotros", "staff", "misión", "visión", "fitness"
-  ],
+  title: pageConfig.title,
+  description: pageConfig.description,
+  keywords: pageConfig.keywords,
   openGraph: {
-    title: "Sobre Nosotros | GUEROS Fitness",
-    description: "Conoce al equipo de GUEROS, nuestra misión, visión y valores.",
+    title: pageConfig.title,
+    description: pageConfig.description,
     url: SITE_URL + "/about",
     images: [
       {
-        url: SITE_URL + "/images/og_image_home.webp",
-        width: 1200,
-        height: 630,
-        alt: "Equipo GUEROS"
+        url: SITE_URL + pageConfig.ogImage,
+        width: SEO_CONFIG.ogImageWidth,
+        height: SEO_CONFIG.ogImageHeight,
+        alt: pageConfig.ogImageAlt
       }
     ],
     type: "website"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sobre Nosotros | GUEROS Fitness",
-    description: "Conoce al equipo de GUEROS, nuestra misión, visión y valores.",
-    images: [SITE_URL + "/images/og_image_home.webp"]
+    title: pageConfig.title,
+    description: pageConfig.description,
+    images: [SITE_URL + pageConfig.ogImage]
   },
   icons: {
     icon: SITE_ICON,

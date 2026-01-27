@@ -1,6 +1,6 @@
 import { FaHeart } from "react-icons/fa";
 import { FaRegComment, FaRegPaperPlane, FaRegBookmark } from "react-icons/fa6";
-import { COMPANY_SOCIALS } from "../constants";
+import { COMPANY_SOCIALS } from "../config";
 
 const instagramPosts = [
   {

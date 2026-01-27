@@ -1,12 +1,12 @@
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
-import {
-  SITE_URL,
+import { SITE_URL,
   SITE_ICON,
   SITE_APPLE_ICON,
   SITE_THEME_COLOR,
-} from "./constants";
+  SEO_CONFIG, 
+  SITE_CONFIG } from "./config";
 
 /* fonts */
 const geistSans = Geist({
@@ -25,57 +25,40 @@ const inter = Inter({
   weight: ["400", "700", "900"],
 });
 
-const TITLE_DEFAULT =
-  "Entrenamiento Personal Online y Nutrición | GUEROS Fitness";
-
-const DESCRIPTION_DEFAULT =
-  "Entrenamiento personal online, nutrición personalizada y seguimiento mensual con app exclusiva. Transforma tu físico y tu estilo de vida con GUEROS Fitness.";
-
 export const metadata = {
   metadataBase: new URL(SITE_URL),
 
   title: {
-    default: TITLE_DEFAULT,
-    template: "%s | GUEROS Fitness",
+    default: SEO_CONFIG.defaultTitle,
+    template: SEO_CONFIG.titleTemplate,
   },
 
-  description: DESCRIPTION_DEFAULT,
+  description: SEO_CONFIG.defaultDescription,
 
-  keywords: [
-    "gueros",
-    "gueros fitness",
-    "entrenamiento personal online",
-    "entrenador personal",
-    "nutrición personalizada",
-    "plan de entrenamiento",
-    "plan de nutrición",
-    "cambio físico",
-    "fitness online",
-    "coaching fitness",
-  ],
+  keywords: SEO_CONFIG.globalKeywords,
 
   openGraph: {
-    title: TITLE_DEFAULT,
-    description: DESCRIPTION_DEFAULT,
+    title: SEO_CONFIG.defaultTitle,
+    description: SEO_CONFIG.defaultDescription,
     url: "/",
-    siteName: "GUEROS Fitness",
-    locale: "es_ES",
+    siteName: SITE_CONFIG.companyFullName,
+    locale: SITE_CONFIG.locale,
     type: "website",
     images: [
       {
-        url: "/images/og-home.png",
-        width: 1200,
-        height: 630,
-        alt: "GUEROS Fitness – Entrenamiento personal y nutrición online",
+        url: SEO_CONFIG.ogImage,
+        width: SEO_CONFIG.ogImageWidth,
+        height: SEO_CONFIG.ogImageHeight,
+        alt: SEO_CONFIG.ogImageAlt,
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: TITLE_DEFAULT,
-    description: DESCRIPTION_DEFAULT,
-    images: ["/images/insta-Gueros-logo-gold.png"],
+    title: SEO_CONFIG.defaultTitle,
+    description: SEO_CONFIG.defaultDescription,
+    images: [SEO_CONFIG.twitterImage],
   },
 
   icons: {
@@ -97,7 +80,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
+    <html lang={SITE_CONFIG.language}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable}`}
       >

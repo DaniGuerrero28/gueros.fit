@@ -206,3 +206,4 @@ Revisa la carpeta `/public/images/` y `/public/caps/` para identificar otras im�
 ## 📞 Soporte
 
 Si tienes dudas sobre cómo configurar la plantilla, revisa los comentarios en `src/app/config.js` o contacta al equipo de desarrollo.
+    

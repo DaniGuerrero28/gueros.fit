@@ -2,106 +2,55 @@ import { useState } from "react";
 
 const FAQS = [
 	{
-		q: "¿Cómo funciona el orden del programa y los pagos?",
-		a: "Preparamos un programa personalizado según la cuota que elijas. Por ejemplo, si eliges la opción semestral, tras el pago comenzamos a planificar tu camino para esos meses. El equipo ajustará el plan según tu evolución, cambiando lo necesario para que progreses. Así funciona también con los planes trimestral y anual.",
+		q: "¿Qué tipo de servicios ofrecéis?",
+		a: "Trabajamos en diferentes tipos de casos dentro de nuestra especialidad. Si no tienes claro si podemos ayudarte, escríbenos sin compromiso y te orientamos encantados."
 	},
 	{
-		q: "¿Si tengo algún impedimento físico, puedo hacer el plan?",
-		a: "¡Por supuesto! Analizamos tu caso y adaptamos el plan a tus necesidades y limitaciones. Te explicamos qué ejercicios puedes hacer y cuáles evitar. No te preocupes, solo tienes que consultarnos y nos encargamos de todo.",
+		q: "¿Tengo que pedir cita antes de ir?",
+		a: "Sí, preferimos trabajar con cita previa para poder dedicarte el tiempo que necesitas y evitar esperas innecesarias."
 	},
 	{
-		q: "¿Serán todos los meses del plan iguales?",
-		a: "No, el objetivo es que sigas mejorando con el tiempo. Según tu evolución y el plan inicial, iremos ajustando rutinas y pautas para que progreses de la forma más cómoda y sostenible posible.",
+		q: "¿Cuánto cuesta el servicio?",
+		a: "El precio depende de cada caso, ya que no todos requieren lo mismo. Podemos darte una estimación o presupuesto una vez sepamos exactamente qué necesitas."
 	},
 	{
-		q: "¿Puedo hacer el plan con poco tiempo o desde casa?",
-		a: "¡Claro! Te ayudamos tengas el tiempo o material que tengas. No necesitas un gran gimnasio ni entrenar horas al día para lograr grandes resultados. Con organización y el conocimiento adecuado, puedes mejorar tu salud y físico desde casa.",
+		q: "¿Cuánto tiempo estaré allí?",
+		a: "Depende del servicio y de tu situación concreta. Siempre intentamos ajustarnos al tiempo necesario sin prisas, pero siendo eficientes."
 	},
 	{
-		q: "¿Cómo cancelo?",
-		a: "Solo tienes que avisar con al menos 10 días de antelación para que podamos organizar el equipo y evitar el siguiente cobro. Ten en cuenta que, al cancelar y dejar de hacer los pagos, se eliminarán todos los materiales y rutinas proporcionados de tu cuenta.",
+		q: "¿Ofrecéis garantía?",
+		a: "Sí. Nos gusta hacer las cosas bien y responder si algo no queda como debería. Si surge cualquier problema, estaremos ahí para solucionarlo."
 	},
 	{
-		q: "¿Es demasiado para principiantes?",
-		a: "¡Al contrario! Empezar con un plan personalizado y el apoyo de profesionales te permitirá avanzar mucho más rápido y seguro que si lo intentas solo. Crearás una base sólida, reducirás el riesgo de lesión y conseguirás en meses lo que otros logran en años. ¡Anímate e invierte en ti!",
+		q: "¿Tengo que preparar algo antes de acudir?",
+		a: "En algunos casos puede ser útil traer documentación, pruebas anteriores o simplemente venir con ropa cómoda. Si necesitas preparar algo específico, te lo avisaremos antes."
 	},
 	{
-		q: "¿Qué es Gueros?",
-		a: "Gueros es una empresa dedicada al entrenamiento personal y asesoramiento fitness, enfocada en ayudarte a alcanzar tus objetivos físicos y mejorar tu bienestar.",
+		q: "¿Puedo cambiar o cancelar mi cita?",
+		a: "Claro. Solo te pedimos que nos avises con la mayor antelación posible para poder reorganizar la agenda."
 	},
 	{
-		q: "¿Qué tiene de diferente respecto a otras opciones?",
-		a: "Ofrecemos atención personalizada, seguimiento cercano y planes adaptados a tu situación y metas. Nuestro equipo está formado por profesionales con experiencia real en el sector.",
+		q: "¿Cómo puedo contactar con vosotros?",
+		a: "Puedes escribirnos, llamarnos o rellenar el formulario de la web. Intentamos responder lo antes posible, normalmente el mismo día."
 	},
 	{
-		q: "¿Qué tipo de ejercicio se incluye?",
-		a: "Nuestros programas incluyen rutinas de fuerza, cardio, movilidad y flexibilidad, adaptadas a tu nivel y preferencias.",
+		q: "¿Qué tipo de servicios ofrecéis?",
+		a: "Trabajamos en diferentes tipos de casos dentro de nuestra especialidad. Si no tienes claro si podemos ayudarte, escríbenos sin compromiso y te orientamos encantados."
 	},
 	{
-		q: "¿Qué programas de ejercicio ofrecéis?",
-		a: "Tenemos programas para pérdida de peso, ganancia muscular, recomposición corporal, salud general y rendimiento deportivo.",
+		q: "¿Tengo que pedir cita antes de ir?",
+		a: "Sí, preferimos trabajar con cita previa para poder dedicarte el tiempo que necesitas y evitar esperas innecesarias."
 	},
 	{
-		q: "¿Incluís asesoramiento en alimentación?",
-		a: "Sí, te ayudamos a mejorar tu alimentación con pautas sencillas y adaptadas a tu estilo de vida, sin dietas extremas.",
+		q: "¿Cuánto cuesta el servicio?",
+		a: "El precio depende de cada caso, ya que no todos requieren lo mismo. Podemos darte una estimación o presupuesto una vez sepamos exactamente qué necesitas."
 	},
 	{
-		q: "¿Hay comunidad?",
-		a: "Sí, formarás parte de una comunidad motivadora donde compartir avances, dudas y recibir apoyo.",
+		q: "¿Cuánto tiempo estaré allí?",
+		a: "Depende del servicio y de tu situación concreta. Siempre intentamos ajustarnos al tiempo necesario sin prisas, pero siendo eficientes."
 	},
-	{
-		q: "¿Esto es una suscripción? ¿Cómo funciona?",
-		a: "Sí, funciona como una suscripción mensual sin permanencia. Puedes cancelar cuando quieras, sin penalizaciones.",
-	},
-	{
-		q: "¿Hay garantía o devoluciones?",
-		a: "Si no estás satisfecho, puedes solicitar la devolución en los primeros 7 días. Queremos que estés contento con tu experiencia.",
-	},
-	{
-		q: "¿Cómo selecciono el plan de entrenamiento?",
-		a: "Te ayudamos a elegir el plan que mejor se adapta a ti tras una consulta inicial gratuita.",
-	},
-	{
-		q: "¿Tenéis aplicación móvil? ¿Para qué sirve?",
-		a: "Sí, nuestra app te permite acceder a tus rutinas, registrar progresos y comunicarte con tu entrenador.",
-	},
-	{
-		q: "Ya estoy en forma, ¿esto es para mí?",
-		a: "¡Por supuesto! Adaptamos los planes para todos los niveles, desde principiantes hasta avanzados.",
-	},
-	{
-		q: "Todavía no tengo el cuerpo que quiero, ¿esto es para mí?",
-		a: "Sí, nuestro objetivo es ayudarte a conseguir el cambio que buscas, sea cual sea tu punto de partida.",
-	},
-	{
-		q: "¿Durante cuánto tiempo disfrutaré el precio de la oferta?",
-		a: "El precio promocional se mantiene durante el periodo que dure tu suscripción activa.",
-	},
-	{
-		q: "¿Hay aviso médico?",
-		a: "Recomendamos consultar con tu médico antes de iniciar cualquier programa de entrenamiento si tienes alguna condición de salud.",
-	},
-	{
-		q: "¿Puedo entrenar en casa?",
-		a: "Sí, diseñamos rutinas tanto para gimnasio como para casa, con o sin material.",
-	},
-	{
-		q: "¿Qué métodos de pago aceptáis?",
-		a: "Aceptamos tarjeta, PayPal y otros métodos seguros.",
-	},
-	{
-		q: "¿Cómo contacto con mi entrenador?",
-		a: "Puedes contactar por chat en la app, email o WhatsApp.",
-	},
-	{
-		q: "¿Hay límite de consultas?",
-		a: "No, puedes preguntar todas las dudas que tengas.",
-	},
-	{
-		q: "¿Puedo pausar mi suscripción?",
-		a: "Sí, puedes pausar tu suscripción si lo necesitas y retomarla más adelante.",
-	},
-];
+]
+;
 
 function FAQItem({ q, a, open, onClick }) {
 	return (

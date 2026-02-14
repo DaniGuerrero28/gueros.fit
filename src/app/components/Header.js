@@ -3,21 +3,13 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import Image from "next/image";
+import { NAVIGATION_LINKS } from '../config';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const links = [
-    { name: 'App', href: '/app' },
-    { name: 'Servicios', href: '/services' },
-    /*{ name: 'Planes', href: '/plans' },*/
-    { name: 'Sobre nosotros', href: '/about' },
-    { name: 'Contacto', href: '/contact' },
-    { name: 'Socios', href: '/partners' },
-  ];
-
   return (
-    <header className={`relative w-full ${isOpen ? 'bg-white' : 'bg-background'} top-0 left-0 z-50 h-20`}>
+    <header className={`fixed w-full ${isOpen ? 'bg-white' : 'bg-background'} top-0 left-0 z-50 h-20`}>
       {/* Cabecera principal */}
       <div className="mx-auto w-full px-6 py-8 flex flex-row items-center h-full">
         {/* Mobile menu button */}
@@ -31,7 +23,7 @@ export default function Header() {
 
         {/* Desktop links juntos */}
         <nav className="hidden xl:flex ml-4 gap-6 2xl:gap-10">
-        {links.map((link) => (
+        {NAVIGATION_LINKS.map((link) => (
           <a
             key={link.name}
             href={link.href}
@@ -59,9 +51,9 @@ export default function Header() {
           <Image
             src="/images/logo_transparent.webp"
             alt="Logo de Gueros Fitness"
-            width={160}         // valores “base” para Next
+            width={160}         
             height={40}
-            className="h-10 w-auto md:h-12 object-contain" // aquí mandas tú el tamaño real
+            className="h-10 w-auto md:h-12 object-contain" 
             priority
           />
         </a>
@@ -70,10 +62,10 @@ export default function Header() {
 
       {/* Mobile dropdown */}
       {isOpen && (
-        <div className="fixed left-0 right-0 z-40 bg-white text-black flex flex-col items-center justify-center transition-colors duration-300" style={{ top: '5rem', height: 'calc(100vh - 5rem)' }}>
+        <div className="fixed left-0 right-0 z-40 bg-white text-black flex flex-col items-center justify-center transition-colors duration-300" style={{ top: '4rem', height: 'calc(100vh - 5rem)' }}>
           <nav className="w-full h-full flex flex-col items-center justify-center">
             <ul className="flex flex-col items-center justify-center gap-8">
-              {links.map((link) => (
+              {NAVIGATION_LINKS.map((link) => (
                 <li key={link.name}>
                   <a
                     href={link.href}
@@ -82,7 +74,7 @@ export default function Header() {
                     onClick={() => setIsOpen(false)}
                   >
                     {link.name}
-                  </a>
+                  </a>  
                 </li>
               ))}
             </ul>

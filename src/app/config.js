@@ -9,27 +9,36 @@
 
 import { FaInstagram, FaTiktok, FaFacebookF, FaXTwitter } from "react-icons/fa6";
 
+// Array de redes sociales con iconos (para usar en componentes)
+export const COMPANY_SOCIALS = [
+  { name: SOCIAL_CONFIG.instagram.name, url: SOCIAL_CONFIG.instagram.url, icon: <FaInstagram /> },
+  { name: SOCIAL_CONFIG.tiktok.name, url: SOCIAL_CONFIG.tiktok.url, icon: <FaTiktok /> },
+  { name: SOCIAL_CONFIG.twitter.name, url: SOCIAL_CONFIG.twitter.url, icon: <FaXTwitter /> },
+  { name: SOCIAL_CONFIG.facebook.name, url: SOCIAL_CONFIG.facebook.url, icon: <FaFacebookF /> },
+];
+
+
 // ============================================
-// INFORMACIÓN BÁSICA DE LA VECTOR
+// INFORMACIÓN BÁSICA DE LA EMPRESA
 // ============================================
 
 export const SITE_CONFIG = {
   // Nombre de la empresa/marca
-  companyName: "VECTOR",
-  companyFullName: "VECTOR COMPLETA S.L.",
+  companyName: "GUEROS",
+  companyFullName: "GUEROS Fitness",
   
   // Descripción breve del negocio
-  businessType: "Empresa especializada en ...",
+  businessType: "Entrenamiento personal online y nutrición",
   
   // URLs y dominios
-  siteUrl: "https://VECTOR.com",
+  siteUrl: "https://gueros.fit",
   
   // Idioma y localización
   language: "es",
   locale: "es_ES",
   
   // Nombre de la app móvil (si existe)
-  appName: "VECTOR",
+  appName: "GUEROS",
   
   // Año de fundación
   foundedYear: new Date().getFullYear(),
@@ -40,98 +49,88 @@ export const SITE_CONFIG = {
 // ============================================
 export const SEO_CONFIG = {
   // Título por defecto para la home
-  defaultTitle: "VECTOR - Soluciones Innovadoras para tu Negocio",
+  defaultTitle: "Entrenamiento Personal Online y Nutrición | GUEROS Fitness",
   
   // Template para títulos de páginas internas
-  titleTemplate: "%s | VECTOR",
+  titleTemplate: "%s | GUEROS Fitness",
   
   // Descripción por defecto
-  defaultDescription: "En VECTOR ofrecemos soluciones innovadoras para impulsar tu negocio. Descubre nuestros servicios y cómo podemos ayudarte a crecer.",
+  defaultDescription: "Entrenamiento personal online, nutrición personalizada y seguimiento mensual con app exclusiva. Transforma tu físico y tu estilo de vida con GUEROS Fitness.",
   
   // Keywords globales (apareceran en todas las páginas)
   globalKeywords: [
-    "palabras",
-    "clave",
-    "VECTOR"
+    "gueros",
+    "gueros fitness",
+    "entrenamiento personal online",
+    "entrenador personal",
+    "nutrición personalizada",
+    "plan de entrenamiento",
+    "plan de nutrición",
+    "cambio físico",
+    "fitness online",
+    "coaching fitness",
   ],
   
   // Imágenes para Open Graph y redes sociales
   ogImage: "/images/og-home.png",
   ogImageWidth: 1200,
   ogImageHeight: 630,
-  ogImageAlt: "VECTOR – Soluciones Innovadoras para tu Negocio",
+  ogImageAlt: "GUEROS Fitness – Entrenamiento personal y nutrición online",
   
   // Imagen para Twitter/X
   twitterImage: "/images/insta-Gueros-logo-gold.png",
-  
-  // Contenido SEO para home (h1 y párrafos ocultos)
-  homeH1: "VECTOR - Soluciones Innovadoras para tu Negocio",
-  homeDescription: [
-    "En VECTOR te acompañamos con soluciones innovadoras para impulsar tu negocio y alcanzar el éxito. Diseñamos estrategias personalizadas según tus necesidades y objetivos.",
-    "No solo ofrecemos servicios: brindamos seguimiento continuo, ajustes estratégicos, soporte directo y una plataforma donde ves tu progreso, tus resultados y tu planificación completa.",
-  ],
 };
 
 // ============================================
 // PÁGINAS Y RUTAS
 // ============================================
-
-// Navegación principal del sitio
-export const NAVIGATION_LINKS = [
-  { name: 'App', href: '/app' },
-  { name: 'Servicios', href: '/services' },
-  { name: 'Sobre nosotros', href: '/about' },
-  { name: 'Contacto', href: '/contact' },
-  { name: 'Socios', href: '/partners' },
-];
-
 export const PAGES_CONFIG = {
   about: {
     title: "Sobre Nosotros",
-    description: "Conoce al equipo de VECTOR, nuestra misión, visión y valores. Descubre cómo te ayudamos a transformar tu vida.",
-    keywords: ["VECTOR", "equipo", "sobre nosotros", "staff", "misión", "visión", "negocio"],
+    description: "Conoce al equipo de GUEROS, nuestra misión, visión y valores. Descubre cómo te ayudamos a transformar tu vida.",
+    keywords: ["gueros", "equipo", "sobre nosotros", "staff", "misión", "visión", "fitness"],
     ogImage: "/images/og_image_home.webp",
-    ogImageAlt: "Equipo VECTOR",
+    ogImageAlt: "Equipo GUEROS",
   },
   
   contact: {
     title: "Contáctanos",
-    description: "¿Tienes dudas? Contacta con el equipo VECTOR y recibe asesoramiento personalizado.",
-    keywords: ["contacto", "consulta", "asesoramiento", "VECTOR", "formulario", "ayuda"],
+    description: "¿Tienes dudas o quieres empezar tu transformación? Contacta con el equipo GUEROS y recibe asesoramiento personalizado.",
+    keywords: ["contacto", "consulta", "asesoramiento", "gueros", "formulario", "ayuda"],
     ogImage: "/images/og_image_home.webp",
-    ogImageAlt: "Contacto VECTOR",
+    ogImageAlt: "Contacto GUEROS",
   },
   
   services: {
     title: "¿Que ofrecemos?",
-    description: "Descubre nuestros servicios de personalizados a tu servicio. Somos VECTOR",
-    keywords: ["servicios", "entrenamiento", "nutrición", "motivación", "personalizado", "VECTOR"],
+    description: "Descubre nuestros servicios de entrenamiento personalizado, nutrición y motivación. ¡Transforma tu vida con GUEROS!",
+    keywords: ["servicios", "entrenamiento", "nutrición", "motivación", "personalizado", "gueros"],
     ogImage: "/images/og_image_home.webp",
-    ogImageAlt: "Servicios VECTOR",
+    ogImageAlt: "Servicios GUEROS",
   },
   
   plans: {
     title: "Planes",
-    description: "Compara nuestros distintos planes. Elige el que mejor se adapte a ti.",
-    keywords: ["planes", "suscripción", "precios", "ofertas", "VECTOR", "entrenamiento", "nutrición"],
+    description: "Compara nuestros planes de entrenamiento y nutrición. Elige el que mejor se adapte a ti y empieza tu transformación.",
+    keywords: ["planes", "suscripción", "precios", "ofertas", "gueros", "entrenamiento", "nutrición"],
     ogImage: "/images/og_image_home.webp",
-    ogImageAlt: "Planes VECTOR",
+    ogImageAlt: "Planes GUEROS",
   },
   
   partners: {
     title: "Socios",
-    description: "Descubre las marcas y partners que colaboran con VECTOR. Accede a descuentos exclusivos y ventajas para la comunidad.",
-    keywords: ["partners", "socios", "marcas", "descuentos", "colaboraciones", "VECTOR"],
+    description: "Descubre las marcas y partners que colaboran con GUEROS. Accede a descuentos exclusivos y ventajas para la comunidad.",
+    keywords: ["partners", "socios", "marcas", "descuentos", "colaboraciones", "gueros"],
     ogImage: "/images/og_image_home.webp",
-    ogImageAlt: "Partners VECTOR",
+    ogImageAlt: "Partners GUEROS",
   },
   
   app: {
-    title: "App VECTOR | Fitness en tu móvil",
-    description: "Descarga la app de VECTOR y ten todo en la palma de tu mano. Disponible en iOS y Android.",
-    keywords: ["app", "fitness", "descarga", "móvil", "VECTOR", "rutinas", "nutrición", "comunidad"],
+    title: "App GUEROS | Fitness en tu móvil",
+    description: "Descarga la app de GUEROS y lleva tu entrenamiento, nutrición y comunidad siempre contigo. Disponible en iOS y Android.",
+    keywords: ["app", "fitness", "descarga", "móvil", "gueros", "rutinas", "nutrición", "comunidad"],
     ogImage: "/images/app_phone_mockup.webp",
-    ogImageAlt: "App VECTOR",
+    ogImageAlt: "App GUEROS",
   },
 };
 
@@ -185,13 +184,13 @@ export const SOCIAL_CONFIG = {
 // ============================================
 export const CONTENT_CONFIG = {
   // Historia de la empresa (para la sección "Sobre Nosotros")
-  companyHistory: "VECTOR surge de la pasión por ofrecer soluciones innovadoras que impulsen el crecimiento de negocios de todos los tamaños. Desde nuestros inicios, hemos trabajado con dedicación para brindar un servicio excepcional y resultados tangibles a nuestros clientes.",
+  companyHistory: "Gueros Fitness surge de la experiencia personal de nuestro fundador, quien tras superar el bullying y la inseguridad, decidió dedicar su vida a ayudar a otros a transformar su físico y su salud. Cada transformación es una historia de superación y confianza.",
   
   // Descripción de la empresa (para FAQs y otras secciones)
-  companyDescription: "VECTOR es una compañía comprometida con la excelencia y la innovación. Nuestro equipo de expertos trabaja incansablemente para desarrollar estrategias personalizadas que ayuden a nuestros clientes a alcanzar sus objetivos comerciales.",
+  companyDescription: "Gueros es una empresa dedicada al entrenamiento personal y asesoramiento fitness, enfocada en ayudarte a alcanzar tus objetivos físicos y mejorar tu bienestar.",
   
   // Descripción de la app
-  appDescription: "La app de VECTOR reúne todo lo que necesitas para gestionar y hacer crecer tu negocio desde la palma de tu mano. Disponible en iOS y Android.",
+  appDescription: "La app de GUEROS reúne todo: entrenamiento, dieta y comunidad. Es tu herramienta central para avanzar y mantenerte motivado/a.",
   
   // Imagen de fondo para contacto
   contactBackgroundImage: "/images/contact_background.webp",
@@ -203,14 +202,13 @@ export const CONTENT_CONFIG = {
 export const SITEMAP_CONFIG = {
   pages: [
     { url: "/", priority: 1.0, changeFrequency: "weekly" },
-    { url: "/about", priority: 0.9, changeFrequency: "yearly" },
+    { url: "/plans", priority: 0.9, changeFrequency: "monthly" },
     { url: "/services", priority: 0.8, changeFrequency: "monthly" },
-    { url: "/contact", priority: 0.7, changeFrequency: "yearly" },
-    // { url: "/cases", priority: 0.6, changeFrequency: "monthly" }, // Si se añaden casos de éxito o testimonios, se puede incluir esta ruta
-    // { url: "/partners", priority: 0.5, changeFrequency: "yearly" },
-    // { url: "/history", priority: 0.7, changeFrequency: "yearly" },
-    // { url: "/app", priority: 0.8, changeFrequency: "monthly" },
-    // { url: "/plans", priority: 0.9, changeFrequency: "monthly" },
+    { url: "/app", priority: 0.8, changeFrequency: "monthly" },
+    { url: "/history", priority: 0.7, changeFrequency: "yearly" },
+    { url: "/about", priority: 0.6, changeFrequency: "yearly" },
+    { url: "/contact", priority: 0.5, changeFrequency: "yearly" },
+    { url: "/partners", priority: 0.5, changeFrequency: "yearly" },
   ],
 };
 
@@ -223,11 +221,3 @@ export const SITE_ICON = THEME_CONFIG.favicon;
 export const SITE_APPLE_ICON = THEME_CONFIG.appleTouchIcon;
 export const SITE_THEME_COLOR = THEME_CONFIG.themeColor;
 export const CONTACT_URL = CONTENT_CONFIG.contactBackgroundImage;
-
-// Array de redes sociales con iconos (para usar en componentes)
-export const COMPANY_SOCIALS = [
-  { name: SOCIAL_CONFIG.instagram.name, url: SOCIAL_CONFIG.instagram.url, icon: <FaInstagram /> },
-  { name: SOCIAL_CONFIG.tiktok.name, url: SOCIAL_CONFIG.tiktok.url, icon: <FaTiktok /> },
-  { name: SOCIAL_CONFIG.twitter.name, url: SOCIAL_CONFIG.twitter.url, icon: <FaXTwitter /> },
-  { name: SOCIAL_CONFIG.facebook.name, url: SOCIAL_CONFIG.facebook.url, icon: <FaFacebookF /> },
-];

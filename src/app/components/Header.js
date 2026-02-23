@@ -3,18 +3,10 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import Image from "next/image";
+import { NAVIGATION_LINKS } from '../config';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
-
-  const links = [
-    { name: 'App', href: '/app' },
-    { name: 'Servicios', href: '/services' },
-    /*{ name: 'Planes', href: '/plans' },*/
-    { name: 'Sobre nosotros', href: '/about' },
-    { name: 'Contacto', href: '/contact' },
-    { name: 'Socios', href: '/partners' },
-  ];
 
   return (
     <header className={`relative w-full ${isOpen ? 'bg-white' : 'bg-background'} top-0 left-0 z-50 h-20`}>
@@ -31,7 +23,7 @@ export default function Header() {
 
         {/* Desktop links juntos */}
         <nav className="hidden xl:flex ml-4 gap-6 2xl:gap-10">
-        {links.map((link) => (
+        {NAVIGATION_LINKS.map((link) => (
           <a
             key={link.name}
             href={link.href}

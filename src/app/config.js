@@ -220,3 +220,11 @@ export const SITE_ICON = THEME_CONFIG.favicon;
 export const SITE_APPLE_ICON = THEME_CONFIG.appleTouchIcon;
 export const SITE_THEME_COLOR = THEME_CONFIG.themeColor;
 export const CONTACT_URL = CONTENT_CONFIG.contactBackgroundImage;
+
+export const NAVIGATION_LINKS = [
+  { name: 'App', href: '/app' },
+  { name: 'Servicios', href: '/services' },
+  { name: 'Sobre nosotros', href: '/about' },
+  { name: 'Contacto', href: '/contact' },
+  { name: 'Socios', href: '/partners' },
+];

@@ -9,15 +9,6 @@
 
 import { FaInstagram, FaTiktok, FaFacebookF, FaXTwitter } from "react-icons/fa6";
 
-// Array de redes sociales con iconos (para usar en componentes)
-export const COMPANY_SOCIALS = [
-  { name: SOCIAL_CONFIG.instagram.name, url: SOCIAL_CONFIG.instagram.url, icon: <FaInstagram /> },
-  { name: SOCIAL_CONFIG.tiktok.name, url: SOCIAL_CONFIG.tiktok.url, icon: <FaTiktok /> },
-  { name: SOCIAL_CONFIG.twitter.name, url: SOCIAL_CONFIG.twitter.url, icon: <FaXTwitter /> },
-  { name: SOCIAL_CONFIG.facebook.name, url: SOCIAL_CONFIG.facebook.url, icon: <FaFacebookF /> },
-];
-
-
 // ============================================
 // INFORMACIÓN BÁSICA DE LA EMPRESA
 // ============================================
@@ -178,6 +169,14 @@ export const SOCIAL_CONFIG = {
     handle: "Gueros.oficial",
   },
 };
+
+// Array de redes sociales con iconos (para usar en componentes)
+export const COMPANY_SOCIALS = [
+  { name: SOCIAL_CONFIG.instagram.name, url: SOCIAL_CONFIG.instagram.url, icon: <FaInstagram /> },
+  { name: SOCIAL_CONFIG.tiktok.name, url: SOCIAL_CONFIG.tiktok.url, icon: <FaTiktok /> },
+  { name: SOCIAL_CONFIG.twitter.name, url: SOCIAL_CONFIG.twitter.url, icon: <FaXTwitter /> },
+  { name: SOCIAL_CONFIG.facebook.name, url: SOCIAL_CONFIG.facebook.url, icon: <FaFacebookF /> },
+];
 
 // ============================================
 // CONTENIDO PERSONALIZADO

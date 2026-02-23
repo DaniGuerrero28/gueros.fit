@@ -1,0 +1,79 @@
+[
+  { "id": "chest_pectoralis_major", "parentId": null, "name": { "es": "Pectoral mayor", "en": "Pectoralis major" } },
+  { "id": "chest_pectoralis_major_upper", "parentId": "chest_pectoralis_major", "name": { "es": "Pectoral superior", "en": "Upper chest" } },
+  { "id": "chest_pectoralis_major_middle", "parentId": "chest_pectoralis_major", "name": { "es": "Pectoral medio", "en": "Middle chest" } },
+  { "id": "chest_pectoralis_major_lower", "parentId": "chest_pectoralis_major", "name": { "es": "Pectoral inferior", "en": "Lower chest" } },
+
+  { "id": "chest_pectoralis_minor", "parentId": null, "name": { "es": "Pectoral menor", "en": "Pectoralis minor" } },
+
+  { "id": "back_latissimus_dorsi", "parentId": null, "name": { "es": "Dorsal ancho", "en": "Latissimus dorsi" } },
+
+  { "id": "back_trapezius", "parentId": null, "name": { "es": "Trapecio", "en": "Trapezius" } },
+  { "id": "back_trapezius_upper", "parentId": "back_trapezius", "name": { "es": "Trapecio superior", "en": "Upper trapezius" } },
+  { "id": "back_trapezius_middle", "parentId": "back_trapezius", "name": { "es": "Trapecio medio", "en": "Middle trapezius" } },
+  { "id": "back_trapezius_lower", "parentId": "back_trapezius", "name": { "es": "Trapecio inferior", "en": "Lower trapezius" } },
+
+  { "id": "back_rhomboids", "parentId": null, "name": { "es": "Romboides", "en": "Rhomboids" } },
+  { "id": "back_rhomboid_major", "parentId": "back_rhomboids", "name": { "es": "Romboide mayor", "en": "Rhomboid major" } },
+  { "id": "back_rhomboid_minor", "parentId": "back_rhomboids", "name": { "es": "Romboide menor", "en": "Rhomboid minor" } },
+
+  { "id": "back_erector_spinae", "parentId": null, "name": { "es": "Erectores espinales", "en": "Erector spinae" } },
+  { "id": "back_iliocostalis", "parentId": "back_erector_spinae", "name": { "es": "Iliocostal", "en": "Iliocostalis" } },
+  { "id": "back_longissimus", "parentId": "back_erector_spinae", "name": { "es": "Longísimo", "en": "Longissimus" } },
+  { "id": "back_spinalis", "parentId": "back_erector_spinae", "name": { "es": "Espinoso", "en": "Spinalis" } },
+
+  { "id": "back_teres_major", "parentId": null, "name": { "es": "Redondo mayor", "en": "Teres major" } },
+  { "id": "back_teres_minor", "parentId": null, "name": { "es": "Redondo menor", "en": "Teres minor" } },
+
+  { "id": "shoulder_deltoid", "parentId": null, "name": { "es": "Deltoides", "en": "Deltoid" } },
+  { "id": "shoulder_deltoid_anterior", "parentId": "shoulder_deltoid", "name": { "es": "Deltoides anterior", "en": "Anterior deltoid" } },
+  { "id": "shoulder_deltoid_lateral", "parentId": "shoulder_deltoid", "name": { "es": "Deltoides lateral", "en": "Lateral deltoid" } },
+  { "id": "shoulder_deltoid_posterior", "parentId": "shoulder_deltoid", "name": { "es": "Deltoides posterior", "en": "Posterior deltoid" } },
+
+  { "id": "shoulder_rotator_cuff", "parentId": null, "name": { "es": "Manguito rotador", "en": "Rotator cuff" } },
+  { "id": "shoulder_supraspinatus", "parentId": "shoulder_rotator_cuff", "name": { "es": "Supraespinoso", "en": "Supraspinatus" } },
+  { "id": "shoulder_infraspinatus", "parentId": "shoulder_rotator_cuff", "name": { "es": "Infraespinoso", "en": "Infraspinatus" } },
+  { "id": "shoulder_subscapularis", "parentId": "shoulder_rotator_cuff", "name": { "es": "Subescapular", "en": "Subscapularis" } },
+  { "id": "shoulder_teres_minor", "parentId": "shoulder_rotator_cuff", "name": { "es": "Redondo menor (manguito)", "en": "Teres minor (rotator cuff)" } },
+
+  { "id": "arm_biceps_brachii", "parentId": null, "name": { "es": "Bíceps braquial", "en": "Biceps brachii" } },
+  { "id": "arm_biceps_long_head", "parentId": "arm_biceps_brachii", "name": { "es": "Cabeza larga del bíceps", "en": "Long head of biceps" } },
+  { "id": "arm_biceps_short_head", "parentId": "arm_biceps_brachii", "name": { "es": "Cabeza corta del bíceps", "en": "Short head of biceps" } },
+
+  { "id": "arm_brachialis", "parentId": null, "name": { "es": "Braquial anterior", "en": "Brachialis" } },
+
+  { "id": "arm_triceps_brachii", "parentId": null, "name": { "es": "Tríceps braquial", "en": "Triceps brachii" } },
+  { "id": "arm_triceps_long_head", "parentId": "arm_triceps_brachii", "name": { "es": "Cabeza larga del tríceps", "en": "Long head of triceps" } },
+  { "id": "arm_triceps_lateral_head", "parentId": "arm_triceps_brachii", "name": { "es": "Cabeza lateral del tríceps", "en": "Lateral head of triceps" } },
+  { "id": "arm_triceps_medial_head", "parentId": "arm_triceps_brachii", "name": { "es": "Cabeza medial del tríceps", "en": "Medial head of triceps" } },
+
+  { "id": "core_rectus_abdominis", "parentId": null, "name": { "es": "Recto abdominal", "en": "Rectus abdominis" } },
+  { "id": "core_oblique_external", "parentId": null, "name": { "es": "Oblicuo externo", "en": "External oblique" } },
+  { "id": "core_oblique_internal", "parentId": null, "name": { "es": "Oblicuo interno", "en": "Internal oblique" } },
+  { "id": "core_transverse_abdominis", "parentId": null, "name": { "es": "Transverso abdominal", "en": "Transverse abdominis" } },
+  { "id": "core_multifidus", "parentId": null, "name": { "es": "Multífidos", "en": "Multifidus" } },
+  { "id": "core_quadratus_lumborum", "parentId": null, "name": { "es": "Cuadrado lumbar", "en": "Quadratus lumborum" } },
+
+  { "id": "gluteus_maximus", "parentId": null, "name": { "es": "Glúteo mayor", "en": "Gluteus maximus" } },
+  { "id": "gluteus_medius", "parentId": null, "name": { "es": "Glúteo medio", "en": "Gluteus medius" } },
+  { "id": "gluteus_minimus", "parentId": null, "name": { "es": "Glúteo menor", "en": "Gluteus minimus" } },
+
+  { "id": "quadriceps", "parentId": null, "name": { "es": "Cuádriceps", "en": "Quadriceps" } },
+  { "id": "rectus_femoris", "parentId": "quadriceps", "name": { "es": "Recto femoral", "en": "Rectus femoris" } },
+  { "id": "vastus_lateralis", "parentId": "quadriceps", "name": { "es": "Vasto lateral", "en": "Vastus lateralis" } },
+  { "id": "vastus_medialis", "parentId": "quadriceps", "name": { "es": "Vasto medial", "en": "Vastus medialis" } },
+  { "id": "vastus_intermedius", "parentId": "quadriceps", "name": { "es": "Vasto intermedio", "en": "Vastus intermedius" } },
+
+  { "id": "hamstrings", "parentId": null, "name": { "es": "Isquiotibiales", "en": "Hamstrings" } },
+  { "id": "biceps_femoris_long_head", "parentId": "hamstrings", "name": { "es": "Bíceps femoral (cabeza larga)", "en": "Biceps femoris (long head)" } },
+  { "id": "biceps_femoris_short_head", "parentId": "hamstrings", "name": { "es": "Bíceps femoral (cabeza corta)", "en": "Biceps femoris (short head)" } },
+  { "id": "semitendinosus", "parentId": "hamstrings", "name": { "es": "Semitendinoso", "en": "Semitendinosus" } },
+  { "id": "semimembranosus", "parentId": "hamstrings", "name": { "es": "Semimembranoso", "en": "Semimembranosus" } },
+
+  { "id": "gastrocnemius", "parentId": null, "name": { "es": "Gastrocnemio", "en": "Gastrocnemius" } },
+  { "id": "gastrocnemius_medial", "parentId": "gastrocnemius", "name": { "es": "Gastrocnemio medial", "en": "Medial gastrocnemius" } },
+  { "id": "gastrocnemius_lateral", "parentId": "gastrocnemius", "name": { "es": "Gastrocnemio lateral", "en": "Lateral gastrocnemius" } },
+
+  { "id": "soleus", "parentId": null, "name": { "es": "Sóleo", "en": "Soleus" } },
+  { "id": "tibialis_anterior", "parentId": null, "name": { "es": "Tibial anterior", "en": "Tibialis anterior" } }
+]

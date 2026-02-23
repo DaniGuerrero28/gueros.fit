@@ -1,0 +1,7097 @@
+ 
+  {
+  "id": "exercise_push_up",
+  "name": {
+    "es": "Flexiones",
+    "en": "Push-up"
+  },
+  "image": {
+    "fileName": "push_up.png",
+    "altText": {
+      "es": "Persona realizando una flexión",
+      "en": "Person performing a push-up"
+    }
+  },
+  "video": {
+    "url": "https://example.com/video/push-up",
+    "platform": "youtube"
+  },
+
+  "muscles": {
+    "primary": [
+      "chest_pectoralis_major",
+      "arm_triceps_brachii",
+      "shoulder_deltoid_anterior"
+    ],
+    "secondary": [
+      "core_rectus_abdominis",
+      "core_transverse_abdominis",
+      "upper_back_serratus_anterior"
+    ]
+  },
+
+  "exerciseType": [
+    "strength",
+    "hypertrophy"
+  ],
+
+  "equipment": [
+    "bodyweight",
+    "none"
+  ],
+
+  "movementType": [
+    "compound",
+    "bilateral"
+  ],
+
+  "movementPattern": [
+    "push_horizontal",
+    "anti_extension"
+  ],
+
+  "difficulty": "beginner",
+
+  "tracking": {
+    "type": "reps",
+    "allowedTypes": [
+      "time",
+      "reps",
+      "weight_reps",
+      "time_reps",
+      "distance",
+      "distance_time",
+      "rounds",
+      "sets_reps",
+      "rir_rpe",
+      "calories",
+      "pace"
+    ]
+  },
+
+  "instructions": [
+    {
+      "step": 1,
+      "text": {
+        "es": "Coloca las manos a la altura del pecho, un poco más separadas que el ancho de hombros.",
+        "en": "Place your hands at chest height, slightly wider than shoulder-width."
+      }
+    },
+    {
+      "step": 2,
+      "text": {
+        "es": "Mantén el cuerpo en línea recta y activa el abdomen y glúteos.",
+        "en": "Keep a straight body line and brace your core and glutes."
+      }
+    },
+    {
+      "step": 3,
+      "text": {
+        "es": "Desciende controlando hasta que el pecho se acerque al suelo y vuelve a subir.",
+        "en": "Lower under control until your chest nears the floor, then push back up."
+      }
+    }
+  ],
+
+  "tips": [
+    {
+      "text": {
+        "es": "No dejes caer la cadera; piensa en ‘tabla’ todo el tiempo.",
+        "en": "Don’t let your hips sag; think ‘plank’ the entire time."
+      }
+    },
+    {
+      "text": {
+        "es": "Mantén los codos a ~30–45° respecto al torso para cuidar el hombro.",
+        "en": "Keep elbows ~30–45° from your torso to protect the shoulder."
+      }
+    }
+  ],
+
+  "contraindications": [
+    {
+      "warningLevel": "caution",
+      "text": {
+        "es": "Dolor agudo de hombro o muñeca: reduce rango o usa una variante inclinada.",
+        "en": "Sharp shoulder or wrist pain: reduce range or use an incline variation."
+      }
+    },
+    {
+      "warningLevel": "avoid",
+      "text": {
+        "es": "Lesión reciente de hombro sin alta médica.",
+        "en": "Recent shoulder injury without medical clearance."
+      }
+    }
+  ],
+
+  "alternateNames": [
+    {
+      "es": "Fondos en el suelo",
+      "en": "Press-up"
+    },
+    {
+      "es": "Flexión de brazos",
+      "en": "Pushup"
+    }
+  ],
+
+  "metadata": {
+    "createdAt": "2026-02-17",
+    "updatedAt": "2026-02-17",
+    "version": 1,
+    "tags": [
+      "upper_body",
+      "push",
+      "bodyweight"
+    ]
+  }
+},
+
+{
+"id": "exercise_pull_up",
+"name": {
+"es": "Dominadas",
+"en": "Pull-up"
+},
+"image": {
+"fileName": "pull_up.png",
+"altText": {
+"es": "Persona realizando una dominada en barra",
+"en": "Person performing a pull-up on a bar"
+}
+},
+"video": {
+"url": "https://example.com/video/pull-up
+"
+},
+
+"muscles": {
+"primary": [
+"back_latissimus_dorsi"
+],
+"secondary": [
+"arm_biceps_brachii",
+"arm_biceps_long_head",
+"arm_biceps_short_head",
+"back_trapezius_middle",
+"back_trapezius_lower",
+"back_rhomboid_major",
+"back_rhomboid_minor",
+"shoulder_teres_minor",
+"core_rectus_abdominis",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["pullup_bar"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["pull_vertical"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Agarra la barra con las manos un poco más abiertas que los hombros.",
+"en": "Grip the bar slightly wider than shoulder-width."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Activa escápulas bajando los hombros antes de iniciar la subida.",
+"en": "Depress your shoulders to engage the scapula before pulling."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Tira hasta que la barbilla supere la barra.",
+"en": "Pull until your chin clears the bar."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Desciende de forma controlada hasta extensión completa.",
+"en": "Lower under control to full arm extension."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita balancearte; controla el core.",
+"en": "Avoid swinging; keep your core tight."
+}
+},
+{
+"text": {
+"es": "Piensa en llevar los codos hacia las costillas.",
+"en": "Think about driving your elbows toward your ribs."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Dolor de hombro anterior puede indicar mala activación escapular.",
+"en": "Anterior shoulder pain may indicate poor scapular activation."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del manguito rotador.",
+"en": "Avoid with acute rotator cuff injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Pull-ups", "en": "Pull-ups" },
+{ "es": "Dominadas pronas", "en": "Pronated pull-up" }
+]
+},
+
+{
+"id": "exercise_barbell_deadlift",
+"name": {
+"es": "Peso muerto con barra",
+"en": "Barbell Deadlift"
+},
+"image": {
+"fileName": "barbell_deadlift.png",
+"altText": {
+"es": "Persona realizando un peso muerto con barra",
+"en": "Person performing a barbell deadlift"
+}
+},
+"video": {
+"url": "https://example.com/video/barbell-deadlift
+"
+},
+
+"muscles": {
+"primary": [
+"gluteus_maximus",
+"hamstrings",
+"back_erector_spinae"
+],
+"secondary": [
+"quadriceps",
+"back_latissimus_dorsi",
+"back_trapezius_middle",
+"back_trapezius_lower",
+"core_transverse_abdominis",
+"core_rectus_abdominis",
+"forearm_flexors"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["barbell"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["hinge"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Coloca la barra sobre la mitad del pie, con los pies a la anchura de las caderas.",
+"en": "Position the bar over the mid-foot with feet hip-width apart."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Flexiona cadera llevando los glúteos atrás y agarra la barra justo por fuera de las piernas.",
+"en": "Hinge at the hips and grip the bar just outside your legs."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Mantén la espalda neutra y activa el core antes de iniciar la subida.",
+"en": "Keep a neutral spine and brace your core before lifting."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Empuja el suelo con los pies y extiende cadera y rodillas al mismo tiempo.",
+"en": "Push through the floor and extend hips and knees together."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Desciende controlando, primero cadera atrás y luego rodillas.",
+"en": "Lower under control by hinging at the hips first, then bending the knees."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "La barra debe rozar las piernas durante todo el recorrido.",
+"en": "Keep the bar close to your legs throughout the lift."
+}
+},
+{
+"text": {
+"es": "No redondees la zona lumbar en ningún momento.",
+"en": "Avoid rounding your lower back at any time."
+}
+},
+{
+"text": {
+"es": "Piensa en empujar el suelo, no en tirar de la barra.",
+"en": "Think about pushing the floor away, not pulling the bar up."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Personas con historial de dolor lumbar deben empezar con cargas ligeras y técnica supervisada.",
+"en": "Individuals with lower back pain history should start light and prioritize technique."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión lumbar aguda o hernia discal activa.",
+"en": "Avoid with acute lumbar injury or active disc herniation."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Deadlift", "en": "Deadlift" },
+{ "es": "Peso muerto convencional", "en": "Conventional deadlift" }
+]
+},
+
+{
+"id": "exercise_goblet_squat",
+"name": {
+"es": "Sentadilla Goblet",
+"en": "Goblet Squat"
+},
+"image": {
+"fileName": "goblet_squat.png",
+"altText": {
+"es": "Persona realizando una sentadilla goblet con mancuerna",
+"en": "Person performing a goblet squat with a dumbbell"
+}
+},
+"video": {
+"url": "https://example.com/video/goblet-squat
+"
+},
+
+"muscles": {
+"primary": [
+"quadriceps",
+"gluteus_maximus"
+],
+"secondary": [
+"gluteus_medius",
+"hamstrings",
+"core_rectus_abdominis",
+"core_transverse_abdominis",
+"core_oblique_external",
+"back_erector_spinae"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["dumbbells", "kettlebell"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["squat"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Sujeta una mancuerna o kettlebell frente al pecho con ambas manos.",
+"en": "Hold a dumbbell or kettlebell close to your chest with both hands."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Coloca los pies ligeramente más abiertos que las caderas.",
+"en": "Stand with feet slightly wider than hip-width."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Desciende flexionando rodillas y cadera manteniendo el torso erguido.",
+"en": "Lower by bending hips and knees while keeping your torso upright."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Baja hasta que las caderas estén al menos paralelas al suelo.",
+"en": "Descend until your hips reach at least parallel depth."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Empuja el suelo con los pies y vuelve a la posición inicial.",
+"en": "Drive through your feet to return to standing."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Mantén los codos apuntando hacia abajo para facilitar una postura erguida.",
+"en": "Keep elbows pointing down to help maintain an upright torso."
+}
+},
+{
+"text": {
+"es": "Empuja las rodillas ligeramente hacia fuera al bajar.",
+"en": "Push your knees slightly outward as you descend."
+}
+},
+{
+"text": {
+"es": "Mantén el peso distribuido en todo el pie.",
+"en": "Keep your weight evenly distributed through the whole foot."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Personas con dolor de rodilla deben controlar la profundidad y carga.",
+"en": "Individuals with knee pain should control depth and load."
+}
+},
+{
+"warningLevel": "caution",
+"text": {
+"es": "Limitaciones de movilidad de tobillo pueden requerir talones elevados.",
+"en": "Limited ankle mobility may require heel elevation."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Goblet squat", "en": "Goblet squat" },
+{ "es": "Sentadilla con mancuerna frontal", "en": "Dumbbell front squat" }
+]
+},
+
+{
+"id": "exercise_kettlebell_squat",
+"name": {
+"es": "Sentadilla con kettlebell",
+"en": "Kettlebell Squat"
+},
+"image": {
+"fileName": "kettlebell_squat.png",
+"altText": {
+"es": "Persona realizando una sentadilla con kettlebell",
+"en": "Person performing a kettlebell squat"
+}
+},
+"video": {
+"url": "https://example.com/video/kettlebell-squat
+"
+},
+
+"muscles": {
+"primary": [
+"quadriceps",
+"gluteus_maximus"
+],
+"secondary": [
+"gluteus_medius",
+"hamstrings",
+"core_rectus_abdominis",
+"core_transverse_abdominis",
+"core_oblique_external",
+"back_erector_spinae"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["kettlebell"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["squat"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Sujeta la kettlebell frente al pecho con ambas manos por las asas.",
+"en": "Hold the kettlebell by the horns close to your chest."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Coloca los pies ligeramente más abiertos que el ancho de caderas.",
+"en": "Stand with feet slightly wider than hip-width."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Desciende flexionando rodillas y cadera manteniendo el torso lo más vertical posible.",
+"en": "Lower by bending hips and knees while keeping your torso upright."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Baja hasta que los muslos estén paralelos o por debajo.",
+"en": "Descend until thighs are parallel or slightly below."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Empuja el suelo con los pies y vuelve a la posición inicial.",
+"en": "Drive through your feet to return to standing."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Mantén el peso cerca del pecho para mejorar la estabilidad.",
+"en": "Keep the weight close to your chest to improve stability."
+}
+},
+{
+"text": {
+"es": "Empuja ligeramente las rodillas hacia afuera durante la bajada.",
+"en": "Push your knees slightly outward during descent."
+}
+},
+{
+"text": {
+"es": "Mantén el core activo durante todo el movimiento.",
+"en": "Keep your core braced throughout the movement."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Personas con dolor de rodilla deben controlar la profundidad.",
+"en": "Individuals with knee pain should control squat depth."
+}
+},
+{
+"warningLevel": "caution",
+"text": {
+"es": "Limitaciones de movilidad pueden requerir reducción de carga.",
+"en": "Mobility limitations may require load reduction."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Kettlebell squat", "en": "Kettlebell squat" },
+{ "es": "Sentadilla goblet con kettlebell", "en": "Kettlebell goblet squat" }
+]
+},
+
+{
+"id": "exercise_kettlebell_deadlift",
+"name": {
+"es": "Peso muerto con kettlebell",
+"en": "Kettlebell Deadlift"
+},
+"image": {
+"fileName": "kettlebell_deadlift.png",
+"altText": {
+"es": "Persona realizando un peso muerto con kettlebell",
+"en": "Person performing a kettlebell deadlift"
+}
+},
+"video": {
+"url": "https://example.com/video/kettlebell-deadlift
+"
+},
+
+"muscles": {
+"primary": [
+"gluteus_maximus",
+"hamstrings",
+"back_erector_spinae"
+],
+"secondary": [
+"quadriceps",
+"core_transverse_abdominis",
+"core_rectus_abdominis",
+"back_latissimus_dorsi",
+"forearm_flexors"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["kettlebell"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["hinge"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Coloca la kettlebell entre los pies, alineada con la mitad del pie.",
+"en": "Place the kettlebell between your feet aligned with mid-foot."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Flexiona la cadera llevando los glúteos hacia atrás y agarra el asa con ambas manos.",
+"en": "Hinge at the hips, pushing them back, and grab the handle with both hands."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Mantén la espalda neutra y activa el core antes de levantar.",
+"en": "Keep a neutral spine and brace your core before lifting."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Empuja el suelo con los pies y extiende cadera y rodillas hasta quedar erguido.",
+"en": "Drive through your feet and extend hips and knees to stand upright."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Desciende controlando el movimiento llevando primero la cadera hacia atrás.",
+"en": "Lower under control by hinging the hips back first."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "No conviertas el movimiento en una sentadilla; prioriza la bisagra de cadera.",
+"en": "Do not turn it into a squat; prioritize the hip hinge."
+}
+},
+{
+"text": {
+"es": "Mantén la kettlebell cerca del cuerpo durante todo el recorrido.",
+"en": "Keep the kettlebell close to your body throughout the movement."
+}
+},
+{
+"text": {
+"es": "Aprieta los glúteos fuerte al final del movimiento.",
+"en": "Squeeze your glutes hard at the top."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Personas con dolor lumbar deben priorizar técnica y cargas ligeras.",
+"en": "Individuals with lower back pain should prioritize technique and light loads."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión lumbar aguda.",
+"en": "Avoid with acute lower back injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Kettlebell deadlift", "en": "Kettlebell deadlift" },
+{ "es": "Peso muerto con pesa rusa", "en": "Russian kettlebell deadlift" }
+]
+},
+
+{
+"id": "exercise_kettlebell_hanging_squat",
+"name": {
+"es": "Sentadilla con kettlebell colgante",
+"en": "Kettlebell Hanging Squat"
+},
+"image": {
+"fileName": "kettlebell_hanging_squat.png",
+"altText": {
+"es": "Persona realizando una sentadilla sosteniendo una kettlebell con los brazos estirados hacia abajo",
+"en": "Person performing a squat holding a kettlebell hanging with arms extended downward"
+}
+},
+"video": {
+"url": "https://example.com/video/kettlebell-hanging-squat
+"
+},
+
+"muscles": {
+"primary": [
+"quadriceps",
+"gluteus_maximus"
+],
+"secondary": [
+"gluteus_medius",
+"hamstrings",
+"back_erector_spinae",
+"core_transverse_abdominis",
+"core_rectus_abdominis",
+"forearm_flexors",
+"shoulder_deltoid_anterior"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["kettlebell"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["squat"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Sujeta la kettlebell con ambas manos por el asa, dejando los brazos completamente estirados hacia abajo.",
+"en": "Hold the kettlebell with both hands by the handle, arms fully extended downward."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Coloca los pies a la anchura de los hombros o ligeramente más abiertos.",
+"en": "Stand with feet shoulder-width apart or slightly wider."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Mantén la espalda neutra y activa el core antes de descender.",
+"en": "Maintain a neutral spine and brace your core before descending."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Desciende en sentadilla hasta que la kettlebell toque el suelo entre los pies.",
+"en": "Lower into a squat until the kettlebell touches the floor between your feet."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Empuja el suelo con los pies y vuelve a la posición erguida manteniendo los brazos extendidos.",
+"en": "Drive through your feet to return to standing while keeping arms extended."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita redondear la zona lumbar al tocar el suelo.",
+"en": "Avoid rounding your lower back when the kettlebell touches the floor."
+}
+},
+{
+"text": {
+"es": "Mantén el peso distribuido en todo el pie, no solo en la punta.",
+"en": "Keep your weight evenly distributed across the whole foot."
+}
+},
+{
+"text": {
+"es": "No relajes el core en la parte baja del movimiento.",
+"en": "Do not relax your core at the bottom of the movement."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Personas con movilidad limitada de cadera o tobillo pueden necesitar reducir la profundidad.",
+"en": "Individuals with limited hip or ankle mobility may need to reduce depth."
+}
+},
+{
+"warningLevel": "caution",
+"text": {
+"es": "Molestias lumbares pueden indicar falta de estabilidad o exceso de carga.",
+"en": "Lower back discomfort may indicate poor stability or excessive load."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Sentadilla con kettlebell brazos extendidos", "en": "Extended arm kettlebell squat" },
+{ "es": "Kettlebell hanging squat", "en": "Kettlebell hanging squat" }
+]
+},
+
+{
+"id": "exercise_machine_row",
+"name": {
+"es": "Remo en máquina",
+"en": "Machine Row"
+},
+"image": {
+"fileName": "machine_row.png",
+"altText": {
+"es": "Persona realizando remo sentado en máquina",
+"en": "Person performing a seated machine row"
+}
+},
+"video": {
+"url": "https://example.com/video/machine-row
+"
+},
+
+"muscles": {
+"primary": [
+"back_latissimus_dorsi",
+"back_rhomboid_major",
+"back_rhomboid_minor",
+"back_trapezius_middle"
+],
+"secondary": [
+"back_trapezius_lower",
+"arm_biceps_brachii",
+"arm_biceps_long_head",
+"arm_biceps_short_head",
+"arm_brachialis",
+"shoulder_deltoid_posterior",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["machine", "cable"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["pull_horizontal"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Siéntate en la máquina con el pecho apoyado o la espalda recta según el modelo.",
+"en": "Sit on the machine with chest supported or upright depending on the model."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Agarra las asas con los brazos extendidos al frente.",
+"en": "Grip the handles with arms extended forward."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Inicia el movimiento retrayendo las escápulas antes de flexionar los codos.",
+"en": "Initiate by retracting the shoulder blades before bending the elbows."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Lleva las asas hacia el torso manteniendo el pecho abierto.",
+"en": "Pull the handles toward your torso while keeping the chest open."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Extiende los brazos de forma controlada sin perder la postura.",
+"en": "Extend the arms under control without losing posture."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita encoger los hombros durante la tracción.",
+"en": "Avoid shrugging your shoulders during the pull."
+}
+},
+{
+"text": {
+"es": "Controla la fase excéntrica; no dejes que el peso te arrastre.",
+"en": "Control the eccentric phase; do not let the weight pull you forward."
+}
+},
+{
+"text": {
+"es": "Piensa en llevar los codos hacia atrás, no en tirar con las manos.",
+"en": "Think about driving your elbows back rather than pulling with your hands."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Personas con molestias en el hombro deben evitar rangos dolorosos.",
+"en": "Individuals with shoulder discomfort should avoid painful ranges."
+}
+},
+{
+"warningLevel": "caution",
+"text": {
+"es": "Evitar balancear el tronco para compensar exceso de carga.",
+"en": "Avoid using torso momentum to compensate for excessive load."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Remo sentado en máquina", "en": "Seated machine row" },
+{ "es": "Remo en polea baja", "en": "Seated cable row" }
+]
+},
+
+{
+"id": "exercise_machine_shoulder_press",
+"name": {
+"es": "Press de hombro en máquina",
+"en": "Machine Shoulder Press"
+},
+"image": {
+"fileName": "machine_shoulder_press.png",
+"altText": {
+"es": "Persona realizando press de hombro en máquina",
+"en": "Person performing a machine shoulder press"
+}
+},
+"video": {
+"url": "https://example.com/video/machine-shoulder-press
+"
+},
+
+"muscles": {
+"primary": [
+"shoulder_deltoid_anterior",
+"shoulder_deltoid_lateral"
+],
+"secondary": [
+"arm_triceps_brachii",
+"arm_triceps_long_head",
+"arm_triceps_lateral_head",
+"arm_triceps_medial_head",
+"chest_pectoralis_major_upper",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["machine"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["push_vertical"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Siéntate en la máquina con la espalda completamente apoyada en el respaldo.",
+"en": "Sit on the machine with your back fully supported against the pad."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Ajusta el asiento para que las asas estén a la altura de los hombros.",
+"en": "Adjust the seat so the handles are at shoulder height."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Agarra las asas con los codos ligeramente por debajo o alineados con los hombros.",
+"en": "Grip the handles with elbows slightly below or aligned with shoulders."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Empuja las asas hacia arriba hasta extender los brazos sin bloquear agresivamente los codos.",
+"en": "Press the handles upward until arms are extended without aggressively locking the elbows."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Desciende de forma controlada hasta la posición inicial.",
+"en": "Lower under control back to the starting position."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Mantén el core activo aunque la espalda esté apoyada.",
+"en": "Keep your core engaged even with back support."
+}
+},
+{
+"text": {
+"es": "Evita encoger los hombros durante el empuje.",
+"en": "Avoid shrugging your shoulders during the press."
+}
+},
+{
+"text": {
+"es": "Controla especialmente la fase excéntrica.",
+"en": "Control the eccentric phase carefully."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Personas con dolor anterior de hombro deben revisar el ángulo del asiento.",
+"en": "Individuals with anterior shoulder pain should adjust the seat angle."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del manguito rotador.",
+"en": "Avoid with acute rotator cuff injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Press militar en máquina", "en": "Machine military press" },
+{ "es": "Shoulder press en máquina", "en": "Machine shoulder press" }
+]
+},
+
+{
+"id": "exercise_weighted_pull_up",
+"name": {
+"es": "Dominadas lastradas",
+"en": "Weighted Pull-up"
+},
+"image": {
+"fileName": "weighted_pull_up.png",
+"altText": {
+"es": "Persona realizando dominadas con peso adicional",
+"en": "Person performing weighted pull-ups"
+}
+},
+"video": {
+"url": "https://example.com/video/weighted-pull-up
+"
+},
+
+"muscles": {
+"primary": [
+"back_latissimus_dorsi"
+],
+"secondary": [
+"arm_biceps_brachii",
+"arm_biceps_long_head",
+"arm_biceps_short_head",
+"arm_brachialis",
+"back_trapezius_middle",
+"back_trapezius_lower",
+"back_rhomboid_major",
+"back_rhomboid_minor",
+"shoulder_teres_minor",
+"core_transverse_abdominis",
+"core_rectus_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["pullup_bar"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["pull_vertical"],
+
+"difficulty": "advanced",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Coloca el lastre mediante cinturón, chaleco o sujetando una mancuerna entre las piernas.",
+"en": "Attach additional weight using a dip belt, vest, or by holding a dumbbell between your legs."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Agarra la barra con un agarre ligeramente más ancho que los hombros.",
+"en": "Grip the bar slightly wider than shoulder-width."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Activa las escápulas antes de iniciar la tracción.",
+"en": "Engage the scapula before initiating the pull."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Tira hasta que la barbilla supere claramente la barra.",
+"en": "Pull until your chin clearly passes the bar."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Desciende de forma controlada hasta la extensión completa de los brazos.",
+"en": "Lower under control to full arm extension."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Mantén el core firme para evitar balanceos.",
+"en": "Keep your core tight to prevent swinging."
+}
+},
+{
+"text": {
+"es": "No sacrifiques rango de movimiento por más peso.",
+"en": "Do not sacrifice range of motion for heavier weight."
+}
+},
+{
+"text": {
+"es": "Progresa de forma gradual en la carga.",
+"en": "Progress the load gradually."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Evitar aumentos bruscos de carga si hay historial de molestias en codos.",
+"en": "Avoid sudden load increases if you have a history of elbow discomfort."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "No realizar con lesión activa del manguito rotador o tendinitis severa.",
+"en": "Do not perform with active rotator cuff injury or severe tendinitis."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Pull-ups lastradas", "en": "Weighted pull-ups" },
+{ "es": "Dominadas con peso", "en": "Pull-ups with added weight" }
+]
+},
+
+{
+"id": "exercise_low_cable_row",
+"name": {
+"es": "Remo en polea baja",
+"en": "Low Cable Row"
+},
+"image": {
+"fileName": "low_cable_row.png",
+"altText": {
+"es": "Persona realizando remo sentado en polea baja",
+"en": "Person performing a seated low cable row"
+}
+},
+"video": {
+"url": "https://example.com/video/low-cable-row
+"
+},
+
+"muscles": {
+"primary": [
+"back_latissimus_dorsi",
+"back_rhomboid_major",
+"back_rhomboid_minor",
+"back_trapezius_middle"
+],
+"secondary": [
+"back_trapezius_lower",
+"arm_biceps_brachii",
+"arm_biceps_long_head",
+"arm_biceps_short_head",
+"arm_brachialis",
+"shoulder_deltoid_posterior",
+"core_transverse_abdominis",
+"back_erector_spinae"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["cable"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["pull_horizontal"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Siéntate frente a la polea con los pies apoyados en la plataforma.",
+"en": "Sit facing the cable machine with feet supported on the platform."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Agarra el accesorio (barra o agarre en V) con los brazos extendidos.",
+"en": "Grip the attachment (bar or V-handle) with arms fully extended."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Inicia retrayendo las escápulas antes de flexionar los codos.",
+"en": "Start by retracting your shoulder blades before bending the elbows."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Lleva el agarre hacia el abdomen manteniendo el pecho abierto.",
+"en": "Pull the handle toward your abdomen while keeping the chest open."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Extiende los brazos lentamente controlando el peso.",
+"en": "Extend your arms slowly, controlling the weight."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita inclinarte excesivamente hacia atrás.",
+"en": "Avoid excessive backward leaning."
+}
+},
+{
+"text": {
+"es": "No redondees los hombros al final de la fase excéntrica.",
+"en": "Do not round your shoulders at the end of the eccentric phase."
+}
+},
+{
+"text": {
+"es": "Piensa en llevar los codos hacia atrás y hacia abajo.",
+"en": "Think about driving your elbows back and down."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Personas con dolor lumbar deben evitar balancear el tronco.",
+"en": "Individuals with lower back pain should avoid using torso momentum."
+}
+},
+{
+"warningLevel": "caution",
+"text": {
+"es": "Evitar rangos dolorosos si hay molestias en el hombro.",
+"en": "Avoid painful ranges if shoulder discomfort is present."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Remo sentado en polea", "en": "Seated cable row" },
+{ "es": "Remo bajo en polea", "en": "Low pulley row" }
+]
+},
+
+{
+"id": "exercise_chin_up",
+"name": {
+"es": "Dominadas agarre supino",
+"en": "Chin-up"
+},
+"image": {
+"fileName": "chin_up.png",
+"altText": {
+"es": "Persona realizando dominadas con agarre supino",
+"en": "Person performing chin-ups with a supinated grip"
+}
+},
+"video": {
+"url": "https://example.com/video/chin-up
+"
+},
+
+"muscles": {
+"primary": [
+"back_latissimus_dorsi",
+"arm_biceps_brachii"
+],
+"secondary": [
+"arm_biceps_long_head",
+"arm_biceps_short_head",
+"arm_brachialis",
+"back_rhomboid_major",
+"back_rhomboid_minor",
+"back_trapezius_middle",
+"back_trapezius_lower",
+"shoulder_teres_minor",
+"core_transverse_abdominis",
+"core_rectus_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["pullup_bar"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["pull_vertical"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Agarra la barra con las palmas mirando hacia ti y manos a la anchura de los hombros.",
+"en": "Grip the bar with palms facing you, hands shoulder-width apart."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Activa las escápulas antes de comenzar la tracción.",
+"en": "Engage your scapula before initiating the pull."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Tira hasta que la barbilla supere la barra.",
+"en": "Pull until your chin clears the bar."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Desciende de forma controlada hasta la extensión completa.",
+"en": "Lower under control to full extension."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Mantén el pecho ligeramente elevado durante la subida.",
+"en": "Keep your chest slightly lifted during the pull."
+}
+},
+{
+"text": {
+"es": "Evita balanceos excesivos con las piernas.",
+"en": "Avoid excessive leg swinging."
+}
+},
+{
+"text": {
+"es": "Concéntrate en flexionar los codos con fuerza.",
+"en": "Focus on driving elbow flexion strongly."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Puede generar más estrés en el codo si hay tendinitis previa.",
+"en": "May place additional stress on the elbows if tendinitis is present."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda de bíceps o codo.",
+"en": "Avoid with acute biceps or elbow injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Chin-ups", "en": "Chin-ups" },
+{ "es": "Dominadas supinas", "en": "Supinated pull-ups" }
+]
+},
+
+{
+"id": "exercise_incline_machine_chest_press",
+"name": {
+"es": "Press de pecho inclinado guiado",
+"en": "Incline Machine Chest Press"
+},
+"image": {
+"fileName": "incline_machine_chest_press.png",
+"altText": {
+"es": "Persona realizando press de pecho inclinado en máquina guiada",
+"en": "Person performing an incline machine chest press"
+}
+},
+"video": {
+"url": "https://example.com/video/incline-machine-chest-press
+"
+},
+
+"muscles": {
+"primary": [
+"chest_pectoralis_major_upper"
+],
+"secondary": [
+"chest_pectoralis_major_middle",
+"shoulder_deltoid_anterior",
+"arm_triceps_brachii",
+"arm_triceps_long_head",
+"arm_triceps_lateral_head",
+"arm_triceps_medial_head",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["machine", "smith_machine"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["push_horizontal"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Ajusta el asiento para que las asas estén a la altura del pecho superior.",
+"en": "Adjust the seat so the handles align with your upper chest."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Coloca los pies firmes en el suelo y apoya completamente la espalda.",
+"en": "Keep your feet firmly planted and your back fully supported."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Empuja las asas hacia adelante y ligeramente hacia arriba hasta extender los brazos.",
+"en": "Press the handles forward and slightly upward until arms are extended."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Desciende controladamente hasta que los codos estén aproximadamente a 90 grados.",
+"en": "Lower under control until elbows reach about 90 degrees."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Mantén los hombros retraídos y estables durante todo el movimiento.",
+"en": "Keep your shoulders retracted and stable throughout the movement."
+}
+},
+{
+"text": {
+"es": "No bloquees los codos de forma agresiva en la parte alta.",
+"en": "Avoid aggressively locking your elbows at the top."
+}
+},
+{
+"text": {
+"es": "Controla la fase excéntrica para maximizar el estímulo.",
+"en": "Control the eccentric phase to maximize stimulus."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Personas con molestias anteriores de hombro deben ajustar la inclinación.",
+"en": "Individuals with anterior shoulder discomfort should adjust the bench angle."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del manguito rotador.",
+"en": "Avoid with acute rotator cuff injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Press inclinado en máquina", "en": "Incline machine press" },
+{ "es": "Press inclinado guiado", "en": "Guided incline chest press" }
+]
+},
+
+{
+"id": "exercise_pec_deck_fly",
+"name": {
+"es": "Aperturas en peck-deck",
+"en": "Pec Deck Fly"
+},
+"image": {
+"fileName": "pec_deck_fly.png",
+"altText": {
+"es": "Persona realizando aperturas en máquina peck-deck",
+"en": "Person performing a pec deck fly"
+}
+},
+"video": {
+"url": "https://example.com/video/pec-deck-fly
+"
+},
+
+"muscles": {
+"primary": [
+"chest_pectoralis_major_middle"
+],
+"secondary": [
+"chest_pectoralis_major_upper",
+"chest_pectoralis_major_lower",
+"shoulder_deltoid_anterior",
+"chest_pectoralis_minor"
+]
+},
+
+"exerciseType": ["hypertrophy"],
+
+"equipment": ["machine"],
+
+"movementType": ["isolation", "bilateral"],
+
+"movementPattern": ["push_horizontal"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Ajusta el asiento para que los brazos queden alineados con el centro del pecho.",
+"en": "Adjust the seat so your arms align with the center of your chest."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Coloca los antebrazos o manos en los apoyos manteniendo una ligera flexión de codos.",
+"en": "Place your forearms or hands on the pads with a slight bend in the elbows."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Cierra los brazos llevando los apoyos hacia el centro del cuerpo.",
+"en": "Bring your arms together toward the midline of your body."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Aprieta el pecho en la parte final del recorrido.",
+"en": "Squeeze your chest at the end of the movement."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Regresa lentamente a la posición inicial controlando la apertura.",
+"en": "Return slowly to the starting position under control."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita extender completamente los codos para proteger la articulación.",
+"en": "Avoid fully locking your elbows to protect the joint."
+}
+},
+{
+"text": {
+"es": "Mantén el pecho elevado y los hombros retraídos.",
+"en": "Keep your chest up and shoulders retracted."
+}
+},
+{
+"text": {
+"es": "Controla especialmente la fase excéntrica.",
+"en": "Control the eccentric phase carefully."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Personas con dolor anterior de hombro deben reducir rango o carga.",
+"en": "Individuals with anterior shoulder pain should reduce range or load."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del pectoral.",
+"en": "Avoid with acute pectoral injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Peck-deck", "en": "Pec deck" },
+{ "es": "Aperturas en máquina", "en": "Machine chest fly" }
+]
+},
+
+{
+"id": "exercise_triceps_push_up",
+"name": {
+"es": "Flexiones enfocadas en tríceps",
+"en": "Triceps Push-up"
+},
+"image": {
+"fileName": "triceps_push_up.png",
+"altText": {
+"es": "Persona realizando flexiones con agarre cerrado enfocadas en tríceps",
+"en": "Person performing close-grip push-ups focused on triceps"
+}
+},
+"video": {
+"url": "https://example.com/video/triceps-push-up
+"
+},
+
+"muscles": {
+"primary": [
+"arm_triceps_brachii",
+"arm_triceps_long_head",
+"arm_triceps_lateral_head",
+"arm_triceps_medial_head"
+],
+"secondary": [
+"chest_pectoralis_major_middle",
+"chest_pectoralis_major_upper",
+"shoulder_deltoid_anterior",
+"core_rectus_abdominis",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["bodyweight", "none"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["push_horizontal"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Coloca las manos justo debajo de los hombros o ligeramente más juntas.",
+"en": "Place your hands directly under your shoulders or slightly closer."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Mantén el cuerpo alineado desde la cabeza hasta los talones.",
+"en": "Keep your body aligned from head to heels."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Desciende manteniendo los codos pegados al cuerpo.",
+"en": "Lower while keeping your elbows close to your torso."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Empuja el suelo extendiendo completamente los codos.",
+"en": "Press the floor away by fully extending your elbows."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Mantén los codos apuntando hacia atrás, no hacia los lados.",
+"en": "Keep your elbows pointing backward, not flaring out."
+}
+},
+{
+"text": {
+"es": "Activa el core para evitar que la cadera se hunda.",
+"en": "Brace your core to prevent hip sagging."
+}
+},
+{
+"text": {
+"es": "Controla el descenso para aumentar la activación.",
+"en": "Control the descent to increase activation."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Puede aumentar el estrés en muñecas si la movilidad es limitada.",
+"en": "May increase wrist stress if mobility is limited."
+}
+},
+{
+"warningLevel": "caution",
+"text": {
+"es": "Evitar si hay tendinitis aguda de tríceps.",
+"en": "Avoid with acute triceps tendinitis."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Flexiones cerradas", "en": "Close-grip push-ups" },
+{ "es": "Flexiones diamante", "en": "Diamond push-ups" }
+]
+},
+
+{
+"id": "exercise_diamond_push_up",
+"name": {
+"es": "Flexiones diamante",
+"en": "Diamond Push-up"
+},
+"image": {
+"fileName": "diamond_push_up.png",
+"altText": {
+"es": "Persona realizando flexiones diamante con las manos formando un triángulo",
+"en": "Person performing diamond push-ups with hands forming a triangle shape"
+}
+},
+"video": {
+"url": "https://example.com/video/diamond-push-up
+"
+},
+
+"muscles": {
+"primary": [
+"arm_triceps_brachii",
+"arm_triceps_long_head",
+"arm_triceps_lateral_head",
+"arm_triceps_medial_head"
+],
+"secondary": [
+"chest_pectoralis_major_middle",
+"chest_pectoralis_major_upper",
+"shoulder_deltoid_anterior",
+"core_rectus_abdominis",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["bodyweight", "none"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["push_horizontal"],
+
+"difficulty": "advanced",
+
+"tracking": {
+"type": "reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Coloca las manos juntas debajo del pecho formando un triángulo con los pulgares e índices.",
+"en": "Place your hands together under your chest forming a triangle with thumbs and index fingers."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Mantén el cuerpo alineado desde la cabeza hasta los talones.",
+"en": "Keep your body aligned from head to heels."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Desciende manteniendo los codos pegados al torso.",
+"en": "Lower while keeping your elbows close to your torso."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Empuja el suelo extendiendo los codos hasta volver a la posición inicial.",
+"en": "Press the floor away by extending your elbows back to the starting position."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Mantén el core activo para evitar que la cadera se hunda.",
+"en": "Brace your core to prevent hip sagging."
+}
+},
+{
+"text": {
+"es": "Controla la bajada para aumentar la activación del tríceps.",
+"en": "Control the descent to increase triceps activation."
+}
+},
+{
+"text": {
+"es": "Si es demasiado exigente, apoya las rodillas.",
+"en": "If too challenging, perform on your knees."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Puede generar alta carga en muñecas si la movilidad es limitada.",
+"en": "May create high wrist stress if mobility is limited."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda de tríceps o muñeca.",
+"en": "Avoid with acute triceps or wrist injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Flexiones en diamante", "en": "Diamond push-ups" },
+{ "es": "Flexiones tríceps cerradas", "en": "Close diamond push-ups" }
+]
+},
+
+{
+"id": "exercise_cable_lateral_raise",
+"name": {
+"es": "Elevaciones laterales en polea",
+"en": "Cable Lateral Raise"
+},
+"image": {
+"fileName": "cable_lateral_raise.png",
+"altText": {
+"es": "Persona realizando elevaciones laterales con polea",
+"en": "Person performing cable lateral raises"
+}
+},
+"video": {
+"url": "https://example.com/video/cable-lateral-raise
+"
+},
+
+"muscles": {
+"primary": [
+"shoulder_deltoid_lateral"
+],
+"secondary": [
+"shoulder_deltoid_anterior",
+"shoulder_supraspinatus",
+"back_trapezius_upper",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["hypertrophy"],
+
+"equipment": ["cable"],
+
+"movementType": ["isolation", "bilateral"],
+
+"movementPattern": ["push_vertical"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Coloca la polea en la posición más baja y sujeta el agarre con la mano contraria.",
+"en": "Set the cable to the lowest position and grab the handle with the opposite hand."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Mantén una ligera flexión en el codo durante todo el movimiento.",
+"en": "Keep a slight bend in your elbow throughout the movement."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Eleva el brazo lateralmente hasta que esté aproximadamente a la altura del hombro.",
+"en": "Raise your arm laterally until it reaches shoulder height."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Desciende lentamente controlando la resistencia de la polea.",
+"en": "Lower slowly under control against the cable resistance."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita balancear el torso para ayudarte.",
+"en": "Avoid swinging your torso to assist the movement."
+}
+},
+{
+"text": {
+"es": "No eleves el brazo más allá de la línea del hombro.",
+"en": "Do not raise your arm above shoulder level."
+}
+},
+{
+"text": {
+"es": "Concéntrate en levantar con el hombro, no con el trapecio.",
+"en": "Focus on lifting with the shoulder, not the traps."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el hombro.",
+"en": "Reduce load if shoulder discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del manguito rotador.",
+"en": "Avoid with acute rotator cuff injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Elevaciones laterales en cable", "en": "Cable side raise" },
+{ "es": "Lateral raise en polea", "en": "Cable lateral raise" }
+]
+},
+
+{
+"id": "exercise_cable_hammer_curl",
+"name": {
+"es": "Curl martillo en polea",
+"en": "Cable Hammer Curl"
+},
+"image": {
+"fileName": "cable_hammer_curl.png",
+"altText": {
+"es": "Persona realizando curl martillo en polea con cuerda",
+"en": "Person performing cable hammer curl with rope attachment"
+}
+},
+"video": {
+"url": "https://example.com/video/cable-hammer-curl
+"
+},
+
+"muscles": {
+"primary": [
+"arm_brachialis"
+],
+"secondary": [
+"arm_biceps_brachii",
+"arm_biceps_long_head",
+"arm_biceps_short_head",
+"forearm_flexors"
+]
+},
+
+"exerciseType": ["hypertrophy", "strength"],
+
+"equipment": ["cable"],
+
+"movementType": ["isolation", "bilateral"],
+
+"movementPattern": ["pull_vertical"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Coloca la polea en la posición más baja y acopla la cuerda.",
+"en": "Set the cable to the lowest position and attach a rope handle."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Agarra la cuerda con agarre neutro (palmas enfrentadas).",
+"en": "Grip the rope with a neutral grip (palms facing each other)."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Mantén los codos pegados al torso y flexiona los codos elevando la cuerda.",
+"en": "Keep elbows close to your torso and flex your elbows to raise the rope."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Aprieta en la parte alta del movimiento.",
+"en": "Squeeze at the top of the movement."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Desciende lentamente controlando la resistencia.",
+"en": "Lower slowly under control."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita balancear el cuerpo para ayudarte.",
+"en": "Avoid swinging your body to assist the lift."
+}
+},
+{
+"text": {
+"es": "Mantén las muñecas neutras durante todo el movimiento.",
+"en": "Keep wrists neutral throughout the movement."
+}
+},
+{
+"text": {
+"es": "Controla la fase excéntrica para maximizar el estímulo.",
+"en": "Control the eccentric phase to maximize stimulus."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el codo.",
+"en": "Reduce load if elbow discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de tendinitis aguda del bíceps o epicondilitis severa.",
+"en": "Avoid with acute biceps tendinitis or severe epicondylitis."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Curl neutro en polea", "en": "Neutral grip cable curl" },
+{ "es": "Curl martillo con cuerda", "en": "Rope hammer curl" }
+]
+},
+
+{
+"id": "exercise_cable_triceps_pushdown_bar",
+"name": {
+"es": "Extensión de tríceps en polea con barra",
+"en": "Cable Triceps Pushdown (Bar)"
+},
+"image": {
+"fileName": "cable_triceps_pushdown_bar.png",
+"altText": {
+"es": "Persona realizando extensión de tríceps en polea con barra",
+"en": "Person performing cable triceps pushdown with bar"
+}
+},
+"video": {
+"url": "https://example.com/video/cable-triceps-pushdown-bar
+"
+},
+
+"muscles": {
+"primary": [
+"arm_triceps_brachii",
+"arm_triceps_lateral_head",
+"arm_triceps_medial_head"
+],
+"secondary": [
+"arm_triceps_long_head",
+"forearm_flexors",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["hypertrophy", "strength"],
+
+"equipment": ["cable"],
+
+"movementType": ["isolation", "bilateral"],
+
+"movementPattern": ["push_vertical"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Coloca la polea en la posición alta y acopla una barra recta.",
+"en": "Set the cable to the high position and attach a straight bar."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Agarra la barra con las palmas hacia abajo y los codos pegados al torso.",
+"en": "Grip the bar with palms facing down and elbows close to your torso."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Extiende los codos empujando la barra hacia abajo hasta la extensión completa.",
+"en": "Extend your elbows by pushing the bar down until arms are fully extended."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Mantén un segundo de contracción al final del recorrido.",
+"en": "Hold the contraction briefly at the bottom."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Regresa lentamente a la posición inicial controlando el peso.",
+"en": "Return slowly to the starting position under control."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "No balancees el cuerpo para ayudarte.",
+"en": "Do not use body momentum to assist."
+}
+},
+{
+"text": {
+"es": "Mantén los codos fijos durante todo el movimiento.",
+"en": "Keep your elbows fixed throughout the movement."
+}
+},
+{
+"text": {
+"es": "Evita bloquear agresivamente los codos.",
+"en": "Avoid aggressively locking the elbows."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el codo.",
+"en": "Reduce load if elbow discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de tendinitis aguda del tríceps.",
+"en": "Avoid with acute triceps tendinitis."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Pressdown de tríceps", "en": "Triceps pressdown" },
+{ "es": "Extensión de tríceps en polea alta", "en": "High cable triceps extension" }
+]
+},
+
+{
+"id": "exercise_seated_leg_curl",
+"name": {
+"es": "Curl femoral sentado",
+"en": "Seated Leg Curl"
+},
+"image": {
+"fileName": "seated_leg_curl.png",
+"altText": {
+"es": "Persona realizando curl femoral sentado en máquina",
+"en": "Person performing a seated leg curl machine exercise"
+}
+},
+"video": {
+"url": "https://example.com/video/seated-leg-curl
+"
+},
+
+"muscles": {
+"primary": [
+"hamstrings",
+"semitendinosus",
+"semimembranosus"
+],
+"secondary": [
+"biceps_femoris_long_head",
+"biceps_femoris_short_head",
+"gastrocnemius"
+]
+},
+
+"exerciseType": ["hypertrophy", "strength"],
+
+"equipment": ["machine"],
+
+"movementType": ["isolation", "bilateral"],
+
+"movementPattern": ["hinge"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Ajusta el asiento para que las rodillas queden alineadas con el eje de la máquina.",
+"en": "Adjust the seat so your knees align with the machine’s pivot point."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Coloca los tobillos debajo del rodillo acolchado.",
+"en": "Place your ankles under the padded roller."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Flexiona las rodillas llevando el rodillo hacia abajo.",
+"en": "Flex your knees by pulling the roller downward."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Aprieta los isquiotibiales al final del recorrido.",
+"en": "Squeeze your hamstrings at the bottom of the movement."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Regresa lentamente a la posición inicial controlando la fase excéntrica.",
+"en": "Return slowly to the starting position under control."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita levantar la cadera del asiento durante el movimiento.",
+"en": "Avoid lifting your hips off the seat during the movement."
+}
+},
+{
+"text": {
+"es": "Controla la fase negativa para maximizar el estímulo.",
+"en": "Control the negative phase to maximize stimulus."
+}
+},
+{
+"text": {
+"es": "No utilices impulso para mover el peso.",
+"en": "Do not use momentum to move the weight."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en la parte posterior de la rodilla.",
+"en": "Reduce load if discomfort appears behind the knee."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de desgarro agudo de isquiotibiales.",
+"en": "Avoid with acute hamstring tear."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Curl de piernas sentado", "en": "Seated leg curl" },
+{ "es": "Curl femoral en máquina sentado", "en": "Seated hamstring curl" }
+]
+},
+
+{
+"id": "exercise_leg_extension",
+"name": {
+"es": "Extensión de cuádriceps",
+"en": "Leg Extension"
+},
+"image": {
+"fileName": "leg_extension.png",
+"altText": {
+"es": "Persona realizando extensión de cuádriceps en máquina",
+"en": "Person performing a leg extension machine exercise"
+}
+},
+"video": {
+"url": "https://example.com/video/leg-extension
+"
+},
+
+"muscles": {
+"primary": [
+"quadriceps",
+"rectus_femoris",
+"vastus_lateralis",
+"vastus_medialis",
+"vastus_intermedius"
+],
+"secondary": []
+},
+
+"exerciseType": ["hypertrophy", "strength"],
+
+"equipment": ["machine"],
+
+"movementType": ["isolation", "bilateral"],
+
+"movementPattern": ["squat"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Ajusta el asiento para que las rodillas estén alineadas con el eje de la máquina.",
+"en": "Adjust the seat so your knees align with the machine’s pivot point."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Coloca los tobillos detrás del rodillo acolchado.",
+"en": "Place your ankles behind the padded roller."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Extiende las rodillas elevando el peso hasta casi bloquear las piernas.",
+"en": "Extend your knees to lift the weight until legs are nearly straight."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Aprieta los cuádriceps en la parte alta del movimiento.",
+"en": "Squeeze your quadriceps at the top of the movement."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Desciende lentamente controlando la fase excéntrica.",
+"en": "Lower slowly under control."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita bloquear agresivamente las rodillas.",
+"en": "Avoid aggressively locking your knees."
+}
+},
+{
+"text": {
+"es": "Controla especialmente la bajada para maximizar la activación.",
+"en": "Control the lowering phase to maximize activation."
+}
+},
+{
+"text": {
+"es": "Mantén la espalda apoyada durante todo el ejercicio.",
+"en": "Keep your back supported throughout the exercise."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Personas con dolor anterior de rodilla deben moderar la carga.",
+"en": "Individuals with anterior knee pain should moderate the load."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda de rodilla.",
+"en": "Avoid with acute knee injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Extensión de piernas", "en": "Leg extension" },
+{ "es": "Cuádriceps en máquina", "en": "Machine leg extension" }
+]
+},
+
+{
+"id": "exercise_machine_hip_abduction",
+"name": {
+"es": "Abducciones en máquina",
+"en": "Machine Hip Abduction"
+},
+"image": {
+"fileName": "machine_hip_abduction.png",
+"altText": {
+"es": "Persona realizando abducciones de cadera en máquina",
+"en": "Person performing hip abduction on a machine"
+}
+},
+"video": {
+"url": "https://example.com/video/machine-hip-abduction
+"
+},
+
+"muscles": {
+"primary": [
+"gluteus_medius",
+"gluteus_minimus"
+],
+"secondary": [
+"gluteus_maximus"
+]
+},
+
+"exerciseType": ["hypertrophy", "rehab_prehab"],
+
+"equipment": ["machine"],
+
+"movementType": ["isolation", "bilateral"],
+
+"movementPattern": ["anti_lateral_flexion"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Siéntate en la máquina con la espalda apoyada y los pies en las plataformas.",
+"en": "Sit on the machine with your back supported and feet on the platforms."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Coloca las rodillas contra las almohadillas laterales.",
+"en": "Place your knees against the lateral pads."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Abre las piernas separando las rodillas contra la resistencia.",
+"en": "Open your legs by pushing your knees outward against resistance."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Mantén un segundo de contracción en la posición abierta.",
+"en": "Hold the contraction briefly in the open position."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Regresa lentamente a la posición inicial controlando el peso.",
+"en": "Return slowly to the starting position under control."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Mantén el torso estable sin inclinarte hacia adelante.",
+"en": "Keep your torso stable without leaning forward."
+}
+},
+{
+"text": {
+"es": "Evita usar impulso para abrir las piernas.",
+"en": "Avoid using momentum to open your legs."
+}
+},
+{
+"text": {
+"es": "Concéntrate en activar los glúteos laterales.",
+"en": "Focus on activating the lateral glutes."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si hay molestias en la cadera.",
+"en": "Reduce load if hip discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda de cadera.",
+"en": "Avoid with acute hip injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Abducción de cadera en máquina", "en": "Machine hip abduction" },
+{ "es": "Máquina de abductores", "en": "Abductor machine" }
+]
+},
+
+{
+"id": "exercise_lying_leg_curl",
+"name": {
+"es": "Curl femoral tumbado",
+"en": "Lying Leg Curl"
+},
+"image": {
+"fileName": "lying_leg_curl.png",
+"altText": {
+"es": "Persona realizando curl femoral tumbado en máquina",
+"en": "Person performing a lying leg curl machine exercise"
+}
+},
+"video": {
+"url": "https://example.com/video/lying-leg-curl
+"
+},
+
+"muscles": {
+"primary": [
+"hamstrings",
+"biceps_femoris_long_head",
+"biceps_femoris_short_head"
+],
+"secondary": [
+"semitendinosus",
+"semimembranosus",
+"gastrocnemius"
+]
+},
+
+"exerciseType": ["hypertrophy", "strength"],
+
+"equipment": ["machine"],
+
+"movementType": ["isolation", "bilateral"],
+
+"movementPattern": ["hinge"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Acuéstate boca abajo en la máquina con las rodillas alineadas con el eje.",
+"en": "Lie face down on the machine with your knees aligned with the pivot point."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Coloca los tobillos debajo del rodillo acolchado.",
+"en": "Place your ankles under the padded roller."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Flexiona las rodillas llevando el rodillo hacia los glúteos.",
+"en": "Flex your knees by pulling the roller toward your glutes."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Aprieta los isquiotibiales en la parte final del movimiento.",
+"en": "Squeeze your hamstrings at the top of the movement."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Desciende lentamente controlando la fase excéntrica.",
+"en": "Lower slowly under control."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita levantar la cadera del banco durante el movimiento.",
+"en": "Avoid lifting your hips off the bench."
+}
+},
+{
+"text": {
+"es": "Controla especialmente la bajada para mayor estímulo.",
+"en": "Control the lowering phase for better stimulus."
+}
+},
+{
+"text": {
+"es": "No utilices impulso para mover la carga.",
+"en": "Do not use momentum to move the load."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si hay molestias en la parte posterior de la rodilla.",
+"en": "Reduce load if discomfort appears behind the knee."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de desgarro agudo de isquiotibiales.",
+"en": "Avoid with acute hamstring tear."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Curl de piernas tumbado", "en": "Lying leg curl" },
+{ "es": "Curl femoral en máquina tumbado", "en": "Prone leg curl" }
+]
+},
+
+{
+"id": "exercise_hack_squat",
+"name": {
+"es": "Hack squat",
+"en": "Hack Squat"
+},
+"image": {
+"fileName": "hack_squat.png",
+"altText": {
+"es": "Persona realizando hack squat en máquina",
+"en": "Person performing a hack squat on machine"
+}
+},
+"video": {
+"url": "https://example.com/video/hack-squat
+"
+},
+
+"muscles": {
+"primary": [
+"quadriceps",
+"rectus_femoris",
+"vastus_lateralis",
+"vastus_medialis",
+"vastus_intermedius"
+],
+"secondary": [
+"gluteus_maximus",
+"hamstrings",
+"gluteus_medius",
+"back_erector_spinae"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["machine"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["squat"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Coloca los hombros debajo de las almohadillas y la espalda apoyada en el respaldo.",
+"en": "Position your shoulders under the pads with your back supported."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Sitúa los pies a la anchura de los hombros sobre la plataforma.",
+"en": "Place your feet shoulder-width apart on the platform."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Desciende flexionando rodillas y cadera hasta alcanzar al menos el paralelo.",
+"en": "Lower by bending knees and hips until at least parallel depth."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Empuja la plataforma extendiendo las rodillas sin bloquearlas agresivamente.",
+"en": "Drive through the platform extending your knees without aggressively locking them."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Mantén las rodillas alineadas con la punta de los pies.",
+"en": "Keep your knees aligned with your toes."
+}
+},
+{
+"text": {
+"es": "Controla la fase excéntrica para mayor estímulo muscular.",
+"en": "Control the eccentric phase for greater muscular stimulus."
+}
+},
+{
+"text": {
+"es": "No rebotes en la parte baja del movimiento.",
+"en": "Do not bounce at the bottom of the movement."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Personas con dolor anterior de rodilla deben ajustar la profundidad.",
+"en": "Individuals with anterior knee pain should adjust depth."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda de rodilla.",
+"en": "Avoid with acute knee injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Sentadilla hack", "en": "Hack squat machine" },
+{ "es": "Hack en máquina", "en": "Machine hack squat" }
+]
+},
+
+{
+"id": "exercise_smith_machine_squat",
+"name": {
+"es": "Sentadilla guiada en máquina",
+"en": "Smith Machine Squat"
+},
+"image": {
+"fileName": "smith_machine_squat.png",
+"altText": {
+"es": "Persona realizando sentadilla en máquina Smith",
+"en": "Person performing a squat on a Smith machine"
+}
+},
+"video": {
+"url": "https://example.com/video/smith-machine-squat
+"
+},
+
+"muscles": {
+"primary": [
+"quadriceps",
+"gluteus_maximus"
+],
+"secondary": [
+"vastus_lateralis",
+"vastus_medialis",
+"vastus_intermedius",
+"rectus_femoris",
+"hamstrings",
+"gluteus_medius",
+"back_erector_spinae",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["smith_machine"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["squat"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Coloca la barra sobre la parte alta de la espalda, apoyada en los trapecios.",
+"en": "Position the bar on your upper back, resting on the traps."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Sitúa los pies ligeramente adelantados respecto a la barra.",
+"en": "Place your feet slightly forward relative to the bar."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Desciende flexionando rodillas y cadera manteniendo la espalda neutra.",
+"en": "Lower by bending knees and hips while keeping a neutral spine."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Baja hasta al menos paralelo o según tu movilidad.",
+"en": "Descend to at least parallel depth or according to mobility."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Empuja el suelo y vuelve a la posición inicial sin bloquear agresivamente las rodillas.",
+"en": "Drive through your feet to return to standing without aggressively locking the knees."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Mantén el core activo durante todo el movimiento.",
+"en": "Keep your core braced throughout the movement."
+}
+},
+{
+"text": {
+"es": "Alinea rodillas con la dirección de los pies.",
+"en": "Align your knees with the direction of your toes."
+}
+},
+{
+"text": {
+"es": "Controla la fase excéntrica para mayor estímulo muscular.",
+"en": "Control the eccentric phase for greater muscle stimulus."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Personas con dolor de rodilla deben ajustar profundidad y carga.",
+"en": "Individuals with knee pain should adjust depth and load."
+}
+},
+{
+"warningLevel": "caution",
+"text": {
+"es": "Evitar colocar los pies demasiado adelantados si genera tensión lumbar.",
+"en": "Avoid placing feet too far forward if it causes lower back tension."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Sentadilla en multipower", "en": "Smith machine squat" },
+{ "es": "Sentadilla en máquina Smith", "en": "Guided squat machine" }
+]
+},
+
+{
+"id": "exercise_seated_leg_curl_unilateral",
+"name": {
+"es": "Curl femoral sentado unilateral",
+"en": "Single-Leg Seated Leg Curl"
+},
+"image": {
+"fileName": "seated_leg_curl_unilateral.png",
+"altText": {
+"es": "Persona realizando curl femoral sentado con una pierna en máquina",
+"en": "Person performing a single-leg seated leg curl on machine"
+}
+},
+"video": {
+"url": "https://example.com/video/single-leg-seated-leg-curl
+"
+},
+
+"muscles": {
+"primary": [
+"hamstrings",
+"semitendinosus",
+"semimembranosus",
+"biceps_femoris_long_head",
+"biceps_femoris_short_head"
+],
+"secondary": [
+"gastrocnemius",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["hypertrophy", "strength"],
+
+"equipment": ["machine"],
+
+"movementType": ["isolation", "unilateral"],
+
+"movementPattern": ["hinge"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Ajusta el asiento alineando la rodilla con el eje de la máquina.",
+"en": "Adjust the seat aligning your knee with the machine pivot point."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Coloca un tobillo bajo el rodillo y deja la otra pierna relajada.",
+"en": "Place one ankle under the roller while the other leg remains relaxed."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Flexiona la rodilla llevando el rodillo hacia abajo de forma controlada.",
+"en": "Flex your knee pulling the roller downward under control."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Aprieta el isquiotibial al final del recorrido.",
+"en": "Squeeze the hamstring at the end of the movement."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Regresa lentamente a la posición inicial.",
+"en": "Return slowly to the starting position."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita levantar la cadera del asiento.",
+"en": "Avoid lifting your hips off the seat."
+}
+},
+{
+"text": {
+"es": "Controla especialmente la fase excéntrica.",
+"en": "Control the eccentric phase carefully."
+}
+},
+{
+"text": {
+"es": "Trabaja ambas piernas con el mismo rango y control.",
+"en": "Train both legs with equal range and control."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en la parte posterior de la rodilla.",
+"en": "Reduce load if discomfort appears behind the knee."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de desgarro agudo de isquiotibiales.",
+"en": "Avoid with acute hamstring tear."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Curl femoral a una pierna sentado", "en": "Single-leg seated hamstring curl" },
+{ "es": "Curl de piernas unilateral sentado", "en": "Unilateral seated leg curl" }
+]
+},
+
+{
+"id": "exercise_dumbbell_hammer_curl",
+"name": {
+"es": "Curl martillo con mancuernas",
+"en": "Dumbbell Hammer Curl"
+},
+"image": {
+"fileName": "dumbbell_hammer_curl.png",
+"altText": {
+"es": "Persona realizando curl martillo con mancuernas",
+"en": "Person performing dumbbell hammer curls"
+}
+},
+"video": {
+"url": "https://example.com/video/dumbbell-hammer-curl
+"
+},
+
+"muscles": {
+"primary": [
+"arm_brachialis"
+],
+"secondary": [
+"arm_biceps_brachii",
+"arm_biceps_long_head",
+"arm_biceps_short_head",
+"forearm_flexors"
+]
+},
+
+"exerciseType": ["hypertrophy", "strength"],
+
+"equipment": ["dumbbells"],
+
+"movementType": ["isolation", "bilateral"],
+
+"movementPattern": ["pull_vertical"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Sujeta una mancuerna en cada mano con agarre neutro (palmas enfrentadas).",
+"en": "Hold a dumbbell in each hand with a neutral grip (palms facing each other)."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Mantén los codos pegados al torso y el cuerpo estable.",
+"en": "Keep your elbows close to your torso and your body stable."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Flexiona los codos elevando las mancuernas sin girar la muñeca.",
+"en": "Flex your elbows lifting the dumbbells without rotating your wrists."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Aprieta en la parte alta del movimiento.",
+"en": "Squeeze at the top of the movement."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Desciende lentamente controlando la fase excéntrica.",
+"en": "Lower slowly under control."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita balancear el cuerpo para ayudarte.",
+"en": "Avoid swinging your body to assist."
+}
+},
+{
+"text": {
+"es": "Mantén las muñecas en posición neutra durante todo el recorrido.",
+"en": "Keep your wrists neutral throughout the movement."
+}
+},
+{
+"text": {
+"es": "Controla la bajada para maximizar el estímulo.",
+"en": "Control the lowering phase to maximize stimulus."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el codo.",
+"en": "Reduce load if elbow discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de tendinitis aguda del bíceps o epicondilitis severa.",
+"en": "Avoid with acute biceps tendinitis or severe epicondylitis."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Curl neutro con mancuernas", "en": "Neutral grip dumbbell curl" },
+{ "es": "Hammer curl con mancuernas", "en": "Hammer curl with dumbbells" }
+]
+},
+
+{
+"id": "exercise_dumbbell_biceps_curl",
+"name": {
+"es": "Curl de bíceps con mancuernas",
+"en": "Dumbbell Biceps Curl"
+},
+"image": {
+"fileName": "dumbbell_biceps_curl.png",
+"altText": {
+"es": "Persona realizando curl de bíceps con mancuernas",
+"en": "Person performing dumbbell biceps curls"
+}
+},
+"video": {
+"url": "https://example.com/video/dumbbell-biceps-curl
+"
+},
+
+"muscles": {
+"primary": [
+"arm_biceps_brachii",
+"arm_biceps_long_head",
+"arm_biceps_short_head"
+],
+"secondary": [
+"arm_brachialis",
+"forearm_flexors"
+]
+},
+
+"exerciseType": ["hypertrophy", "strength"],
+
+"equipment": ["dumbbells"],
+
+"movementType": ["isolation", "bilateral"],
+
+"movementPattern": ["pull_vertical"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Sujeta una mancuerna en cada mano con las palmas mirando hacia adelante.",
+"en": "Hold a dumbbell in each hand with palms facing forward."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Mantén los codos pegados al torso y el cuerpo estable.",
+"en": "Keep your elbows close to your torso and your body stable."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Flexiona los codos elevando las mancuernas hacia los hombros.",
+"en": "Flex your elbows lifting the dumbbells toward your shoulders."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Aprieta el bíceps en la parte alta del movimiento.",
+"en": "Squeeze your biceps at the top of the movement."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Desciende lentamente controlando la fase excéntrica.",
+"en": "Lower slowly under control."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita balancear el tronco para ayudarte.",
+"en": "Avoid swinging your torso to assist."
+}
+},
+{
+"text": {
+"es": "No adelantes los codos durante la subida.",
+"en": "Do not move your elbows forward during the lift."
+}
+},
+{
+"text": {
+"es": "Controla la bajada para aumentar el estímulo muscular.",
+"en": "Control the lowering phase to increase muscle stimulus."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el codo.",
+"en": "Reduce load if elbow discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de tendinitis aguda del bíceps.",
+"en": "Avoid with acute biceps tendinitis."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Curl alterno con mancuernas", "en": "Alternating dumbbell curl" },
+{ "es": "Curl bíceps con mancuernas supino", "en": "Supinated dumbbell curl" }
+]
+},
+
+{
+"id": "exercise_single_arm_overhead_triceps_extension_dumbbell",
+"name": {
+"es": "Extensión de tríceps tras nuca con mancuerna unilateral",
+"en": "Single-Arm Overhead Dumbbell Triceps Extension"
+},
+"image": {
+"fileName": "single_arm_overhead_triceps_extension_dumbbell.png",
+"altText": {
+"es": "Persona realizando extensión de tríceps tras nuca con mancuerna a una mano",
+"en": "Person performing a single-arm overhead dumbbell triceps extension"
+}
+},
+"video": {
+"url": "https://example.com/video/single-arm-overhead-triceps-extension
+"
+},
+
+"muscles": {
+"primary": [
+"arm_triceps_long_head"
+],
+"secondary": [
+"arm_triceps_brachii",
+"arm_triceps_lateral_head",
+"arm_triceps_medial_head",
+"core_transverse_abdominis",
+"shoulder_deltoid_anterior"
+]
+},
+
+"exerciseType": ["hypertrophy", "strength"],
+
+"equipment": ["dumbbells"],
+
+"movementType": ["isolation", "unilateral"],
+
+"movementPattern": ["push_vertical"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Sujeta una mancuerna con una mano y elévala por encima de la cabeza.",
+"en": "Hold a dumbbell with one hand and raise it overhead."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Mantén el brazo alineado y el codo apuntando hacia el techo.",
+"en": "Keep your upper arm aligned with your head and elbow pointing upward."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Flexiona el codo bajando la mancuerna por detrás de la cabeza.",
+"en": "Flex your elbow lowering the dumbbell behind your head."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Extiende el codo elevando la mancuerna hasta la posición inicial.",
+"en": "Extend your elbow raising the dumbbell back to the starting position."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Mantén el codo lo más fijo posible durante todo el movimiento.",
+"en": "Keep your elbow as stable as possible throughout the movement."
+}
+},
+{
+"text": {
+"es": "Activa el core para evitar arquear la zona lumbar.",
+"en": "Brace your core to avoid arching your lower back."
+}
+},
+{
+"text": {
+"es": "Controla especialmente la fase excéntrica.",
+"en": "Control the eccentric phase carefully."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el codo o el hombro.",
+"en": "Reduce load if elbow or shoulder discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del tríceps o del manguito rotador.",
+"en": "Avoid with acute triceps or rotator cuff injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Extensión de tríceps a una mano por encima de la cabeza", "en": "Single-arm overhead triceps extension" },
+{ "es": "Tríceps tras nuca unilateral", "en": "One-arm overhead triceps extension" }
+]
+},
+
+{
+"id": "exercise_overhead_triceps_extension_dumbbell",
+"name": {
+"es": "Extensión de tríceps con mancuerna tras nuca",
+"en": "Overhead Dumbbell Triceps Extension"
+},
+"image": {
+"fileName": "overhead_triceps_extension_dumbbell.png",
+"altText": {
+"es": "Persona realizando extensión de tríceps tras nuca con mancuerna a dos manos",
+"en": "Person performing an overhead dumbbell triceps extension with both hands"
+}
+},
+"video": {
+"url": "https://example.com/video/overhead-dumbbell-triceps-extension
+"
+},
+
+"muscles": {
+"primary": [
+"arm_triceps_long_head"
+],
+"secondary": [
+"arm_triceps_brachii",
+"arm_triceps_lateral_head",
+"arm_triceps_medial_head",
+"core_transverse_abdominis",
+"shoulder_deltoid_anterior"
+]
+},
+
+"exerciseType": ["hypertrophy", "strength"],
+
+"equipment": ["dumbbells"],
+
+"movementType": ["isolation", "bilateral"],
+
+"movementPattern": ["push_vertical"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Sujeta una mancuerna con ambas manos y elévala por encima de la cabeza.",
+"en": "Hold a dumbbell with both hands and raise it overhead."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Mantén los codos apuntando hacia el techo y cerca de la cabeza.",
+"en": "Keep your elbows pointing upward and close to your head."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Flexiona los codos bajando la mancuerna por detrás de la cabeza.",
+"en": "Flex your elbows lowering the dumbbell behind your head."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Extiende los codos elevando la mancuerna hasta la posición inicial.",
+"en": "Extend your elbows raising the dumbbell back to the starting position."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita separar los codos hacia los lados.",
+"en": "Avoid flaring your elbows outward."
+}
+},
+{
+"text": {
+"es": "Activa el core para no arquear la zona lumbar.",
+"en": "Brace your core to avoid arching your lower back."
+}
+},
+{
+"text": {
+"es": "Controla especialmente la fase excéntrica.",
+"en": "Control the eccentric phase carefully."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el codo o el hombro.",
+"en": "Reduce load if elbow or shoulder discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del tríceps o del manguito rotador.",
+"en": "Avoid with acute triceps or rotator cuff injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Extensión de tríceps por encima de la cabeza", "en": "Overhead triceps extension" },
+{ "es": "Tríceps tras nuca con mancuerna", "en": "Dumbbell overhead triceps extension" }
+]
+},
+
+{
+"id": "exercise_concentration_dumbbell_curl",
+"name": {
+"es": "Curl de bíceps concentrado con mancuerna",
+"en": "Dumbbell Concentration Curl"
+},
+"image": {
+"fileName": "concentration_dumbbell_curl.png",
+"altText": {
+"es": "Persona realizando curl de bíceps concentrado con mancuerna sentado",
+"en": "Person performing a seated dumbbell concentration curl"
+}
+},
+"video": {
+"url": "https://example.com/video/concentration-dumbbell-curl
+"
+},
+
+"muscles": {
+"primary": [
+"arm_biceps_brachii",
+"arm_biceps_long_head",
+"arm_biceps_short_head"
+],
+"secondary": [
+"arm_brachialis",
+"forearm_flexors"
+]
+},
+
+"exerciseType": ["hypertrophy"],
+
+"equipment": ["dumbbells", "bench"],
+
+"movementType": ["isolation", "unilateral"],
+
+"movementPattern": ["pull_vertical"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Siéntate en un banco con las piernas abiertas y apoya el codo en la parte interna del muslo.",
+"en": "Sit on a bench with legs apart and rest your elbow against the inside of your thigh."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Sujeta la mancuerna con la palma mirando hacia arriba.",
+"en": "Hold the dumbbell with your palm facing upward."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Flexiona el codo elevando la mancuerna hacia el hombro sin mover el brazo.",
+"en": "Flex your elbow lifting the dumbbell toward your shoulder without moving your upper arm."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Aprieta el bíceps en la parte alta del movimiento.",
+"en": "Squeeze your biceps at the top of the movement."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Desciende lentamente controlando la fase excéntrica.",
+"en": "Lower slowly under control."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Mantén el codo fijo durante todo el movimiento.",
+"en": "Keep your elbow fixed throughout the movement."
+}
+},
+{
+"text": {
+"es": "Evita balancear el tronco para ayudarte.",
+"en": "Avoid using torso momentum."
+}
+},
+{
+"text": {
+"es": "Controla la bajada para maximizar la activación.",
+"en": "Control the lowering phase to maximize activation."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el codo.",
+"en": "Reduce load if elbow discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de tendinitis aguda del bíceps.",
+"en": "Avoid with acute biceps tendinitis."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Curl concentrado", "en": "Concentration curl" },
+{ "es": "Curl bíceps sentado concentrado", "en": "Seated concentration curl" }
+]
+},
+
+{
+"id": "exercise_barbell_biceps_curl",
+"name": {
+"es": "Curl de bíceps con barra",
+"en": "Barbell Biceps Curl"
+},
+"image": {
+"fileName": "barbell_biceps_curl.png",
+"altText": {
+"es": "Persona realizando curl de bíceps con barra",
+"en": "Person performing a barbell biceps curl"
+}
+},
+"video": {
+"url": "https://example.com/video/barbell-biceps-curl
+"
+},
+
+"muscles": {
+"primary": [
+"arm_biceps_brachii",
+"arm_biceps_long_head",
+"arm_biceps_short_head"
+],
+"secondary": [
+"arm_brachialis",
+"forearm_flexors",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["barbell"],
+
+"movementType": ["isolation", "bilateral"],
+
+"movementPattern": ["pull_vertical"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Sujeta la barra con agarre supino a la anchura de los hombros.",
+"en": "Grip the bar with a supinated grip at shoulder width."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Mantén los codos pegados al torso y el cuerpo estable.",
+"en": "Keep your elbows close to your torso and your body stable."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Flexiona los codos elevando la barra hacia el pecho.",
+"en": "Flex your elbows lifting the bar toward your chest."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Aprieta los bíceps en la parte alta del movimiento.",
+"en": "Squeeze your biceps at the top of the movement."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Desciende lentamente controlando la fase excéntrica.",
+"en": "Lower slowly under control."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita balancear el tronco para levantar más peso.",
+"en": "Avoid swinging your torso to lift heavier weight."
+}
+},
+{
+"text": {
+"es": "Mantén las muñecas alineadas con los antebrazos.",
+"en": "Keep your wrists aligned with your forearms."
+}
+},
+{
+"text": {
+"es": "Controla la bajada para aumentar el estímulo muscular.",
+"en": "Control the lowering phase to increase muscle stimulus."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el codo.",
+"en": "Reduce load if elbow discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de tendinitis aguda del bíceps.",
+"en": "Avoid with acute biceps tendinitis."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Curl bíceps con barra recta", "en": "Straight bar biceps curl" },
+{ "es": "Barbell curl", "en": "Barbell curl" }
+]
+},
+
+{
+"id": "exercise_barbell_reverse_curl",
+"name": {
+"es": "Curl inverso con barra",
+"en": "Barbell Reverse Curl"
+},
+"image": {
+"fileName": "barbell_reverse_curl.png",
+"altText": {
+"es": "Persona realizando curl inverso con barra",
+"en": "Person performing a barbell reverse curl"
+}
+},
+"video": {
+"url": "https://example.com/video/barbell-reverse-curl
+"
+},
+
+"muscles": {
+"primary": [
+"arm_brachialis",
+"forearm_extensors"
+],
+"secondary": [
+"arm_biceps_brachii",
+"arm_biceps_long_head",
+"arm_biceps_short_head",
+"forearm_flexors"
+]
+},
+
+"exerciseType": ["hypertrophy", "strength"],
+
+"equipment": ["barbell"],
+
+"movementType": ["isolation", "bilateral"],
+
+"movementPattern": ["pull_vertical"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Sujeta la barra con agarre prono (palmas hacia abajo) a la anchura de los hombros.",
+"en": "Grip the bar with a pronated grip (palms facing down) at shoulder width."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Mantén los codos pegados al torso y el cuerpo estable.",
+"en": "Keep your elbows close to your torso and your body stable."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Flexiona los codos elevando la barra sin balancear el tronco.",
+"en": "Flex your elbows lifting the bar without swinging your torso."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Aprieta en la parte alta del movimiento.",
+"en": "Squeeze at the top of the movement."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Desciende lentamente controlando la fase excéntrica.",
+"en": "Lower slowly under control."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Utiliza un peso moderado para mantener la técnica limpia.",
+"en": "Use moderate weight to maintain clean technique."
+}
+},
+{
+"text": {
+"es": "Mantén las muñecas alineadas para evitar sobrecarga.",
+"en": "Keep wrists aligned to avoid excessive strain."
+}
+},
+{
+"text": {
+"es": "Controla especialmente la bajada.",
+"en": "Control the lowering phase carefully."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en muñecas o codos.",
+"en": "Reduce load if wrist or elbow discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de epicondilitis severa.",
+"en": "Avoid with severe epicondylitis."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Curl prono con barra", "en": "Pronated barbell curl" },
+{ "es": "Reverse barbell curl", "en": "Reverse barbell curl" }
+]
+},
+
+{
+"id": "exercise_dumbbell_preacher_curl",
+"name": {
+"es": "Curl predicador con mancuerna",
+"en": "Dumbbell Preacher Curl"
+},
+"image": {
+"fileName": "dumbbell_preacher_curl.png",
+"altText": {
+"es": "Persona realizando curl predicador con mancuerna",
+"en": "Person performing a dumbbell preacher curl"
+}
+},
+"video": {
+"url": "https://example.com/video/dumbbell-preacher-curl
+"
+},
+
+"muscles": {
+"primary": [
+"arm_biceps_brachii",
+"arm_biceps_long_head",
+"arm_biceps_short_head"
+],
+"secondary": [
+"arm_brachialis",
+"forearm_flexors"
+]
+},
+
+"exerciseType": ["hypertrophy", "strength"],
+
+"equipment": ["dumbbells", "bench"],
+
+"movementType": ["isolation", "unilateral"],
+
+"movementPattern": ["pull_vertical"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Apoya el brazo en el banco predicador con la axila bien ajustada al soporte.",
+"en": "Place your arm on the preacher bench with your armpit firmly against the pad."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Sujeta la mancuerna con agarre supino y el brazo extendido.",
+"en": "Hold the dumbbell with a supinated grip and arm extended."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Flexiona el codo elevando la mancuerna sin despegar el brazo del soporte.",
+"en": "Flex your elbow lifting the dumbbell without lifting your upper arm off the pad."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Aprieta el bíceps en la parte alta del movimiento.",
+"en": "Squeeze your biceps at the top of the movement."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Desciende lentamente hasta casi la extensión completa.",
+"en": "Lower slowly until near full extension."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita bloquear completamente el codo en la parte baja.",
+"en": "Avoid fully locking your elbow at the bottom."
+}
+},
+{
+"text": {
+"es": "Controla especialmente la fase excéntrica.",
+"en": "Control the eccentric phase carefully."
+}
+},
+{
+"text": {
+"es": "No utilices impulso en la parte final del recorrido.",
+"en": "Do not use momentum at the top of the movement."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el codo.",
+"en": "Reduce load if elbow discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de tendinitis aguda del bíceps.",
+"en": "Avoid with acute biceps tendinitis."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Curl Scott con mancuerna", "en": "Dumbbell Scott curl" },
+{ "es": "Curl predicador unilateral", "en": "Single-arm preacher curl" }
+]
+},
+
+{
+"id": "exercise_incline_dumbbell_biceps_curl",
+"name": {
+"es": "Curl en banco inclinado con mancuernas",
+"en": "Incline Dumbbell Biceps Curl"
+},
+"image": {
+"fileName": "incline_dumbbell_biceps_curl.png",
+"altText": {
+"es": "Persona realizando curl de bíceps en banco inclinado con mancuernas",
+"en": "Person performing incline dumbbell biceps curls"
+}
+},
+"video": {
+"url": "https://example.com/video/incline-dumbbell-biceps-curl
+"
+},
+
+"muscles": {
+"primary": [
+"arm_biceps_long_head",
+"arm_biceps_brachii"
+],
+"secondary": [
+"arm_biceps_short_head",
+"arm_brachialis",
+"forearm_flexors"
+]
+},
+
+"exerciseType": ["hypertrophy", "strength"],
+
+"equipment": ["dumbbells", "bench"],
+
+"movementType": ["isolation", "bilateral"],
+
+"movementPattern": ["pull_vertical"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Ajusta el banco en una inclinación aproximada de 30-45 grados.",
+"en": "Set the bench to approximately a 30–45 degree incline."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Apoya la espalda completamente y deja los brazos colgando hacia abajo.",
+"en": "Rest your back fully against the bench and let your arms hang down."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Flexiona los codos elevando las mancuernas sin mover los hombros hacia adelante.",
+"en": "Flex your elbows lifting the dumbbells without moving your shoulders forward."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Aprieta el bíceps en la parte alta del movimiento.",
+"en": "Squeeze your biceps at the top of the movement."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Desciende lentamente hasta casi la extensión completa.",
+"en": "Lower slowly until near full extension."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita adelantar los codos durante la subida.",
+"en": "Avoid bringing your elbows forward during the lift."
+}
+},
+{
+"text": {
+"es": "Controla especialmente la fase excéntrica para mayor estímulo.",
+"en": "Control the eccentric phase for greater stimulus."
+}
+},
+{
+"text": {
+"es": "Mantén las muñecas alineadas con los antebrazos.",
+"en": "Keep your wrists aligned with your forearms."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el codo.",
+"en": "Reduce load if elbow discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de tendinitis aguda del bíceps.",
+"en": "Avoid with acute biceps tendinitis."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Curl inclinado con mancuernas", "en": "Incline dumbbell curl" },
+{ "es": "Curl bíceps en banco inclinado", "en": "Incline bench biceps curl" }
+]
+},
+
+{
+"id": "exercise_wide_neutral_grip_lat_pulldown",
+"name": {
+"es": "Jalón al pecho agarre neutro abierto",
+"en": "Wide Neutral-Grip Lat Pulldown"
+},
+"image": {
+"fileName": "wide_neutral_grip_lat_pulldown.png",
+"altText": {
+"es": "Persona realizando jalón al pecho con agarre neutro abierto",
+"en": "Person performing a wide neutral-grip lat pulldown"
+}
+},
+"video": {
+"url": "https://example.com/video/wide-neutral-lat-pulldown
+"
+},
+
+"muscles": {
+"primary": [
+"back_latissimus_dorsi"
+],
+"secondary": [
+"back_rhomboid_major",
+"back_rhomboid_minor",
+"back_trapezius_middle",
+"back_trapezius_lower",
+"arm_biceps_brachii",
+"arm_biceps_long_head",
+"arm_biceps_short_head",
+"arm_brachialis",
+"shoulder_teres_minor",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["cable"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["pull_vertical"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Siéntate en la máquina y ajusta las almohadillas para fijar las piernas.",
+"en": "Sit at the machine and secure your legs under the pads."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Agarra la barra con agarre neutro abierto (palmas enfrentadas).",
+"en": "Grip the bar with a wide neutral grip (palms facing each other)."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Inicia el movimiento activando las escápulas antes de flexionar los codos.",
+"en": "Initiate the movement by engaging your scapula before bending the elbows."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Lleva la barra hacia la parte superior del pecho manteniendo el torso estable.",
+"en": "Pull the bar toward your upper chest while keeping your torso stable."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Extiende los brazos lentamente controlando la fase excéntrica.",
+"en": "Extend your arms slowly controlling the eccentric phase."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita inclinar excesivamente el torso hacia atrás.",
+"en": "Avoid excessively leaning your torso backward."
+}
+},
+{
+"text": {
+"es": "Concéntrate en llevar los codos hacia abajo y atrás.",
+"en": "Focus on driving your elbows down and back."
+}
+},
+{
+"text": {
+"es": "Controla la subida para mantener tensión constante.",
+"en": "Control the upward phase to maintain constant tension."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el hombro.",
+"en": "Reduce load if shoulder discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del manguito rotador.",
+"en": "Avoid with acute rotator cuff injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Jalón neutro abierto", "en": "Wide neutral lat pulldown" },
+{ "es": "Lat pulldown agarre neutro ancho", "en": "Wide neutral-grip pulldown" }
+]
+},
+
+{
+"id": "exercise_close_neutral_grip_lat_pulldown",
+"name": {
+"es": "Jalón al pecho agarre neutro cerrado",
+"en": "Close Neutral-Grip Lat Pulldown"
+},
+"image": {
+"fileName": "close_neutral_grip_lat_pulldown.png",
+"altText": {
+"es": "Persona realizando jalón al pecho con agarre neutro cerrado",
+"en": "Person performing a close neutral-grip lat pulldown"
+}
+},
+"video": {
+"url": "https://example.com/video/close-neutral-lat-pulldown
+"
+},
+
+"muscles": {
+"primary": [
+"back_latissimus_dorsi"
+],
+"secondary": [
+"back_rhomboid_major",
+"back_rhomboid_minor",
+"back_trapezius_middle",
+"back_trapezius_lower",
+"arm_biceps_brachii",
+"arm_biceps_long_head",
+"arm_biceps_short_head",
+"arm_brachialis",
+"shoulder_teres_minor",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["cable"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["pull_vertical"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Siéntate en la máquina asegurando las piernas bajo las almohadillas.",
+"en": "Sit at the machine securing your legs under the pads."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Agarra el accesorio neutro cerrado (agarre en V o similar).",
+"en": "Grip the close neutral attachment (V-handle or similar)."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Activa las escápulas antes de iniciar la tracción.",
+"en": "Engage your scapula before initiating the pull."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Lleva el agarre hacia la parte media-superior del pecho.",
+"en": "Pull the handle toward the mid-to-upper chest."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Extiende los brazos lentamente controlando el peso.",
+"en": "Extend your arms slowly controlling the weight."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Mantén el torso ligeramente inclinado pero estable.",
+"en": "Keep your torso slightly leaned back but stable."
+}
+},
+{
+"text": {
+"es": "Concéntrate en llevar los codos hacia abajo.",
+"en": "Focus on driving your elbows downward."
+}
+},
+{
+"text": {
+"es": "Evita balancear el cuerpo para ayudarte.",
+"en": "Avoid using body momentum to assist."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el hombro o el codo.",
+"en": "Reduce load if shoulder or elbow discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del manguito rotador.",
+"en": "Avoid with acute rotator cuff injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Jalón neutro cerrado", "en": "Close neutral lat pulldown" },
+{ "es": "Lat pulldown agarre en V", "en": "V-handle lat pulldown" }
+]
+},
+
+{
+"id": "exercise_close_grip_lat_pulldown",
+"name": {
+"es": "Jalón al pecho cerrado",
+"en": "Close-Grip Lat Pulldown"
+},
+"image": {
+"fileName": "close_grip_lat_pulldown.png",
+"altText": {
+"es": "Persona realizando jalón al pecho con agarre cerrado",
+"en": "Person performing a close-grip lat pulldown"
+}
+},
+"video": {
+"url": "https://example.com/video/close-grip-lat-pulldown
+"
+},
+
+"muscles": {
+"primary": [
+"back_latissimus_dorsi"
+],
+"secondary": [
+"back_rhomboid_major",
+"back_rhomboid_minor",
+"back_trapezius_middle",
+"back_trapezius_lower",
+"arm_biceps_brachii",
+"arm_biceps_long_head",
+"arm_biceps_short_head",
+"arm_brachialis",
+"forearm_flexors",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["cable"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["pull_vertical"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Siéntate en la máquina y fija las piernas bajo las almohadillas.",
+"en": "Sit at the machine and secure your legs under the pads."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Agarra la barra con un agarre prono ligeramente más cerrado que la anchura de los hombros.",
+"en": "Grip the bar with a pronated grip slightly narrower than shoulder width."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Inicia el movimiento activando las escápulas.",
+"en": "Initiate the movement by engaging your scapula."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Lleva la barra hacia la parte superior del pecho controlando el torso.",
+"en": "Pull the bar toward your upper chest while keeping your torso controlled."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Extiende los brazos lentamente controlando la fase excéntrica.",
+"en": "Extend your arms slowly controlling the eccentric phase."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita inclinar excesivamente el torso hacia atrás.",
+"en": "Avoid excessively leaning backward."
+}
+},
+{
+"text": {
+"es": "Concéntrate en llevar los codos hacia abajo.",
+"en": "Focus on driving your elbows downward."
+}
+},
+{
+"text": {
+"es": "Mantén tensión constante durante todo el recorrido.",
+"en": "Maintain constant tension throughout the movement."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el hombro.",
+"en": "Reduce load if shoulder discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del manguito rotador.",
+"en": "Avoid with acute rotator cuff injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Jalón prono cerrado", "en": "Close pronated lat pulldown" },
+{ "es": "Lat pulldown agarre cerrado", "en": "Close-grip pulldown" }
+]
+},
+
+{
+"id": "exercise_supinated_grip_lat_pulldown",
+"name": {
+"es": "Jalón al pecho agarre supino",
+"en": "Supinated-Grip Lat Pulldown"
+},
+"image": {
+"fileName": "supinated_grip_lat_pulldown.png",
+"altText": {
+"es": "Persona realizando jalón al pecho con agarre supino",
+"en": "Person performing a supinated-grip lat pulldown"
+}
+},
+"video": {
+"url": "https://example.com/video/supinated-grip-lat-pulldown
+"
+},
+
+"muscles": {
+"primary": [
+"back_latissimus_dorsi"
+],
+"secondary": [
+"arm_biceps_brachii",
+"arm_biceps_long_head",
+"arm_biceps_short_head",
+"arm_brachialis",
+"forearm_flexors",
+"back_rhomboid_major",
+"back_rhomboid_minor",
+"back_trapezius_middle",
+"back_trapezius_lower",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["cable"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["pull_vertical"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Siéntate en la máquina asegurando las piernas bajo las almohadillas.",
+"en": "Sit at the machine securing your legs under the pads."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Agarra la barra con agarre supino a la anchura de los hombros.",
+"en": "Grip the bar with a supinated grip at shoulder width."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Inicia el movimiento activando las escápulas.",
+"en": "Initiate the movement by engaging your scapula."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Lleva la barra hacia la parte superior del pecho manteniendo el torso estable.",
+"en": "Pull the bar toward your upper chest while keeping your torso stable."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Extiende los brazos lentamente controlando la fase excéntrica.",
+"en": "Extend your arms slowly controlling the eccentric phase."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita inclinar excesivamente el torso hacia atrás.",
+"en": "Avoid excessive backward lean."
+}
+},
+{
+"text": {
+"es": "Concéntrate en llevar los codos hacia abajo y atrás.",
+"en": "Focus on driving your elbows down and back."
+}
+},
+{
+"text": {
+"es": "Mantén tensión constante durante todo el recorrido.",
+"en": "Maintain constant tension throughout the movement."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el codo o el hombro.",
+"en": "Reduce load if elbow or shoulder discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del manguito rotador.",
+"en": "Avoid with acute rotator cuff injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Jalón supino", "en": "Supinated lat pulldown" },
+{ "es": "Lat pulldown agarre inverso", "en": "Reverse-grip lat pulldown" }
+]
+},
+
+{
+"id": "exercise_wide_grip_lat_pulldown",
+"name": {
+"es": "Jalón al pecho agarre abierto",
+"en": "Wide-Grip Lat Pulldown"
+},
+"image": {
+"fileName": "wide_grip_lat_pulldown.png",
+"altText": {
+"es": "Persona realizando jalón al pecho con agarre amplio",
+"en": "Person performing a wide-grip lat pulldown"
+}
+},
+"video": {
+"url": "https://example.com/video/wide-grip-lat-pulldown
+"
+},
+
+"muscles": {
+"primary": [
+"back_latissimus_dorsi"
+],
+"secondary": [
+"back_rhomboid_major",
+"back_rhomboid_minor",
+"back_trapezius_middle",
+"back_trapezius_lower",
+"shoulder_teres_minor",
+"arm_biceps_brachii",
+"arm_brachialis",
+"forearm_flexors",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["cable"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["pull_vertical"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Siéntate en la máquina asegurando las piernas bajo las almohadillas.",
+"en": "Sit at the machine securing your legs under the pads."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Agarra la barra con un agarre prono amplio, más ancho que los hombros.",
+"en": "Grip the bar with a wide pronated grip, wider than shoulder width."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Inicia el movimiento activando las escápulas antes de flexionar los codos.",
+"en": "Initiate the movement by engaging your scapula before bending the elbows."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Lleva la barra hacia la parte superior del pecho sin inclinar excesivamente el torso.",
+"en": "Pull the bar toward your upper chest without excessively leaning back."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Extiende los brazos lentamente controlando la fase excéntrica.",
+"en": "Extend your arms slowly controlling the eccentric phase."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita balancear el cuerpo para ayudarte.",
+"en": "Avoid using body momentum."
+}
+},
+{
+"text": {
+"es": "Concéntrate en llevar los codos hacia abajo y hacia los lados.",
+"en": "Focus on driving your elbows down and outward."
+}
+},
+{
+"text": {
+"es": "Controla la subida para mantener tensión constante.",
+"en": "Control the upward phase to maintain constant tension."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el hombro.",
+"en": "Reduce load if shoulder discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del manguito rotador.",
+"en": "Avoid with acute rotator cuff injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Jalón amplio al pecho", "en": "Wide lat pulldown" },
+{ "es": "Lat pulldown agarre amplio", "en": "Wide-grip pulldown" }
+]
+},
+
+{
+"id": "exercise_single_arm_lat_pulldown",
+"name": {
+"es": "Jalón al pecho unilateral",
+"en": "Single-Arm Lat Pulldown"
+},
+"image": {
+"fileName": "single_arm_lat_pulldown.png",
+"altText": {
+"es": "Persona realizando jalón al pecho con una mano en polea",
+"en": "Person performing a single-arm lat pulldown on a cable machine"
+}
+},
+"video": {
+"url": "https://example.com/video/single-arm-lat-pulldown
+"
+},
+
+"muscles": {
+"primary": [
+"back_latissimus_dorsi"
+],
+"secondary": [
+"back_rhomboid_major",
+"back_rhomboid_minor",
+"back_trapezius_middle",
+"back_trapezius_lower",
+"shoulder_teres_minor",
+"arm_biceps_brachii",
+"arm_biceps_long_head",
+"arm_biceps_short_head",
+"arm_brachialis",
+"forearm_flexors",
+"core_transverse_abdominis",
+"core_oblique_external",
+"core_oblique_internal"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["cable"],
+
+"movementType": ["compound", "unilateral"],
+
+"movementPattern": ["pull_vertical"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Coloca la polea en posición alta y usa un agarre individual.",
+"en": "Set the cable to a high position and use a single handle."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Siéntate y fija las piernas bajo las almohadillas; agarra con una mano.",
+"en": "Sit down, secure your legs under the pads, and grab with one hand."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Activa la escápula primero (hombro abajo) antes de tirar con el codo.",
+"en": "Engage the scapula first (shoulder down) before pulling with the elbow."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Tira llevando el codo hacia abajo y hacia el costado hasta acercar el agarre al pecho.",
+"en": "Pull by driving the elbow down and toward your side until the handle approaches your chest."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Regresa lentamente a la posición inicial controlando la fase excéntrica.",
+"en": "Return slowly to the start controlling the eccentric phase."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita rotar el torso para ayudar al tirón.",
+"en": "Avoid rotating your torso to assist the pull."
+}
+},
+{
+"text": {
+"es": "Mantén el hombro lejos de la oreja durante todo el movimiento.",
+"en": "Keep your shoulder away from your ear throughout the movement."
+}
+},
+{
+"text": {
+"es": "Prioriza rango y control antes que más carga.",
+"en": "Prioritize range and control before adding more load."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el hombro o el codo.",
+"en": "Reduce load if shoulder or elbow discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del manguito rotador.",
+"en": "Avoid with acute rotator cuff injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Jalón unilateral en polea", "en": "Single-arm cable pulldown" },
+{ "es": "Lat pulldown unilateral", "en": "Unilateral lat pulldown" }
+]
+},
+
+{
+"id": "exercise_neutral_grip_pull_up",
+"name": {
+"es": "Dominadas agarre neutro",
+"en": "Neutral-Grip Pull-Up"
+},
+"image": {
+"fileName": "neutral_grip_pull_up.png",
+"altText": {
+"es": "Persona realizando dominadas con agarre neutro",
+"en": "Person performing neutral-grip pull-ups"
+}
+},
+"video": {
+"url": "https://example.com/video/neutral-grip-pull-up
+"
+},
+
+"muscles": {
+"primary": [
+"back_latissimus_dorsi"
+],
+"secondary": [
+"arm_biceps_brachii",
+"arm_biceps_long_head",
+"arm_biceps_short_head",
+"arm_brachialis",
+"forearm_flexors",
+"back_rhomboid_major",
+"back_rhomboid_minor",
+"back_trapezius_middle",
+"back_trapezius_lower",
+"core_transverse_abdominis",
+"core_rectus_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["pullup_bar"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["pull_vertical"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Agarra la barra con agarre neutro (palmas enfrentadas).",
+"en": "Grip the bar with a neutral grip (palms facing each other)."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Cuelga con brazos extendidos activando ligeramente las escápulas.",
+"en": "Hang with arms extended while lightly engaging your scapula."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Inicia el movimiento llevando los hombros hacia abajo antes de flexionar los codos.",
+"en": "Initiate the movement by pulling your shoulders down before bending your elbows."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Eleva el cuerpo hasta que la barbilla supere la barra.",
+"en": "Pull yourself up until your chin passes the bar."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Desciende de forma controlada hasta la extensión completa.",
+"en": "Lower yourself in a controlled manner to full extension."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita balancear el cuerpo para ganar impulso.",
+"en": "Avoid swinging your body to gain momentum."
+}
+},
+{
+"text": {
+"es": "Mantén el core activado durante todo el movimiento.",
+"en": "Keep your core engaged throughout the movement."
+}
+},
+{
+"text": {
+"es": "Concéntrate en llevar los codos hacia abajo y hacia atrás.",
+"en": "Focus on driving your elbows down and back."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir volumen si aparece molestia en codos o hombros.",
+"en": "Reduce volume if elbow or shoulder discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del manguito rotador.",
+"en": "Avoid with acute rotator cuff injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Dominadas neutras", "en": "Neutral pull-ups" },
+{ "es": "Pull-up agarre neutro", "en": "Neutral-grip pull-up" }
+]
+},
+
+{
+"id": "exercise_single_arm_cable_triceps_pushdown",
+"name": {
+"es": "Extensión de tríceps unilateral en polea",
+"en": "Single-Arm Cable Triceps Pushdown"
+},
+"image": {
+"fileName": "single_arm_cable_triceps_pushdown.png",
+"altText": {
+"es": "Persona realizando extensión de tríceps unilateral en polea",
+"en": "Person performing a single-arm cable triceps pushdown"
+}
+},
+"video": {
+"url": "https://example.com/video/single-arm-cable-triceps-pushdown
+"
+},
+
+"muscles": {
+"primary": [
+"arm_triceps_brachii",
+"arm_triceps_lateral_head",
+"arm_triceps_medial_head"
+],
+"secondary": [
+"arm_triceps_long_head",
+"forearm_flexors",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["hypertrophy", "strength"],
+
+"equipment": ["cable"],
+
+"movementType": ["isolation", "unilateral"],
+
+"movementPattern": ["push_vertical"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Coloca la polea en posición alta y conecta un agarre individual.",
+"en": "Set the cable to a high position and attach a single handle."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Sujeta el agarre con una mano y mantén el codo pegado al torso.",
+"en": "Grab the handle with one hand and keep your elbow close to your torso."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Extiende el codo empujando hacia abajo hasta la extensión completa.",
+"en": "Extend your elbow pushing downward until full extension."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Mantén una breve contracción al final del movimiento.",
+"en": "Hold a brief contraction at the bottom."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Regresa lentamente a la posición inicial controlando el peso.",
+"en": "Return slowly to the starting position under control."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita balancear el cuerpo para ayudarte.",
+"en": "Avoid using body momentum."
+}
+},
+{
+"text": {
+"es": "Mantén el hombro estable durante todo el movimiento.",
+"en": "Keep your shoulder stable throughout the movement."
+}
+},
+{
+"text": {
+"es": "Controla la fase excéntrica para maximizar el estímulo.",
+"en": "Control the eccentric phase to maximize stimulus."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el codo.",
+"en": "Reduce load if elbow discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de tendinitis aguda del tríceps.",
+"en": "Avoid with acute triceps tendinitis."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Pressdown unilateral", "en": "Single-arm triceps pressdown" },
+{ "es": "Extensión de tríceps a una mano en polea", "en": "One-arm cable triceps extension" }
+]
+},
+
+{
+"id": "exercise_overhead_cable_triceps_extension",
+"name": {
+"es": "Extensión de tríceps tras nuca en polea",
+"en": "Overhead Cable Triceps Extension"
+},
+"image": {
+"fileName": "overhead_cable_triceps_extension.png",
+"altText": {
+"es": "Persona realizando extensión de tríceps tras nuca en polea",
+"en": "Person performing an overhead cable triceps extension"
+}
+},
+"video": {
+"url": "https://example.com/video/overhead-cable-triceps-extension
+"
+},
+
+"muscles": {
+"primary": [
+"arm_triceps_long_head"
+],
+"secondary": [
+"arm_triceps_brachii",
+"arm_triceps_lateral_head",
+"arm_triceps_medial_head",
+"core_transverse_abdominis",
+"shoulder_deltoid_anterior"
+]
+},
+
+"exerciseType": ["hypertrophy", "strength"],
+
+"equipment": ["cable"],
+
+"movementType": ["isolation", "bilateral"],
+
+"movementPattern": ["push_vertical"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Coloca la polea en posición alta y utiliza cuerda o barra corta.",
+"en": "Set the cable to a high position and attach a rope or short bar."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Da un paso adelante y coloca los brazos por encima de la cabeza con los codos flexionados.",
+"en": "Step forward and position your arms overhead with elbows bent."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Mantén los codos apuntando hacia adelante y cercanos entre sí.",
+"en": "Keep your elbows pointing forward and close together."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Extiende los codos hasta que los brazos queden completamente estirados.",
+"en": "Extend your elbows until your arms are fully straight."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Regresa lentamente a la posición inicial controlando la fase excéntrica.",
+"en": "Return slowly to the starting position controlling the eccentric phase."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita arquear excesivamente la zona lumbar.",
+"en": "Avoid excessively arching your lower back."
+}
+},
+{
+"text": {
+"es": "Mantén los codos lo más estables posible.",
+"en": "Keep your elbows as stable as possible."
+}
+},
+{
+"text": {
+"es": "Prioriza rango completo y control antes que más peso.",
+"en": "Prioritize full range and control before adding more weight."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en hombros o codos.",
+"en": "Reduce load if shoulder or elbow discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del manguito rotador.",
+"en": "Avoid with acute rotator cuff injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Tríceps tras nuca en polea", "en": "Cable overhead triceps extension" },
+{ "es": "Extensión de tríceps por encima de la cabeza en polea", "en": "Overhead rope triceps extension" }
+]
+},
+
+{
+"id": "exercise_cable_triceps_pushdown_rope",
+"name": {
+"es": "Extensión de tríceps en polea con cuerda",
+"en": "Cable Triceps Pushdown (Rope)"
+},
+"image": {
+"fileName": "cable_triceps_pushdown_rope.png",
+"altText": {
+"es": "Persona realizando extensión de tríceps en polea con cuerda",
+"en": "Person performing cable triceps pushdown with rope"
+}
+},
+"video": {
+"url": "https://example.com/video/cable-triceps-pushdown-rope
+"
+},
+
+"muscles": {
+"primary": [
+"arm_triceps_brachii",
+"arm_triceps_lateral_head",
+"arm_triceps_medial_head"
+],
+"secondary": [
+"arm_triceps_long_head",
+"forearm_flexors",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["hypertrophy", "strength"],
+
+"equipment": ["cable"],
+
+"movementType": ["isolation", "bilateral"],
+
+"movementPattern": ["push_vertical"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Coloca la polea en posición alta y acopla la cuerda.",
+"en": "Set the cable to the high position and attach the rope."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Sujeta la cuerda con ambas manos y mantén los codos pegados al torso.",
+"en": "Grip the rope with both hands keeping your elbows close to your torso."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Extiende los codos empujando la cuerda hacia abajo.",
+"en": "Extend your elbows pushing the rope downward."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Al final del recorrido, separa ligeramente las manos para maximizar la contracción.",
+"en": "At the bottom, slightly separate your hands to maximize contraction."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Regresa lentamente a la posición inicial controlando la fase excéntrica.",
+"en": "Return slowly to the starting position controlling the eccentric phase."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita balancear el cuerpo para ayudarte.",
+"en": "Avoid using body momentum."
+}
+},
+{
+"text": {
+"es": "Mantén el hombro estable durante todo el movimiento.",
+"en": "Keep your shoulders stable throughout the movement."
+}
+},
+{
+"text": {
+"es": "Controla la bajada para mantener tensión constante.",
+"en": "Control the upward phase to maintain constant tension."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el codo.",
+"en": "Reduce load if elbow discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de tendinitis aguda del tríceps.",
+"en": "Avoid with acute triceps tendinitis."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Pressdown con cuerda", "en": "Rope triceps pressdown" },
+{ "es": "Tríceps en polea con cuerda", "en": "Cable rope triceps extension" }
+]
+},
+
+{
+"id": "exercise_cable_face_pull",
+"name": {
+"es": "Face Pull en polea",
+"en": "Cable Face Pull"
+},
+"image": {
+"fileName": "cable_face_pull.png",
+"altText": {
+"es": "Persona realizando face pull en polea con cuerda",
+"en": "Person performing a cable face pull with rope"
+}
+},
+"video": {
+"url": "https://example.com/video/cable-face-pull
+"
+},
+
+"muscles": {
+"primary": [
+"back_trapezius_middle",
+"back_trapezius_lower",
+"shoulder_deltoid_posterior"
+],
+"secondary": [
+"back_rhomboid_major",
+"back_rhomboid_minor",
+"shoulder_infraspinatus",
+"shoulder_teres_minor",
+"forearm_flexors",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["hypertrophy", "rehab_prehab"],
+
+"equipment": ["cable"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["pull_horizontal"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Coloca la polea a la altura del rostro y acopla una cuerda.",
+"en": "Set the cable at face height and attach a rope."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Sujeta la cuerda con agarre neutro y da un paso atrás para generar tensión.",
+"en": "Grip the rope with a neutral grip and step back to create tension."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Tira de la cuerda hacia el rostro separando las manos al final del recorrido.",
+"en": "Pull the rope toward your face separating your hands at the end."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Mantén los codos altos y alineados con los hombros.",
+"en": "Keep your elbows high and in line with your shoulders."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Regresa lentamente a la posición inicial controlando la fase excéntrica.",
+"en": "Return slowly to the starting position controlling the eccentric phase."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Concéntrate en retraer las escápulas, no solo en tirar con los brazos.",
+"en": "Focus on retracting your scapula, not just pulling with your arms."
+}
+},
+{
+"text": {
+"es": "Evita encoger los hombros durante el movimiento.",
+"en": "Avoid shrugging your shoulders."
+}
+},
+{
+"text": {
+"es": "Utiliza peso moderado para priorizar técnica.",
+"en": "Use moderate weight to prioritize technique."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el hombro.",
+"en": "Reduce load if shoulder discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del manguito rotador.",
+"en": "Avoid with acute rotator cuff injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Face pull con cuerda", "en": "Rope face pull" },
+{ "es": "Remo alto en polea hacia la cara", "en": "High cable row to face" }
+]
+},
+
+{
+"id": "exercise_cable_crossovers",
+"name": {
+"es": "Cable Crossovers",
+"en": "Cable Crossovers"
+},
+"image": {
+"fileName": "cable_crossovers.png",
+"altText": {
+"es": "Persona realizando cruces en polea para pectoral",
+"en": "Person performing cable crossovers for chest"
+}
+},
+"video": {
+"url": "https://example.com/video/cable-crossovers
+"
+},
+
+"muscles": {
+"primary": [
+"chest_pectoralis_major",
+"chest_pectoralis_major_middle"
+],
+"secondary": [
+"chest_pectoralis_major_upper",
+"chest_pectoralis_major_lower",
+"shoulder_deltoid_anterior",
+"arm_biceps_short_head",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["hypertrophy"],
+
+"equipment": ["cable"],
+
+"movementType": ["isolation", "bilateral"],
+
+"movementPattern": ["push_horizontal"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Coloca ambas poleas en posición alta y selecciona un peso moderado.",
+"en": "Set both cables to a high position and choose a moderate weight."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Sujeta las asas y da un paso al frente para generar tensión.",
+"en": "Grab the handles and step forward to create tension."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Mantén una ligera flexión de codos durante todo el movimiento.",
+"en": "Keep a slight bend in your elbows throughout the movement."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Lleva las manos hacia el centro del cuerpo cruzándolas ligeramente.",
+"en": "Bring your hands toward the center of your body slightly crossing them."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Regresa lentamente a la posición inicial controlando la apertura.",
+"en": "Return slowly to the starting position controlling the stretch."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Concéntrate en juntar los codos, no solo las manos.",
+"en": "Focus on bringing your elbows together, not just your hands."
+}
+},
+{
+"text": {
+"es": "Mantén el pecho elevado y las escápulas ligeramente retraídas.",
+"en": "Keep your chest up and scapula slightly retracted."
+}
+},
+{
+"text": {
+"es": "Controla especialmente la fase de estiramiento.",
+"en": "Control the stretching phase carefully."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el hombro anterior.",
+"en": "Reduce load if anterior shoulder discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del manguito rotador.",
+"en": "Avoid with acute rotator cuff injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Cruces en polea", "en": "Cable fly" },
+{ "es": "Aperturas en polea", "en": "Cable chest fly" }
+]
+},
+
+{
+"id": "exercise_parallel_bar_dips",
+"name": {
+"es": "Fondos en paralelas",
+"en": "Parallel Bar Dips"
+},
+"image": {
+"fileName": "parallel_bar_dips.png",
+"altText": {
+"es": "Persona realizando fondos en paralelas",
+"en": "Person performing parallel bar dips"
+}
+},
+"video": {
+"url": "https://example.com/video/parallel-bar-dips
+"
+},
+
+"muscles": {
+"primary": [
+"arm_triceps_brachii",
+"chest_pectoralis_major_lower"
+],
+"secondary": [
+"arm_triceps_long_head",
+"arm_triceps_lateral_head",
+"arm_triceps_medial_head",
+"chest_pectoralis_major_middle",
+"shoulder_deltoid_anterior",
+"core_transverse_abdominis",
+"core_rectus_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["bodyweight"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["push_vertical"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Sujeta las paralelas con los brazos extendidos y el cuerpo suspendido.",
+"en": "Grip the parallel bars with arms extended and body suspended."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Inclina ligeramente el torso hacia adelante si quieres más énfasis en pecho.",
+"en": "Lean your torso slightly forward to emphasize chest."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Desciende flexionando los codos hasta que los hombros queden al nivel o ligeramente por debajo.",
+"en": "Lower by bending your elbows until shoulders are at or slightly below elbow level."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Empuja extendiendo los codos hasta volver a la posición inicial.",
+"en": "Push by extending your elbows to return to the starting position."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Mantén los hombros estables y evita encogerlos.",
+"en": "Keep your shoulders stable and avoid shrugging."
+}
+},
+{
+"text": {
+"es": "Controla la bajada para proteger el hombro.",
+"en": "Control the descent to protect your shoulders."
+}
+},
+{
+"text": {
+"es": "Mantén el core activado durante todo el movimiento.",
+"en": "Keep your core engaged throughout the movement."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir rango si aparece molestia en el hombro anterior.",
+"en": "Reduce range if anterior shoulder discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del hombro.",
+"en": "Avoid with acute shoulder injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Dips en paralelas", "en": "Parallel bar dips" },
+{ "es": "Fondos de tríceps en paralelas", "en": "Triceps dips on parallel bars" }
+]
+},
+
+{
+"id": "exercise_barbell_french_press",
+"name": {
+"es": "Press Francés",
+"en": "Barbell French Press"
+},
+"image": {
+"fileName": "barbell_french_press.png",
+"altText": {
+"es": "Persona realizando press francés con barra en banco",
+"en": "Person performing a barbell French press on a bench"
+}
+},
+"video": {
+"url": "https://example.com/video/barbell-french-press
+"
+},
+
+"muscles": {
+"primary": [
+"arm_triceps_long_head"
+],
+"secondary": [
+"arm_triceps_brachii",
+"arm_triceps_lateral_head",
+"arm_triceps_medial_head",
+"forearm_flexors",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["barbell", "bench"],
+
+"movementType": ["isolation", "bilateral"],
+
+"movementPattern": ["push_horizontal"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Acuéstate en un banco plano sujetando la barra con agarre supino a la anchura de los hombros.",
+"en": "Lie on a flat bench holding the bar with a supinated grip at shoulder width."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Extiende los brazos verticalmente sobre el pecho.",
+"en": "Extend your arms vertically over your chest."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Flexiona los codos bajando la barra hacia la frente o ligeramente detrás de ella.",
+"en": "Bend your elbows lowering the bar toward your forehead or slightly behind it."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Extiende los codos elevando la barra hasta la posición inicial.",
+"en": "Extend your elbows lifting the bar back to the starting position."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Mantén los codos relativamente cerrados durante todo el movimiento.",
+"en": "Keep your elbows relatively tucked throughout the movement."
+}
+},
+{
+"text": {
+"es": "Controla la fase excéntrica para proteger los codos.",
+"en": "Control the eccentric phase to protect your elbows."
+}
+},
+{
+"text": {
+"es": "No bloquees agresivamente los codos en la parte alta.",
+"en": "Avoid aggressively locking out your elbows."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en los codos.",
+"en": "Reduce load if elbow discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de tendinitis aguda del tríceps.",
+"en": "Avoid with acute triceps tendinitis."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Extensión de tríceps tumbado con barra", "en": "Lying barbell triceps extension" },
+{ "es": "Skull crusher", "en": "Skull crusher" }
+]
+},
+
+{
+"id": "exercise_machine_lateral_raise",
+"name": {
+"es": "Elevaciones laterales guiadas en máquina",
+"en": "Machine Lateral Raise"
+},
+"image": {
+"fileName": "machine_lateral_raise.png",
+"altText": {
+"es": "Persona realizando elevaciones laterales en máquina",
+"en": "Person performing machine lateral raises"
+}
+},
+"video": {
+"url": "https://example.com/video/machine-lateral-raise
+"
+},
+
+"muscles": {
+"primary": [
+"shoulder_deltoid_lateral"
+],
+"secondary": [
+"shoulder_deltoid_anterior",
+"shoulder_deltoid_posterior",
+"back_trapezius_upper",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["hypertrophy"],
+
+"equipment": ["machine"],
+
+"movementType": ["isolation", "bilateral"],
+
+"movementPattern": ["push_vertical"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Ajusta el asiento para que los hombros queden alineados con el eje de la máquina.",
+"en": "Adjust the seat so your shoulders align with the machine pivot."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Coloca los brazos apoyados en las almohadillas laterales.",
+"en": "Place your arms against the lateral pads."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Eleva los brazos lateralmente hasta la altura de los hombros.",
+"en": "Raise your arms laterally until shoulder height."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Mantén una breve contracción en la parte alta.",
+"en": "Hold a brief contraction at the top."
+}
+},
+{
+"step": 5,
+"text": {
+"es": "Desciende lentamente controlando la fase excéntrica.",
+"en": "Lower slowly controlling the eccentric phase."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita encoger los hombros durante el movimiento.",
+"en": "Avoid shrugging your shoulders during the movement."
+}
+},
+{
+"text": {
+"es": "Mantén el torso estable y apoyado en el respaldo.",
+"en": "Keep your torso stable and supported by the backrest."
+}
+},
+{
+"text": {
+"es": "Prioriza el control antes que la carga.",
+"en": "Prioritize control over load."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el hombro.",
+"en": "Reduce load if shoulder discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del manguito rotador.",
+"en": "Avoid with acute rotator cuff injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Laterales en máquina", "en": "Machine side raise" },
+{ "es": "Elevaciones laterales en máquina", "en": "Machine shoulder abduction" }
+]
+},
+
+{
+"id": "exercise_seated_dumbbell_shoulder_press",
+"name": {
+"es": "Press militar con mancuernas sentado",
+"en": "Seated Dumbbell Shoulder Press"
+},
+"image": {
+"fileName": "seated_dumbbell_shoulder_press.png",
+"altText": {
+"es": "Persona realizando press militar con mancuernas sentado",
+"en": "Person performing seated dumbbell shoulder press"
+}
+},
+"video": {
+"url": "https://example.com/video/seated-dumbbell-shoulder-press
+"
+},
+
+"muscles": {
+"primary": [
+"shoulder_deltoid_anterior",
+"shoulder_deltoid_lateral"
+],
+"secondary": [
+"arm_triceps_brachii",
+"arm_triceps_long_head",
+"arm_triceps_lateral_head",
+"arm_triceps_medial_head",
+"back_trapezius_upper",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["dumbbells", "bench"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["push_vertical"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Siéntate en un banco con respaldo y sujeta una mancuerna en cada mano a la altura de los hombros.",
+"en": "Sit on a bench with back support holding a dumbbell in each hand at shoulder level."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Mantén los pies firmes en el suelo y el core activado.",
+"en": "Keep your feet flat on the floor and your core engaged."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Empuja las mancuernas hacia arriba extendiendo los codos hasta casi bloquearlos.",
+"en": "Press the dumbbells upward extending your elbows until nearly locked."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Desciende lentamente las mancuernas hasta la posición inicial controlando el movimiento.",
+"en": "Lower the dumbbells slowly back to the starting position under control."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita arquear excesivamente la zona lumbar.",
+"en": "Avoid excessive lower back arching."
+}
+},
+{
+"text": {
+"es": "Mantén las muñecas alineadas con los antebrazos.",
+"en": "Keep your wrists aligned with your forearms."
+}
+},
+{
+"text": {
+"es": "Controla la bajada para maximizar el estímulo muscular.",
+"en": "Control the lowering phase to maximize muscle stimulus."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el hombro.",
+"en": "Reduce load if shoulder discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del manguito rotador.",
+"en": "Avoid with acute rotator cuff injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Press de hombro con mancuernas sentado", "en": "Seated dumbbell press" },
+{ "es": "Press militar sentado con mancuernas", "en": "Seated military dumbbell press" }
+]
+},
+
+{
+"id": "exercise_standing_dumbbell_shoulder_press",
+"name": {
+"es": "Press militar con mancuernas de pie",
+"en": "Standing Dumbbell Shoulder Press"
+},
+"image": {
+"fileName": "standing_dumbbell_shoulder_press.png",
+"altText": {
+"es": "Persona realizando press militar con mancuernas de pie",
+"en": "Person performing standing dumbbell shoulder press"
+}
+},
+"video": {
+"url": "https://example.com/video/standing-dumbbell-shoulder-press
+"
+},
+
+"muscles": {
+"primary": [
+"shoulder_deltoid_anterior",
+"shoulder_deltoid_lateral"
+],
+"secondary": [
+"arm_triceps_brachii",
+"arm_triceps_long_head",
+"arm_triceps_lateral_head",
+"arm_triceps_medial_head",
+"core_transverse_abdominis",
+"core_rectus_abdominis",
+"core_oblique_external",
+"core_oblique_internal",
+"back_erector_spinae",
+"back_trapezius_upper"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["dumbbells"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["push_vertical"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Colócate de pie con los pies a la anchura de los hombros y sujeta una mancuerna en cada mano a la altura de los hombros.",
+"en": "Stand with feet shoulder-width apart holding a dumbbell in each hand at shoulder level."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Activa el core y mantén la columna en posición neutra.",
+"en": "Brace your core and maintain a neutral spine."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Empuja las mancuernas hacia arriba extendiendo los codos hasta casi bloquearlos.",
+"en": "Press the dumbbells upward extending your elbows until nearly locked."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Desciende las mancuernas de forma controlada hasta la posición inicial.",
+"en": "Lower the dumbbells in a controlled manner back to the starting position."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Evita arquear la zona lumbar durante la subida.",
+"en": "Avoid arching your lower back during the press."
+}
+},
+{
+"text": {
+"es": "Mantén los glúteos activados para mayor estabilidad.",
+"en": "Keep your glutes engaged for better stability."
+}
+},
+{
+"text": {
+"es": "Controla la bajada para mantener tensión constante.",
+"en": "Control the lowering phase to maintain constant tension."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el hombro.",
+"en": "Reduce load if shoulder discomfort appears."
+}
+},
+{
+"warningLevel": "caution",
+"text": {
+"es": "Evitar hiperextensión lumbar si hay molestias en la zona baja de la espalda.",
+"en": "Avoid lumbar hyperextension if experiencing lower back discomfort."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Press de hombro con mancuernas de pie", "en": "Standing dumbbell press" },
+{ "es": "Press militar de pie con mancuernas", "en": "Standing military dumbbell press" }
+]
+},
+
+{
+"id": "exercise_incline_push_up",
+"name": {
+"es": "Flexión inclinada",
+"en": "Incline Push-Up"
+},
+"image": {
+"fileName": "incline_push_up.png",
+"altText": {
+"es": "Persona realizando flexiones inclinadas apoyando las manos en un banco",
+"en": "Person performing incline push-ups with hands on a bench"
+}
+},
+"video": {
+"url": "https://example.com/video/incline-push-up
+"
+},
+
+"muscles": {
+"primary": [
+"chest_pectoralis_major_middle"
+],
+"secondary": [
+"chest_pectoralis_major_upper",
+"chest_pectoralis_major_lower",
+"arm_triceps_brachii",
+"shoulder_deltoid_anterior",
+"core_transverse_abdominis",
+"core_rectus_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["bodyweight", "bench"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["push_horizontal"],
+
+"difficulty": "beginner",
+
+"tracking": {
+"type": "reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Coloca las manos sobre un banco o superficie elevada a la anchura de los hombros.",
+"en": "Place your hands on a bench or elevated surface at shoulder width."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Extiende las piernas hacia atrás manteniendo el cuerpo alineado.",
+"en": "Extend your legs back keeping your body aligned."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Flexiona los codos descendiendo el pecho hacia el banco.",
+"en": "Bend your elbows lowering your chest toward the bench."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Empuja extendiendo los brazos hasta volver a la posición inicial.",
+"en": "Push by extending your arms to return to the starting position."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Mantén el core activado para evitar que la cadera se hunda.",
+"en": "Keep your core engaged to prevent your hips from sagging."
+}
+},
+{
+"text": {
+"es": "Controla la bajada para mejorar el estímulo muscular.",
+"en": "Control the descent to improve muscle stimulus."
+}
+},
+{
+"text": {
+"es": "Ajusta la altura del apoyo para modificar la dificultad.",
+"en": "Adjust the height of the support to modify difficulty."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir volumen si aparece molestia en muñecas u hombros.",
+"en": "Reduce volume if wrist or shoulder discomfort appears."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Flexiones con apoyo elevado", "en": "Elevated push-ups" },
+{ "es": "Push-up inclinado", "en": "Incline push-up" }
+]
+},
+
+{
+"id": "exercise_decline_push_up",
+"name": {
+"es": "Flexión declinada",
+"en": "Decline Push-Up"
+},
+"image": {
+"fileName": "decline_push_up.png",
+"altText": {
+"es": "Persona realizando flexiones declinadas con los pies elevados",
+"en": "Person performing decline push-ups with feet elevated"
+}
+},
+"video": {
+"url": "https://example.com/video/decline-push-up
+"
+},
+
+"muscles": {
+"primary": [
+"chest_pectoralis_major_upper"
+],
+"secondary": [
+"chest_pectoralis_major_middle",
+"arm_triceps_brachii",
+"shoulder_deltoid_anterior",
+"core_transverse_abdominis",
+"core_rectus_abdominis",
+"core_oblique_external",
+"core_oblique_internal"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["bodyweight", "bench"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["push_horizontal"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Coloca los pies sobre un banco o superficie elevada y las manos en el suelo a la anchura de los hombros.",
+"en": "Place your feet on a bench or elevated surface and your hands on the floor at shoulder width."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Mantén el cuerpo alineado desde los hombros hasta los tobillos.",
+"en": "Keep your body aligned from shoulders to ankles."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Flexiona los codos descendiendo el pecho hacia el suelo.",
+"en": "Bend your elbows lowering your chest toward the floor."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Empuja extendiendo los brazos hasta volver a la posición inicial.",
+"en": "Push by extending your arms to return to the starting position."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Mantén el core activado para evitar arquear la zona lumbar.",
+"en": "Keep your core engaged to avoid arching your lower back."
+}
+},
+{
+"text": {
+"es": "Controla la bajada para maximizar el estímulo.",
+"en": "Control the descent to maximize stimulus."
+}
+},
+{
+"text": {
+"es": "Ajusta la altura del banco para modificar la dificultad.",
+"en": "Adjust the bench height to modify difficulty."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir volumen si aparece molestia en hombros o muñecas.",
+"en": "Reduce volume if shoulder or wrist discomfort appears."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Flexiones con pies elevados", "en": "Feet elevated push-ups" },
+{ "es": "Push-up declinado", "en": "Decline push-up" }
+]
+},
+
+{
+"id": "exercise_dumbbell_chest_press",
+"name": {
+"es": "Press de pecho con mancuernas",
+"en": "Dumbbell Chest Press"
+},
+"image": {
+"fileName": "dumbbell_chest_press.png",
+"altText": {
+"es": "Persona realizando press de pecho con mancuernas en banco plano",
+"en": "Person performing dumbbell chest press on a flat bench"
+}
+},
+"video": {
+"url": "https://example.com/video/dumbbell-chest-press
+"
+},
+
+"muscles": {
+"primary": [
+"chest_pectoralis_major_middle"
+],
+"secondary": [
+"chest_pectoralis_major_upper",
+"chest_pectoralis_major_lower",
+"arm_triceps_brachii",
+"shoulder_deltoid_anterior",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["dumbbells", "bench"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["push_horizontal"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Acuéstate en un banco plano con una mancuerna en cada mano apoyadas sobre los muslos.",
+"en": "Lie on a flat bench holding a dumbbell in each hand resting on your thighs."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Lleva las mancuernas a la altura del pecho con los codos flexionados.",
+"en": "Bring the dumbbells to chest level with elbows bent."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Empuja las mancuernas hacia arriba extendiendo los codos hasta casi bloquearlos.",
+"en": "Press the dumbbells upward extending your elbows until nearly locked."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Desciende lentamente las mancuernas controlando la fase excéntrica.",
+"en": "Lower the dumbbells slowly controlling the eccentric phase."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Mantén las escápulas retraídas y el pecho elevado.",
+"en": "Keep your scapula retracted and chest elevated."
+}
+},
+{
+"text": {
+"es": "Evita juntar las mancuernas golpeándolas en la parte alta.",
+"en": "Avoid banging the dumbbells together at the top."
+}
+},
+{
+"text": {
+"es": "Mantén los pies firmes en el suelo para mayor estabilidad.",
+"en": "Keep your feet firmly on the ground for stability."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el hombro anterior.",
+"en": "Reduce load if anterior shoulder discomfort appears."
+}
+},
+{
+"warningLevel": "caution",
+"text": {
+"es": "Evitar excesivo arco lumbar si hay molestias en la zona baja de la espalda.",
+"en": "Avoid excessive lower back arching if experiencing discomfort."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Press plano con mancuernas", "en": "Flat dumbbell press" },
+{ "es": "Press de banca con mancuernas", "en": "Dumbbell bench press" }
+]
+},
+
+{
+"id": "exercise_decline_dumbbell_chest_press",
+"name": {
+"es": "Press de pecho declinado con mancuernas",
+"en": "Decline Dumbbell Chest Press"
+},
+"image": {
+"fileName": "decline_dumbbell_chest_press.png",
+"altText": {
+"es": "Persona realizando press de pecho declinado con mancuernas",
+"en": "Person performing decline dumbbell chest press"
+}
+},
+"video": {
+"url": "https://example.com/video/decline-dumbbell-chest-press
+"
+},
+
+"muscles": {
+"primary": [
+"chest_pectoralis_major_lower"
+],
+"secondary": [
+"chest_pectoralis_major_middle",
+"chest_pectoralis_major_upper",
+"arm_triceps_brachii",
+"shoulder_deltoid_anterior",
+"core_transverse_abdominis"
+]
+},
+
+"exerciseType": ["strength", "hypertrophy"],
+
+"equipment": ["dumbbells", "bench"],
+
+"movementType": ["compound", "bilateral"],
+
+"movementPattern": ["push_horizontal"],
+
+"difficulty": "intermediate",
+
+"tracking": {
+"type": "weight_reps"
+},
+
+"instructions": [
+{
+"step": 1,
+"text": {
+"es": "Ajusta el banco en posición declinada y asegúrate de fijar bien las piernas.",
+"en": "Set the bench to a decline position and secure your legs properly."
+}
+},
+{
+"step": 2,
+"text": {
+"es": "Sujeta una mancuerna en cada mano y llévalas a la altura del pecho con los codos flexionados.",
+"en": "Hold a dumbbell in each hand and bring them to chest level with elbows bent."
+}
+},
+{
+"step": 3,
+"text": {
+"es": "Empuja las mancuernas hacia arriba extendiendo los codos hasta casi bloquearlos.",
+"en": "Press the dumbbells upward extending your elbows until nearly locked."
+}
+},
+{
+"step": 4,
+"text": {
+"es": "Desciende lentamente controlando la fase excéntrica.",
+"en": "Lower slowly controlling the eccentric phase."
+}
+}
+],
+
+"tips": [
+{
+"text": {
+"es": "Mantén las escápulas retraídas durante todo el movimiento.",
+"en": "Keep your scapula retracted throughout the movement."
+}
+},
+{
+"text": {
+"es": "Evita bajar en exceso si compromete la estabilidad del hombro.",
+"en": "Avoid lowering excessively if it compromises shoulder stability."
+}
+},
+{
+"text": {
+"es": "Mantén los pies firmes y el core activado.",
+"en": "Keep your feet secured and core engaged."
+}
+}
+],
+
+"contraindications": [
+{
+"warningLevel": "caution",
+"text": {
+"es": "Reducir carga si aparece molestia en el hombro anterior.",
+"en": "Reduce load if anterior shoulder discomfort appears."
+}
+},
+{
+"warningLevel": "avoid",
+"text": {
+"es": "Evitar en caso de lesión aguda del hombro.",
+"en": "Avoid with acute shoulder injury."
+}
+}
+],
+
+"alternateNames": [
+{ "es": "Press declinado con mancuernas", "en": "Decline dumbbell press" },
+{ "es": "Press de banca declinado con mancuernas", "en": "Decline dumbbell bench press" }
+]
+}
+

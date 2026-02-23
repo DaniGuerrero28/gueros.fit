@@ -79,7 +79,7 @@ export default function PromoPopup() {
                 <div className="mt-4 flex flex-col items-center gap-2">
                   <span className="text-sm text-secondary-foreground"> La oferta termina en:</span>
                   <div className="flex gap-2 text-center">
-                    {timeLeft.days > 0 && (
+                    {timeLeft.days > 1 && (
                       <div className="flex flex-col items-center bg-primary-foreground rounded-lg px-3 py-2 min-w-[60px]">
                         <span className="text-2xl font-bold text-accent">{timeLeft.days}</span>
                         <span className="text-xs text-secondary-foreground">{timeLeft.days === 1 ? 'día' : 'días'}</span>

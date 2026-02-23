@@ -3,10 +3,10 @@ import { useEffect, useState } from "react";
 // Configuración de la promoción
 const DISCOUNT_PERCENTAGE = 40;
 const PROMO_CODE = "2026";
-const PROMO_END_DATE = new Date("2026-02-24T23:59:59"); // Fecha de finalización
+const PROMO_END_DATE = new Date("2026-01-06T23:59:59"); // Fecha de finalización
 
 export default function PromoPopup() {
-  const [show, setShow] = useState(new Date() < PROMO_END_DATE); 
+  const [show, setShow] = useState(new Date() < PROMO_END_DATE);
   const [copied, setCopied] = useState(false);
   const [showClose, setShowClose] = useState(true);
   const [timeLeft, setTimeLeft] = useState(null);
@@ -79,7 +79,7 @@ export default function PromoPopup() {
                 <div className="mt-4 flex flex-col items-center gap-2">
                   <span className="text-sm text-secondary-foreground"> La oferta termina en:</span>
                   <div className="flex gap-2 text-center">
-                    {timeLeft.days > 0 && (
+                    {timeLeft.days > 1 && (
                       <div className="flex flex-col items-center bg-primary-foreground rounded-lg px-3 py-2 min-w-[60px]">
                         <span className="text-2xl font-bold text-accent">{timeLeft.days}</span>
                         <span className="text-xs text-secondary-foreground">{timeLeft.days === 1 ? 'día' : 'días'}</span>

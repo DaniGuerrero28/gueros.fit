@@ -10,3 +10,7 @@ export default function sitemap() {
     priority: page.priority,
   }));
 }
+      priority: 0.5,
+    },
+  ];
+}

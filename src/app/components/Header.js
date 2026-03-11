@@ -65,7 +65,7 @@ export default function Header() {
         <div className="fixed left-0 right-0 z-40 bg-white text-black flex flex-col items-center justify-center transition-colors duration-300" style={{ top: '5rem', height: 'calc(100vh - 5rem)' }}>
           <nav className="w-full h-full flex flex-col items-center justify-center">
             <ul className="flex flex-col items-center justify-center gap-8">
-              {links.map((link) => (
+              {NAVIGATION_LINKS.map((link) => (
                 <li key={link.name}>
                   <a
                     href={link.href}

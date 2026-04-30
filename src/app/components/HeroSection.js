@@ -11,7 +11,7 @@ export default function HeroSection() {
             Cuida tu cuerpo, transforma tu vida
           </h2>
           <p className="text-base xl:text-xl text-primary max-w-xl text-center lg:text-left">
-            Somos una empresa de asesoramiento fitness y entrenamiento personal. Te ayudamos a alcanzar tus objetivos físicos con un enfoque profesional y personalizado.
+            Asesoramiento fitness y entrenamiento personal. Te ayudamos a alcanzar tus objetivos físicos con un enfoque profesional y personalizado.
           </p>
           <div className="w-full max-w-xl flex justify-center lg:justify-start">
             <button

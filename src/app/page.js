@@ -44,7 +44,7 @@ export default function Home() {
       </section>
       <Header/>
       <HeroSection />
-      <PlanSection />
+      {/* <PlanSection /> */}
       <ServicesSection />
       <TestimonialsSection />
       <FAQs />

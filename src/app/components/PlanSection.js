@@ -153,7 +153,7 @@ export default function PlanSection() {
 
   const [dropdownOpen, setDropdownOpen] = useState(false);
   return (
-    <section id="planes-section" className="w-full flex flex-col items-center relative bg-background text-foreground mb-36 md:mb-28">
+    <section id="planes-section" className="w-full flex flex-col items-center relative bg-background text-foreground mb-20 md:mb-28">
       <h2 className="text-4xl xl:text-6xl font-semibold leading-tight font-montserrat max-w-xl text-center">Nuestros planes</h2>
       <p className="w-10/12 md:w-full mb-12 text-base xl:text-lg text-center max-w-md">Escoge el plan que mejor se adapte a ti para conseguir un cambio increíble</p>
 

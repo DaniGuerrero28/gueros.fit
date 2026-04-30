@@ -47,7 +47,7 @@ export default function TestimonialsSection() {
   }, []);
 
   return (
-    <section className="w-full py-16 md:py-24 bg-background text-foreground overflow-hidden mb-36 md:mb-28">
+    <section className="w-full py-16 md:py-24 bg-background text-foreground overflow-hidden mb-20 md:mb-28">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 items-center">
         <h2 className="text-4xl xl:text-6xl font-semibold leading-tight font-montserrat max-w-3xl text-center mx-auto mb-4">
           Transformaciones Reales

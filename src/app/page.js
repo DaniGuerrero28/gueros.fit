@@ -9,6 +9,7 @@ import PlanSection from "./components/PlanSection";
 import ServicesSection from "./components/ServicesSection";
 import TestimonialsSection from "./components/TestimonialsSection";
 import Footer from "./components/Footer";
+import CTASection from "./components/CTASection";
 
 export default function Home() {
   useEffect(() => {
@@ -46,6 +47,7 @@ export default function Home() {
       <HeroSection />
       {/* <PlanSection /> */}
       <ServicesSection />
+      <CTASection />
       <TestimonialsSection />
       <FAQs />
       <AppPromo />

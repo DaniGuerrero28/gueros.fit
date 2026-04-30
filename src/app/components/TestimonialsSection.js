@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect } from 'react';
+import SectionHeader from "./SectionHeader";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import TestimonialCard from "./TestimonialCard";
 
@@ -48,13 +49,12 @@ export default function TestimonialsSection() {
 
   return (
     <section className="w-full py-16 md:py-24 bg-background text-foreground overflow-hidden mb-20 md:mb-28">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 items-center">
-        <h2 className="text-4xl xl:text-6xl font-semibold leading-tight font-montserrat max-w-3xl text-center mx-auto mb-4">
-          Transformaciones Reales
-        </h2>
-        <p className="text-md text-center max-w-2xl mx-auto">
-          Estos son algunos de los cambios físicos que han conseguido nuestros clientes con dedicación y nuestro acompañamiento personalizado.
-        </p>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 flex flex-col items-center">
+        <SectionHeader
+          eyebrow="Resultados reales"
+          title="Transformaciones Reales"
+          description="Estos son algunos de los cambios físicos que han conseguido nuestros clientes con dedicación y nuestro acompañamiento personalizado."
+        />
       </div>
 
       {/* Mobile: Carousel manual con flechas */}

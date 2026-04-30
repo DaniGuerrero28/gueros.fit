@@ -1,4 +1,5 @@
 import { useState } from "react";
+import SectionHeader from "./SectionHeader";
 
 const FAQS = [
 	{
@@ -139,9 +140,12 @@ export default function FAQs() {
 			id="faqs-section"
 			className="w-full max-w-3xl mx-auto py-16 relative"
 		>
-			<h2 className="text-3xl font-bold mb-8 text-center">
-				Preguntas frecuentes
-			</h2>
+			<div className="flex flex-col items-center mb-10">
+				<SectionHeader
+					eyebrow="Dudas"
+					title="Preguntas frecuentes"
+				/>
+			</div>
 			<div className="relative">
 				{visibleFaqs.map((faq, idx) => (
 					<FAQItem

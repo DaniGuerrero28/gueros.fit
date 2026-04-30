@@ -1,3 +1,5 @@
+import SectionHeader from "./SectionHeader";
+
 const SERVICES = [
   {
     title: "Rutina 100% Personalizada",
@@ -39,10 +41,12 @@ const SERVICES = [
 export default function ServicesSection() {
   return (
     <section id="servicios-section" className="w-full flex flex-col items-center py-16 bg-background text-foreground mb-20 md:mb-28">
-      <h2 className="text-4xl xl:text-6xl font-semibold leading-tight font-montserrat max-w-xl text-center">¿Qué ofrecemos?</h2>
-      <p className="md:w-full w-10/12 text-md text-center mb-10 max-w-2xl">
-        Descubre cómo podemos ayudarte a transformar tu vida: entrenamiento personalizado, dieta flexible, motivación constante y una app que lo une todo.
-      </p>
+      <SectionHeader
+        eyebrow="Nuestros servicios"
+        title="¿Qué ofrecemos?"
+      />
+
+      <div className="mb-10" />
 
       {/* Desktop: Bento Grid con Flip Cards */}
       <div className="hidden md:grid grid-cols-2 gap-4 w-full max-w-4xl px-4">

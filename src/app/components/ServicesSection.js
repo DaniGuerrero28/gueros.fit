@@ -19,14 +19,14 @@ const SERVICES = [
     title: "Contacto 24/7",
     description:
       "Resuelve cualquier duda al instante. Acceso directo a tu entrenador personal por chat, siempre disponible para orientarte, ajustar tu plan y mantenerte en el camino.",
-    image: "/images/hero_man_holding_plate.webp",
+    image: "/images/contact_man_holding_phone.webp",
     colSpan: "col-span-1",
   },
   {
     title: "Comunidad Gueros",
     description:
       "En la comunidad Team Gueros rodéate de personas con tus mismos objetivos. Comparte resultados, dudas y estilo de vida con todos los integrantes de Gueros. Gana con ganadores.",
-    image: "/images/about_gallery_workout.webp",
+    image: "/images/service_community.webp",
     colSpan: "col-span-1",
   },
   {

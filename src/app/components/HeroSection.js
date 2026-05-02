@@ -8,10 +8,40 @@ export default function HeroSection() {
         {/* Mobile: imagen arriba, luego contenido */}
         <div className="w-full lg:w-1/2 flex flex-col lg:justify-center items-center px-4 lg:px-16 gap-8 mx-auto order-2 lg:order-1">
           <h2 className="text-4xl xl:text-6xl font-semibold leading-tight font-montserrat max-w-xl text-center lg:text-left" style={{fontFamily: 'Montserrat, var(--font-montserrat), sans-serif'}}>
-            Cuida tu cuerpo, transforma tu vida
+            {/* Cuida tu cuerpo, transforma tu vida */}
+            Cambia tu cuerpo,{" "}
+            <span className="relative inline-block whitespace-nowrap">
+              transforma
+              <svg
+                aria-hidden="true"
+                className="absolute left-0 w-full overflow-visible"
+                style={{ bottom: "-2px", height: "8px" }}
+                viewBox="0 0 100 8"
+                preserveAspectRatio="none"
+              >
+                <path
+                  d="M0.5,5 C4,2.5 9,6.5 15,4 C19,2 24,7 30,5.5 C35,4 38,6.5 44,4.5 C49,3 53,7 59,5 C63,3.5 67,6 72,4 C77,2 82,7 88,5 C92,3.5 96,6.5 99.5,4.5"
+                  stroke="var(--color-accent)"
+                  strokeWidth="3.5"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M2,7 C8,5.5 18,7.5 28,6 C40,4.5 50,7 62,5.5 C72,4 84,7 97,5.5"
+                  stroke="var(--color-accent)"
+                  strokeWidth="1.2"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  opacity="0.4"
+                />
+              </svg>
+            </span>
+            {" "}tu vida
           </h2>
           <p className="text-base xl:text-xl text-primary max-w-xl text-center lg:text-left">
-            Asesoramiento fitness y entrenamiento personal. Te ayudamos a alcanzar tus objetivos físicos con un enfoque profesional y personalizado.
+            Ayudamos a personas a verse fuertes e increíbles frente al espejo sin dietas estrictas ni rutinas extremas.
           </p>
           <div className="w-full max-w-xl flex justify-center lg:justify-start">
             <a

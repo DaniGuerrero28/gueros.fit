@@ -10,6 +10,8 @@ import ServicesSection from "./components/ServicesSection";
 import TestimonialsSection from "./components/TestimonialsSection";
 import Footer from "./components/Footer";
 import CTASection from "./components/CTASection";
+import ScrollReveal from "./components/ScrollReveal";
+import TextTestimonials from "./components/TextTestimonials";
 
 export default function Home() {
   useEffect(() => {
@@ -46,11 +48,12 @@ export default function Home() {
       <Header/>
       <HeroSection />
       {/* <PlanSection /> */}
-      <ServicesSection />
-      <CTASection />
-      <TestimonialsSection />
-      <FAQs />
-      <AppPromo />
+      <ScrollReveal><ServicesSection /></ScrollReveal>
+      <ScrollReveal><CTASection /></ScrollReveal>
+      {/* <ScrollReveal><TestimonialsSection /></ScrollReveal> */}
+      {/* <ScrollReveal><TextTestimonials /></ScrollReveal> */}
+      <ScrollReveal><FAQs /></ScrollReveal>
+      <ScrollReveal><AppPromo /></ScrollReveal>
       <Footer />
     </div>
   );

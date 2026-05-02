@@ -9,7 +9,8 @@ export async function POST(req) {
     console.log("Received data:", { name, email, message, type });
     if (
       (type === "simple" && !email) ||
-      (type === "complete" && (!name || !email || !message))
+      (type === "complete" && (!name || !email || !message)) ||
+      (type === "waitlist_app" && !email)
     ) {
       return NextResponse.json(
         { success: false, error: "Faltan campos" },
@@ -33,6 +34,14 @@ export async function POST(req) {
       html: `<p><strong>Nombre:</strong> ${name}</p>
              <p><strong>Email:</strong> ${email}</p>
              <p><strong>Mensaje:</strong> ${message}</p>`,
+    });
+    } else if (type === "waitlist_app") {
+        await resend.emails.send({
+      from: process.env.EMAIL_FROM,
+      to: process.env.EMAIL_TO,
+      subject: "Nueva inscripción en la Waitlist de la App",
+      html: `<p>Alguien se ha apuntado a la lista de espera de la app:</p>
+             <p><strong>Email:</strong> ${email}</p>`,
     });
     } else {
         return NextResponse.json(

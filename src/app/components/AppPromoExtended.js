@@ -1,5 +1,6 @@
 import Image from "next/image";
 import AppPromo from "./AppPromo";
+import SectionHeader from "./SectionHeader";
 
 const FEATURES = [
 	{
@@ -27,12 +28,19 @@ const FEATURES = [
 export default function AppPromoExtended() {
 	return (
 		<section className="w-full flex flex-col items-center py-16 bg-background text-foreground px-8">
-			<h2 className="text-3xl font-bold mb-4 text-center">App de Gueros</h2>
+			{/* <h2 className="text-3xl font-bold mb-4 text-center">App de Gueros</h2>
 			<p className="text-lg text-primary/80 mb-8 text-center max-w-2xl">
 				Lleva tu transformación física y bienestar al siguiente nivel con nuestra
 				app exclusiva. <span className="font-bold uppercase">TODO</span> lo que necesitas para entrenar, comer mejor y
 				conectar con la comunidad, en tu bolsillo.
-			</p>
+			</p> */}
+			      <SectionHeader
+        eyebrow="La app"
+        title="¿Qué ofrece la app?"
+		description="Lleva tu transformación física y bienestar al siguiente nivel con nuestra
+				app exclusiva. Todo lo que necesitas para entrenar, comer mejor y
+				conectar con la comunidad, en tu bolsillo."
+      />
 			{/*<div className="w-full flex justify-center mb-12">
 				<video
 					src="/videos/app-promo.mp4"

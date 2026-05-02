@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useState } from "react";
-import { FaInstagram, FaTiktok, FaFacebookF, FaXTwitter, FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa6";
+import { FaInstagram, FaTiktok, FaFacebookF, FaXTwitter, FaEnvelope, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
+import SectionHeader from "./SectionHeader";
 
 const SOCIAL_ICONS = {
   instagram: { icon: <FaInstagram />, label: "Instagram" },
@@ -9,7 +10,8 @@ const SOCIAL_ICONS = {
   x: { icon: <FaXTwitter />, label: "X" },
   email: { icon: <FaEnvelope />, label: "Email" },
   github: { icon: <FaGithub />, label: "GitHub" },
-  linkedin: { icon: <FaLinkedin />, label: "LinkedIn" }
+  linkedin: { icon: <FaLinkedin />, label: "LinkedIn" },
+  whatsapp: { icon: <FaWhatsapp />, label: "WhatsApp" }
 };
 
 export default function TeamSection({ team }) {
@@ -17,10 +19,11 @@ export default function TeamSection({ team }) {
 
   return (
     <div className="w-full max-w-5xl flex flex-col gap-8 items-center mb-16">
-      <h2 className="text-3xl font-bold mb-2">¿Quiénes somos?</h2>
-      <p className="text-primary/80 text-center w-10/12 md:w-full max-w-2xl mb-2">
-        Somos un equipo multidisciplinar apasionado por el bienestar, la salud y el acompañamiento personalizado. Cada uno aporta su experiencia para ayudarte a lograr tu mejor versión.
-      </p>
+      <SectionHeader
+        eyebrow="El equipo"
+        title="¿Quiénes somos?"
+        description="Somos un equipo multidisciplinar apasionado por el bienestar, la salud y el acompañamiento personalizado. Cada uno aporta su experiencia para ayudarte a lograr tu mejor versión."
+      />
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full">
         {(showAll ? team : team.slice(0, 3)).map((member) => (
           <div key={member.name} className="flex flex-col items-center rounded-2xl shadow-lg p-4 w-10/12 mx-auto md:m-0 md:w-auto">

@@ -28,7 +28,7 @@ export default function Footer() {
       <div className="w-full flex flex-col md:flex-row items-center justify-between max-w-4xl mx-auto mb-2 px-4 gap-4">
         {/* Botones arriba en mobile, a la derecha en desktop */}
         <div className="w-full flex flex-row justify-center md:justify-end gap-4 order-1 md:order-2 mb-4 md:mb-0">
-          <button
+          {/* <button
             onClick={handleJoinClick}
             className="px-6 py-3 text-accent-contrast rounded-full font-bold text-md shadow hover:scale-110 hover:shadow-xl transition-all"
             style={{ background: 'var(--color-accent-gradient)' }}
@@ -40,7 +40,17 @@ export default function Footer() {
             className="px-6 py-3 bg-primary text-background rounded-full font-bold text-md shadow hover:bg-primary/80 hover:scale-110 hover:shadow-xl transition-all"
           >
             Contáctanos
-          </button>
+          </button> */}
+
+                  <a
+          href="https://wa.me/34601435524"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-3 bg-primary text-background rounded-full font-bold text-md shadow hover:bg-primary/80 hover:scale-110 hover:shadow-xl transition-all"
+          style={{ background: "var(--color-accent-gradient)", color: "var(--color-accent-contrast)" }}
+        >
+          Contáctanos
+        </a>
         </div>
         {/* Socials debajo de los botones en mobile, a la izquierda en desktop */}
         <div className="w-full flex flex-row justify-center md:justify-start gap-6 order-2 md:order-1">

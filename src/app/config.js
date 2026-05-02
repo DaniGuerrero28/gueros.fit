@@ -7,7 +7,7 @@
  * Edita estos valores para personalizar el sitio para cada cliente.
  */
 
-import { FaInstagram, FaTiktok, FaFacebookF, FaXTwitter } from "react-icons/fa6";
+import { FaInstagram, FaTiktok, FaFacebookF, FaXTwitter, FaWhatsapp, FaYoutube } from "react-icons/fa6";
 
 // ============================================
 // INFORMACIÓN BÁSICA DE LA EMPRESA
@@ -153,29 +153,43 @@ export const SOCIAL_CONFIG = {
   
   tiktok: {
     name: "TikTok",
-    url: "https://www.tiktok.com/@gueros_official",
-    handle: "@gueros_official",
+    url: "https://www.tiktok.com/@gueros.fit",
+    handle: "@gueros.fit",
+  },
+
+  youtube: {
+    name: "YouTube",
+    url: "https://www.youtube.com/@Gueros_oficial",
+    handle: "Gueros_oficial",
   },
   
-  twitter: {
-    name: "X",
-    url: "https://x.com/dgfit_",
-    handle: "@dgfit_",
-  },
+  // twitter: {
+  //   name: "X",
+  //   url: "https://x.com/dgfit_",
+  //   handle: "@dgfit_",
+  // },
   
-  facebook: {
-    name: "Facebook",
-    url: "https://www.facebook.com/Gueros.oficial",
-    handle: "Gueros.oficial",
-  },
+  // facebook: {
+  //   name: "Facebook",
+  //   url: "https://www.facebook.com/Gueros.oficial",
+  //   handle: "Gueros.oficial",
+  // },
+
+  whatsapp: {
+    name: "WhatsApp",
+    url: "https://wa.me/34601435524",
+    handle: "+34 601 43 55 24"
+  }
 };
 
 // Array de redes sociales con iconos (para usar en componentes)
 export const COMPANY_SOCIALS = [
+  { name: SOCIAL_CONFIG.whatsapp.name, url: SOCIAL_CONFIG.whatsapp.url, icon: <FaWhatsapp /> },
   { name: SOCIAL_CONFIG.instagram.name, url: SOCIAL_CONFIG.instagram.url, icon: <FaInstagram /> },
   { name: SOCIAL_CONFIG.tiktok.name, url: SOCIAL_CONFIG.tiktok.url, icon: <FaTiktok /> },
-  { name: SOCIAL_CONFIG.twitter.name, url: SOCIAL_CONFIG.twitter.url, icon: <FaXTwitter /> },
-  { name: SOCIAL_CONFIG.facebook.name, url: SOCIAL_CONFIG.facebook.url, icon: <FaFacebookF /> },
+  { name: SOCIAL_CONFIG.youtube.name, url: SOCIAL_CONFIG.youtube.url, icon: <FaYoutube /> },
+  // { name: SOCIAL_CONFIG.twitter.name, url: SOCIAL_CONFIG.twitter.url, icon: <FaXTwitter /> },
+  // { name: SOCIAL_CONFIG.facebook.name, url: SOCIAL_CONFIG.facebook.url, icon: <FaFacebookF /> },
 ];
 
 // ============================================
@@ -225,6 +239,6 @@ export const NAVIGATION_LINKS = [
   { name: 'App', href: '/app' },
   { name: 'Servicios', href: '/services' },
   { name: 'Sobre nosotros', href: '/about' },
-  { name: 'Contacto', href: '/contact' },
+  // { name: 'Contacto', href: '/contact' },
   { name: 'Socios', href: '/partners' },
 ];

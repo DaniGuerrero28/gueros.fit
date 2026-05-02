@@ -1,6 +1,7 @@
 import { useState } from "react";
 import AboutBlock from "./AboutBlock";
 import TeamSection from "./TeamSection";
+import CTASection from "./CTASection";
 
 const aboutImages = [
   "/images/hero_man_holding_plate.webp",
@@ -19,7 +20,8 @@ export const TEAM = [
       instagram: "https://www.instagram.com/dani.guerreroo_?igsh=ZDdncmRpdXRxcmdp&utm_source=qr",
       tiktok: "https://www.tiktok.com/@daniiiii.gc",
       x: "https://x.com/23guerrero_",
-      email: "dani.guerrero.camacho@gmail.com"
+      email: "dani.guerrero.camacho@gmail.com",
+      whatsapp: "https://wa.me/34601435524"
     }
   },
   {
@@ -87,7 +89,7 @@ export default function AboutUsSection() {
       />
 
           {/* Botones finales */}
-      <div className="flex flex-col md:flex-row gap-6 mb-32 w-10/12 md:w-full max-w-3xl justify-center">
+      {/* <div className="flex flex-col md:flex-row gap-6 mb-32 w-10/12 md:w-full max-w-3xl justify-center">
         <button
           onClick={() => {
             if (typeof window !== "undefined") {
@@ -109,7 +111,9 @@ export default function AboutUsSection() {
         >
           Contáctanos
         </button>
-      </div>
+      </div> */}
+
+      <CTASection />
 
       {/* Quiénes somos */}
       <TeamSection team={TEAM} />

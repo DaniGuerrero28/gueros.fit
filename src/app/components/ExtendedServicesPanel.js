@@ -3,43 +3,62 @@ import ExtendedService from "./ExtendedService";
 
 const EXTENDED_SERVICES = [
   {
-    title: "Entrenamiento",
-    image: "/images/hero_man_holding_plate.webp",
-    description: `Proporcionamos rutinas personalizadas adaptadas a tus objetivos, necesidades, restricciones físicas, dolores o lesiones previas. Cada entrenamiento es único para ti.
-
-- Rutinas adaptadas a lesiones y dolencias
-- Seguimiento continuo
-- Modificaciones según evolución y feedback`,
-    imgContain: false
-  },
-  {
-    title: "Dieta",
-    image: "/images/service_nutrition_plate.webp",
-    description: `Recibirás una dieta y guía nutricional personalizada, flexible y modificable según tus necesidades y evolución. Nos adaptamos a ti en todo momento.
-
-- Dieta flexible y personalizada
-- Cambios según tus objetivos
-- Guía y soporte nutricional continuo`,
-    imgContain: false
-  },
-  {
-    title: "Motivación",
+    title: "Rutina 100% Personalizada",
     image: "/images/service_motivation_training.webp",
-    description: `Nuestros entrenadores personales y la comunidad te motivarán día a día para que no pierdas el foco y sigas adelante con tus objetivos.
-
-- Apoyo de entrenadores
-- Comunidad activa
-- Motivación constante y seguimiento`,
+    description: "Tu entrenamiento lo construimos desde cero pensando en ti: tus objetivos, tu nivel, tu disponibilidad y tus limitaciones físicas. Cada semana revisamos tu progreso y ajustamos cargas y ejercicios para que sigas avanzando sin estancarte.",
+    itemList: [
+      "Diseño inicial basado en tu historial y objetivos",
+      "Ajustes semanales según tu evolución y feedback",
+      "Alternativas ante lesiones o falta de equipamiento",
+      "Periodización progresiva para maximizar resultados",
+    ],
     imgContain: false
   },
   {
-    title: "App",
+    title: "Dieta a Medida",
+    image: "/images/service_nutrition_plate.webp",
+    description: "Creamos un plan nutricional flexible adaptado a tus gustos, intolerancias y horarios. Sin restricciones extremas: comerás rico y de forma sostenible mientras alcanzas tu objetivo, ya sea perder grasa, ganar músculo o simplemente sentirte mejor.",
+    itemList: [
+      "Plan calórico y de macros ajustado a tu meta",
+      "Menús con opciones y sustituciones",
+      "Adaptación ante viajes o eventos sociales",
+      "Revisiones periódicas según tu progreso",
+    ],
+    imgContain: false
+  },
+  {
+    title: "Contacto 24/7",
+    image: "/images/contact_man_holding_phone.webp",
+    description: "Tienes acceso directo a tu coach en todo momento: resuelve dudas sobre tu rutina, pide ajustes en tu dieta o busca apoyo cuando lo necesites. Respondemos rápido porque los pequeños bloqueos del día a día son los que marcan la diferencia.",
+    itemList: [
+      "Chat directo con tu entrenador personal",
+      "Respuesta en menos de 24h cualquier día",
+      "Corrección de técnica mediante vídeo",
+      "Sin límite de consultas",
+    ],
+    imgContain: false
+  },
+  {
+    title: "Comunidad Gueros",
+    image: "/images/service_community.webp",
+    description: "Un espacio privado donde conviven personas con tus mismos objetivos: transformar su cuerpo y vivir con más energía. Compartimos resultados, dudas, recetas y retos porque rodearte de personas que ganan te empuja a ganar tú también.",
+    itemList: [
+      "Grupo privado activo con actualizaciones diarias",
+      "Retos grupales para mantener la motivación",
+      "Contenido exclusivo: consejos, vídeos y directos",
+    ],
+    imgContain: false
+  },
+  {
+    title: "Acceso a la App",
     image: "/images/app_phone_mockup.webp",
-    description: `La app de GUEROS reúne todo: entrenamiento, dieta y comunidad. Es tu herramienta central para avanzar y mantenerte motivado/a.
-
-- Acceso a rutinas y dieta
-- Comunidad y motivación
-- Todo en un solo lugar`,
+    description: "La app de Gueros centralizará toda tu experiencia: rutinas, dieta, seguimiento de progreso y comunicación con tu entrenador en un solo lugar. Sé de los primeros en acceder y disfruta de los primeros meses completamente gratis.",
+    itemList: [
+      "Rutinas con vídeos demostrativos por ejercicio",
+      "Registro de pesos y progreso por sesión",
+      "Chat integrado con tu entrenador",
+      "Notificaciones para no saltarte ningún entreno",
+    ],
     imgContain: true
   },
 ];
@@ -116,6 +135,7 @@ export default function ExtendedServicesPanel() {
                 title={EXTENDED_SERVICES[selectedIdx].title}
                 image={EXTENDED_SERVICES[selectedIdx].image}
                 description={EXTENDED_SERVICES[selectedIdx].description}
+                itemList={EXTENDED_SERVICES[selectedIdx].itemList}
                 imgContain={EXTENDED_SERVICES[selectedIdx].imgContain}
               />
             </div>
@@ -140,6 +160,7 @@ export default function ExtendedServicesPanel() {
               title={service.title}
               image={service.image}
               description={service.description}
+              itemList={service.itemList}
               imgContain={service.imgContain}
             />
           ))}

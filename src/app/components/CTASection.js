@@ -15,7 +15,7 @@ export default function CTASection() {
           className="mt-2 rounded-full text-base font-semibold shadow-lg hover:scale-110 hover:shadow-xl transition-all inline-block py-3 px-8 relative overflow-hidden"
           style={{ background: "var(--color-accent-gradient)", color: "var(--color-accent-contrast)" }}
         >
-          Contactar
+          Contáctanos
         </a>
       </div>
     </section>

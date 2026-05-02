@@ -1,3 +1,6 @@
+import { Section } from "lucide-react";
+import SectionHeader from "./SectionHeader";
+
 const PARTNERS = [
   {
     name: "HSN",
@@ -20,8 +23,11 @@ const PARTNERS = [
 export default function PartnerDealsSection() {
   return (
     <section id="partners-section" className="w-full flex flex-col items-center py-16 bg-background text-foreground">
-      <h2 className="text-3xl font-bold mb-4 text-center w-10/12 md:w-full">Descuentos exclusivos para la comunidad</h2>
-      <p className="text-md mb-10 text-center w-10/12 md:w-full max-w-2xl">Accede a ofertas especiales y ventajas únicas en marcas líderes de nutrición, ropa deportiva y accesorios fitness. ¡Aprovecha estos beneficios pensados para tu progreso!</p>
+      <SectionHeader
+        eyebrow="Nuestros socios"
+        title="Descuentos exclusivos para la comunidad"
+        description="Accede a ofertas especiales y ventajas únicas en marcas líderes de nutrición, ropa deportiva y accesorios fitness. ¡Aprovecha estos beneficios pensados para tu progreso!"
+      />
       {/* Logos row */}
       {/*}
       <div className="flex flex-row justify-center items-center gap-8 mb-12 w-full max-w-3xl mx-auto">
@@ -37,7 +43,7 @@ export default function PartnerDealsSection() {
       </div>
       */}
       {/* Listado de partners */}
-      <div className="flex flex-col gap-8 md:w-full w-10/12 max-w-2xl mx-auto">
+      <div className="flex flex-col gap-8 md:w-full w-10/12 max-w-2xl mx-auto mt-8">
         {PARTNERS.map(partner => (
           <div key={partner.name} className="flex flex-col md:flex-row items-center bg-primary rounded-xl shadow p-6 gap-6">
             <img

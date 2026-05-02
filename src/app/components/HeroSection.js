@@ -20,7 +20,7 @@ export default function HeroSection() {
                 preserveAspectRatio="none"
               >
                 <path
-                  d="M0.5,5 C4,2.5 9,6.5 15,4 C19,2 24,7 30,5.5 C35,4 38,6.5 44,4.5 C49,3 53,7 59,5 C63,3.5 67,6 72,4 C77,2 82,7 88,5 C92,3.5 96,6.5 99.5,4.5"
+                  d="M0,5 C18,2 40,7 58,4.5 C76,2 90,6 100,4"
                   stroke="var(--color-accent)"
                   strokeWidth="3.5"
                   fill="none"
@@ -28,7 +28,7 @@ export default function HeroSection() {
                   strokeLinejoin="round"
                 />
                 <path
-                  d="M2,7 C8,5.5 18,7.5 28,6 C40,4.5 50,7 62,5.5 C72,4 84,7 97,5.5"
+                  d="M1,7.5 C22,5.5 48,8 70,6 C84,4.5 94,7 99,6"
                   stroke="var(--color-accent)"
                   strokeWidth="1.2"
                   fill="none"

@@ -51,7 +51,7 @@ export default function Home() {
       <ScrollReveal><ServicesSection /></ScrollReveal>
       <ScrollReveal><CTASection /></ScrollReveal>
       {/* <ScrollReveal><TestimonialsSection /></ScrollReveal> */}
-      {/* <ScrollReveal><TextTestimonials /></ScrollReveal> */}
+      <ScrollReveal><TextTestimonials /></ScrollReveal>
       <ScrollReveal><FAQs /></ScrollReveal>
       <ScrollReveal><AppPromo /></ScrollReveal>
       <Footer />
